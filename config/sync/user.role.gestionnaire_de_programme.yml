@@ -1,0 +1,9 @@
+uuid: d2afb6cc-b295-45f5-ba21-f165859cd03d
+langcode: en
+status: true
+dependencies: {  }
+id: gestionnaire_de_programme
+label: 'Gestionnaire de programme'
+weight: 4
+is_admin: null
+permissions: {  }

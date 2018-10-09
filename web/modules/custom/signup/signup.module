@@ -1,0 +1,31 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\node\NodeInterface;
+
+/*function signup_user_presave(UserInterface $user) {
+    if ($user->isNew() && !$user->hasRole('unverified account')) {
+        $admin = FALSE;
+
+        foreach ($user->getRoles(TRUE) as $id) {
+            $role = Role::load($id);
+            if ($role->isAdmin()) {
+                $admin = TRUE;
+                break;
+            }
+        }
+
+        if (!$admin) {
+            $user->addRole('unverified account');
+        }
+    }
+}*/
+
+
+function signup_user_presave(EntityInterface $user) {
+    if($user->isNew()) {
+        $user->addRole('participant');
+    }
+}
