@@ -26,6 +26,7 @@
         "drupal/default_content_deploy": "^1.0@alpha",
         "drupal/devel": "^1.0",
         "drupal/file_entity": "^2.0@beta",
+        "drupal/webform": "^5.0@RC",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
