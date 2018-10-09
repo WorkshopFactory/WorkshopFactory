@@ -1,0 +1,6 @@
+name: Sign up
+description: Sign up module for assigning Participant role to new users
+type: module
+core: 8.x
+version: 8.X-1.0
+package: Training
