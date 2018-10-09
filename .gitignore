@@ -9,11 +9,11 @@ web/libraries/
 web/sites/*/files/
 
 # Ignore sensitive information
-#web/sites/*/settings.local.php
+web/sites/*/settings.local.php
 #web/sites/*/settings.php
 
 # Ignore Drupal's file directory
-#web/sites/*/files/
+web/sites/*/files/
 
 # Ignore SimpleTest multi-site environment.
 #web/sites/simpletest
