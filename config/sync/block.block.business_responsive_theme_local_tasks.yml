@@ -1,0 +1,22 @@
+uuid: 7d906f45-0d23-47ae-b7bf-e64b1a59a004
+langcode: en
+status: true
+dependencies:
+  theme:
+    - business_responsive_theme
+_core:
+  default_config_hash: NJiVaiAVJEVI6En3xIWXCEWZU6B9e0wYR7PL6XWuTn4
+id: business_responsive_theme_local_tasks
+theme: business_responsive_theme
+region: auto_hidden_block
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: e2c6989a-b7de-4e0e-982b-f61f88eb6754
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - business_responsive_theme
+_core:
+  default_config_hash: '-jhZZFcCqkKHHZjQXdFdjXVWF-4xpVJ0Eo7_E2Pq81o'
+id: business_responsive_theme_search
+theme: business_responsive_theme
+region: footer_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
