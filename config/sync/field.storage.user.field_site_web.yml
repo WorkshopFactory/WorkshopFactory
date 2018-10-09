@@ -1,16 +1,16 @@
-uuid: 89cad8ce-a8db-4e4f-8eeb-53a908a0f323
+uuid: a1fb801e-a9b7-47dd-aad6-0a1df72cecfb
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-    - telephone
-id: node.field_telephone
-field_name: field_telephone
-entity_type: node
-type: telephone
+    - link
+    - user
+id: user.field_site_web
+field_name: field_site_web
+entity_type: user
+type: link
 settings: {  }
-module: telephone
+module: link
 locked: false
 cardinality: 1
 translatable: true

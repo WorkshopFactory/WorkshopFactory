@@ -3,18 +3,20 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.hotel.field_adresse
     - field.field.node.hotel.field_description
     - field.field.node.hotel.field_email
     - field.field.node.hotel.field_image
-    - field.field.node.hotel.field_localisation
     - field.field.node.hotel.field_prix
     - field.field.node.hotel.field_telephone
     - field.field.node.hotel.field_titre
     - image.style.thumbnail
     - node.type.hotel
   module:
+    - address
     - image
     - path
+    - telephone
     - text
 id: node.hotel.default
 targetEntityType: node
@@ -27,6 +29,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_adresse:
+    weight: 130
+    settings:
+      default_country: null
+    third_party_settings: {  }
+    type: address_default
+    region: content
   field_description:
     weight: 123
     settings:
@@ -51,14 +60,6 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
-  field_localisation:
-    weight: 124
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_prix:
     weight: 127
     settings:
@@ -67,12 +68,11 @@ content:
     type: number
     region: content
   field_telephone:
-    weight: 125
+    weight: 131
     settings:
-      size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: telephone_default
     region: content
   field_titre:
     weight: 122

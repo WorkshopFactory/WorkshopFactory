@@ -1,8 +1,9 @@
-uuid: 746c46c7-9558-4c8b-8431-d7f2765e5649
+uuid: 6dfa7da5-cf66-4f07-a696-6449208d5b59
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.hotel.field_adresse
     - field.field.node.hotel.field_description
     - field.field.node.hotel.field_email
@@ -18,10 +19,10 @@ dependencies:
     - telephone
     - text
     - user
-id: node.hotel.default
+id: node.hotel.full
 targetEntityType: node
 bundle: hotel
-mode: default
+mode: full
 content:
   field_adresse:
     weight: 110
