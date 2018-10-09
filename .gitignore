@@ -6,7 +6,7 @@ web/modules/contrib/
 web/themes/contrib/
 web/profiles/contrib/
 web/libraries/
-composer.lock
+web/sites/*/files/
 
 # Ignore sensitive information
 #web/sites/*/settings.local.php
