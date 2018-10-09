@@ -1,0 +1,17 @@
+uuid: 3d6ae153-fa7b-48b0-8d83-4838d7104fe4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Hôtel
+type: hotel
+description: 'Hôtel lié à chaque workshop'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

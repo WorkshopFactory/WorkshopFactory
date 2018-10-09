@@ -1,0 +1,19 @@
+uuid: 534f2976-5669-46c4-be2a-811969afece8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_localisation
+    - node.type.hotel
+id: node.hotel.field_localisation
+field_name: field_localisation
+entity_type: node
+bundle: hotel
+label: Localisation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
