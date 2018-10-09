@@ -1,4 +1,4 @@
-uuid: 5f7e74f4-38e6-44d5-876d-3377b6841062
+uuid: fb22e358-bfbd-4fcf-ae5c-e1d75774fa88
 langcode: en
 status: true
 dependencies: {  }
@@ -6,7 +6,14 @@ id: dev
 label: DEV
 description: ''
 folder: ../config/dev
-module: {  }
+module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_tools: 0
+  devel: 0
+  devel_generate: 0
+  kint: 0
+  webprofiler: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }

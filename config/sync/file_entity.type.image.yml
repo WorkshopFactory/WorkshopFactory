@@ -1,0 +1,11 @@
+uuid: 1041dda7-e4fc-47cc-88ea-e1df9de81d43
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Cnm8jai7mUWRJe41uZo5lyvpDJcbdkbGutMFhqPDUys
+id: image
+label: Image
+description: 'An <em>Image</em> file is a still visual.'
+mimetypes:
+  - 'image/*'
