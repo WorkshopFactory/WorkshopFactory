@@ -1,0 +1,18 @@
+uuid: 60ab3677-de74-40a9-95fb-6338f9249c6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_prix
+field_name: field_prix
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
