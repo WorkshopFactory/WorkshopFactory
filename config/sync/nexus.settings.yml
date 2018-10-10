@@ -11,14 +11,17 @@ favicon:
   path: ''
 slideshow_display: 1
 show_breadcrumbs: 1
-slide1_head: 'Sample product'
-slide2_head: 'Sample service'
+slide1_head: 'join the upcoming workshops'
+slide2_head: Community
 slide3_head: 'Contact us'
-slide1_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor...'
-slide2_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet irure dolor in reprehenderit...'
-slide3_desc: 'Duis aute irure dolor in reprehenderit inLorem ipsum dolor sit amet, consectetur do Lorem ipsum dolor sit amet irure...'
+slide1_desc: 'Discuss and learn about various subjects with many people interested in your work and your passion.'
+slide2_desc: 'Contact and follow the next events of our registered users.'
+slide3_desc: 'Hotels, reservations, location, conferences, ... We can answer to your questions.'
 slide1_url: node/1
 slide2_url: node/2
 slide3_url: node/3
 _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
+slide1_image: {  }
+slide2_image: {  }
+slide3_image: {  }

@@ -1,0 +1,20 @@
+uuid: 25608d3e-1683-45ee-aca1-8420cebb6d63
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_workshop_est_attendance
+field_name: field_workshop_est_attendance
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

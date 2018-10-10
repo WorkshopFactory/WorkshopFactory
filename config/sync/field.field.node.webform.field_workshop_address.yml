@@ -1,0 +1,21 @@
+uuid: b19a2e87-d5e3-41ea-b8c9-ea73ecbb47c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workshop_address
+    - node.type.webform
+  module:
+    - text
+id: node.webform.field_workshop_address
+field_name: field_workshop_address
+entity_type: node
+bundle: webform
+label: workshop_address
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
