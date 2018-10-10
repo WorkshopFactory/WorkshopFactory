@@ -1,0 +1,21 @@
+uuid: 3cec93e0-d819-451d-ae64-bc38bbe80223
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workshop_not
+    - node.type.webform
+  module:
+    - datetime
+id: node.webform.field_workshop_not
+field_name: field_workshop_not
+entity_type: node
+bundle: webform
+label: workshop_notification_date
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -3,10 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_adresse
+    - field.field.user.user.field_indications_particulieres
+    - field.field.user.user.field_site_web
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
+    - address
     - image
+    - link
+    - text
     - user
 _core:
   default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
@@ -15,6 +21,32 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_adresse:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_indications_particulieres:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_site_web:
+    weight: 11
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
   member_for:
     weight: 5
     region: content

@@ -1,0 +1,20 @@
+uuid: e9cc5281-796f-4071-8041-6992f3c28851
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_workshop_budget
+field_name: field_workshop_budget
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

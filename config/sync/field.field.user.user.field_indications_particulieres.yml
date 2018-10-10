@@ -1,0 +1,21 @@
+uuid: 505fa880-a9af-49cc-94d6-0ba3ea0060d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_indications_particulieres
+  module:
+    - text
+    - user
+id: user.user.field_indications_particulieres
+field_name: field_indications_particulieres
+entity_type: user
+bundle: user
+label: 'Indications Particulières'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

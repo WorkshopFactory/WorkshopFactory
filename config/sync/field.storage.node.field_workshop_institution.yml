@@ -1,0 +1,20 @@
+uuid: 59b6bc33-5262-414a-81fc-1ac0e7d446a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_workshop_institution
+field_name: field_workshop_institution
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

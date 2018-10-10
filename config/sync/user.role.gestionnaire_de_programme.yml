@@ -6,4 +6,7 @@ id: gestionnaire_de_programme
 label: 'Gestionnaire de programme'
 weight: 4
 is_admin: null
-permissions: {  }
+permissions:
+  - 'create hotel content'
+  - 'delete own hotel content'
+  - 'edit own hotel content'

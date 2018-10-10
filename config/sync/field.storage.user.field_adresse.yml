@@ -1,0 +1,19 @@
+uuid: 101dc63d-7446-48b5-865d-cb83cce5217b
+langcode: en
+status: true
+dependencies:
+  module:
+    - address
+    - user
+id: user.field_adresse
+field_name: field_adresse
+entity_type: user
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

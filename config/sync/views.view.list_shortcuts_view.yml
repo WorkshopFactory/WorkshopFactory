@@ -2,8 +2,6 @@ uuid: 72428a39-abd5-4da3-998d-25ee9366a89f
 langcode: en
 status: true
 dependencies:
-  config:
-    - node.type.page
   module:
     - node
     - user
@@ -125,27 +123,7 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-      filters:
-        status:
-          value: '1'
-          table: node_field_data
-          field: status
-          plugin_id: boolean
-          entity_type: node
-          entity_field: status
-          id: status
-          expose:
-            operator: ''
-          group: 1
-        type:
-          id: type
-          table: node_field_data
-          field: type
-          value:
-            page: page
-          entity_type: node
-          entity_field: type
-          plugin_id: bundle
+      filters: {  }
       sorts: {  }
       title: 'Useful Links'
       header: {  }
@@ -153,21 +131,6 @@ display:
       empty: {  }
       relationships: {  }
       arguments: {  }
-      display_extenders: {  }
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  block_1:
-    display_plugin: block
-    id: block_1
-    display_title: Block
-    position: 1
-    display_options:
       display_extenders: {  }
     cache_metadata:
       max-age: -1
