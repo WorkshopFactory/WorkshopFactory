@@ -1,10 +1,10 @@
-uuid: ca58d7e8-99e2-4343-a836-2b66085c2565
+uuid: 8688fb7a-56f9-41c7-a0a4-b1971c026206
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_cartetest
-    - node.type.hotel
+    - node.type.webform
   module:
     - geocoder_field
     - geolocation
@@ -18,23 +18,16 @@ third_party_settings:
     disabled: false
     plugins:
       - openstreetmap
-      - freegeoip
-      - geoplugin
-      - geoip
-      - geonames
-      - nominatim
-      - opencage
-      - random
     dumper: geolocation
     delta_handling: s_to_m
     failure:
       handling: preserve
       status_message: true
       log: true
-id: node.hotel.field_cartetest
+id: node.webform.field_cartetest
 field_name: field_cartetest
 entity_type: node
-bundle: hotel
+bundle: webform
 label: Geolocalisation
 description: ''
 required: false

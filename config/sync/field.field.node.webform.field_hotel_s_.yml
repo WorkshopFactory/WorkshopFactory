@@ -1,0 +1,29 @@
+uuid: 2e74ac38-b2f0-40d4-9df2-f0b9dd67a56c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotel_s_
+    - node.type.hotel
+    - node.type.webform
+id: node.webform.field_hotel_s_
+field_name: field_hotel_s_
+entity_type: node
+bundle: webform
+label: Hôtel(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      hotel: hotel
+    sort:
+      field: field_adressetest.country_code
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

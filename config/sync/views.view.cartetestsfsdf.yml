@@ -1,4 +1,4 @@
-uuid: 109c0e50-a2a9-4205-968a-7cc629f78245
+uuid: 5360f9e3-4e85-4682-ab3b-89961f7ace85
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ dependencies:
     - geolocation
     - node
     - user
-id: carte_des_hotels
-label: 'Carte des hôtels'
+id: cartetestsfsdf
+label: cartetestsfsdf
 module: views
 description: ''
 tag: ''
@@ -53,7 +53,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 50
+          items_per_page: 5
           offset: 0
       style:
         type: maps_common
@@ -63,11 +63,11 @@ display:
           title_field: title
           centre:
             fit_bounds:
-              settings:
-                reset_zoom: true
               weight: 0
               enable: false
               map_center_id: fit_bounds
+              settings:
+                reset_zoom: false
             client_location:
               weight: 0
               enable: false
@@ -106,10 +106,10 @@ display:
                   tile_layer_subdomains: abc
                 enabled: false
               leaflet_marker_popup:
+                enabled: true
                 weight: 0
-                enabled: false
                 settings:
-                  info_auto_display: false
+                  info_auto_display: true
               leaflet_marker_icon:
                 weight: 0
                 settings:
@@ -132,12 +132,12 @@ display:
                     'y': ''
                 enabled: false
               leaflet_marker_clusterer:
+                enabled: true
                 weight: 0
-                enabled: false
                 settings:
                   cluster_settings:
+                    zoom_to_bounds_on_click: zoom_to_bounds_on_click
                     show_coverage_on_hover: 0
-                    zoom_to_bounds_on_click: 0
               leaflet_control_zoom:
                 weight: 0
                 settings:
@@ -185,7 +185,7 @@ display:
                 enabled: false
             height: 400px
             width: 100%
-            zoom: '10'
+            zoom: '0'
       row:
         type: fields
         options:
@@ -199,9 +199,6 @@ display:
           id: title
           table: node_field_data
           field: title
-          settings:
-            link_to_entity: true
-          plugin_id: field
           relationship: none
           group_type: group
           admin_label: ''
@@ -238,7 +235,7 @@ display:
           element_class: ''
           element_label_type: ''
           element_label_class: ''
-          element_label_colon: true
+          element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
@@ -248,6 +245,8 @@ display:
           hide_alter_empty: true
           click_sort_column: value
           type: string
+          settings:
+            link_to_entity: true
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -258,6 +257,7 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
+          plugin_id: field
         field_cartetest:
           id: field_cartetest
           table: node__field_cartetest

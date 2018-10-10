@@ -1,35 +1,21 @@
-uuid: 936077b0-a6f4-42dc-9bbc-a1e20447a2a7
+uuid: dd20f779-198b-46c2-a601-c6d44c4462fb
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_adressetest
-    - node.type.hotel
+    - node.type.webform
   module:
     - address
-id: node.hotel.field_adressetest
+id: node.webform.field_adressetest
 field_name: field_adressetest
 entity_type: node
-bundle: hotel
+bundle: webform
 label: Adresse
 description: ''
 required: true
 translatable: true
-default_value:
-  -
-    country_code: FR
-    langcode: null
-    administrative_area: ''
-    locality: ''
-    dependent_locality: ''
-    postal_code: ''
-    sorting_code: ''
-    address_line1: ''
-    address_line2: ''
-    organization: ''
-    given_name: ''
-    additional_name: ''
-    family_name: ''
+default_value: {  }
 default_value_callback: ''
 settings:
   available_countries: {  }
@@ -42,8 +28,6 @@ settings:
     familyName:
       override: hidden
     organization:
-      override: hidden
-    addressLine1:
       override: hidden
     addressLine2:
       override: hidden

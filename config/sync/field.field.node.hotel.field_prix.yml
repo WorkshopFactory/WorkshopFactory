@@ -13,10 +13,12 @@ label: Prix
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: !!float 40
 default_value_callback: ''
 settings:
-  min: null
+  min: !!float 0
   max: null
   prefix: ''
   suffix: €

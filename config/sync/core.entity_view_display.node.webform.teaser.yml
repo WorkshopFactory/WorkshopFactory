@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.webform.field_adressetest
+    - field.field.node.webform.field_cartetest
     - field.field.node.webform.field_workshop_address
     - field.field.node.webform.field_workshop_budget
     - field.field.node.webform.field_workshop_description
@@ -17,7 +19,6 @@ dependencies:
     - field.field.node.webform.field_workshop_startdate
     - field.field.node.webform.field_workshop_submission_date
     - field.field.node.webform.field_workshop_theme
-    - field.field.node.webform.webform
     - node.type.webform
   module:
     - datetime
@@ -77,6 +78,8 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_adressetest: true
+  field_cartetest: true
   field_workshop_address: true
   field_workshop_budget: true
   field_workshop_est_attendance: true
@@ -85,4 +88,3 @@ hidden:
   field_workshop_notification_date: true
   field_workshop_referent: true
   field_workshop_submission_date: true
-  webform: true
