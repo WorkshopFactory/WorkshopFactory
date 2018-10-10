@@ -1,0 +1,23 @@
+uuid: a0a599f2-d88b-419a-bbea-d0551e71c150
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_site_web
+    - node.type.hotel
+  module:
+    - link
+id: node.hotel.field_site_web
+field_name: field_site_web
+entity_type: node
+bundle: hotel
+label: 'Site web'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

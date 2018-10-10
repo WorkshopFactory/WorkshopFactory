@@ -1,0 +1,38 @@
+uuid: ca58d7e8-99e2-4343-a836-2b66085c2565
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cartetest
+    - node.type.hotel
+  module:
+    - geocoder_field
+    - geolocation
+third_party_settings:
+  geocoder_field:
+    method: source
+    weight: 0
+    geocode_field: field_adressetest
+    reverse_geocode_field: ''
+    hidden: false
+    disabled: false
+    plugins:
+      - openstreetmap
+    dumper: geolocation
+    delta_handling: s_to_m
+    failure:
+      handling: preserve
+      status_message: true
+      log: true
+id: node.hotel.field_cartetest
+field_name: field_cartetest
+entity_type: node
+bundle: hotel
+label: Geolocalisation
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

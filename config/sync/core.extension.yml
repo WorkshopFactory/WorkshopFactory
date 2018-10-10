@@ -23,6 +23,9 @@ module:
   file: 0
   file_entity: 0
   filter: 0
+  geocoder: 0
+  geocoder_address: 0
+  geocoder_field: 0
   geolocation: 0
   geolocation_address: 0
   geolocation_leaflet: 0
@@ -60,6 +63,7 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
+  nexus: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

@@ -1,16 +1,16 @@
-uuid: 12c4102e-55ef-4cb5-bfe3-dd6bce32cf15
+uuid: cb8f4653-01f2-4b97-854c-11f467849cb3
 langcode: en
 status: true
 dependencies:
   module:
+    - geolocation
     - node
-    - text
-id: node.field_description
-field_name: field_description
+id: node.field_cartetest
+field_name: field_cartetest
 entity_type: node
-type: text_long
+type: geolocation
 settings: {  }
-module: text
+module: geolocation
 locked: false
 cardinality: 1
 translatable: true

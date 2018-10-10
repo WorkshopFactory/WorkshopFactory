@@ -1,18 +1,17 @@
-uuid: 1c8227d9-0384-474d-800e-fdb0a70d88b4
+uuid: bc96ea77-4449-47dc-b052-84983f1a39ba
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_titre
     - node.type.hotel
-id: node.hotel.field_titre
-field_name: field_titre
+id: node.hotel.title
+field_name: title
 entity_type: node
 bundle: hotel
-label: Titre
-description: 'Nom de l''hôtel'
+label: Nom
+description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

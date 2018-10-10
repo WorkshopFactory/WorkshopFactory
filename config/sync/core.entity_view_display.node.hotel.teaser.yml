@@ -1,34 +1,30 @@
-uuid: 90aeab4b-1b2f-49ca-978a-9bc007734555
+uuid: cabe4bfc-b5af-4d79-8aac-f16744588201
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.hotel.field_adresse
-    - field.field.node.hotel.field_description
-    - field.field.node.hotel.field_email
-    - field.field.node.hotel.field_image
-    - field.field.node.hotel.field_prix
-    - field.field.node.hotel.field_telephone
-    - field.field.node.hotel.field_titre
+    - field.field.node.hotel.body
     - node.type.hotel
   module:
+    - text
     - user
 id: node.hotel.teaser
 targetEntityType: node
 bundle: hotel
 mode: teaser
 content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden:
-  field_adresse: true
-  field_description: true
-  field_email: true
-  field_image: true
-  field_prix: true
-  field_telephone: true
-  field_titre: true
+hidden: {  }

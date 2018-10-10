@@ -1,4 +1,4 @@
-uuid: 684b9cd8-4172-4a0f-9401-6e73201c4313
+uuid: 0378d310-5e95-4dca-9b9b-7bbd2bd385a2
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ entity_type: node
 bundle: hotel
 label: Email
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''

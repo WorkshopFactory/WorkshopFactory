@@ -1,4 +1,4 @@
-uuid: b5995e64-a959-4687-a26d-5323426210c1
+uuid: 4973fb66-86d1-4847-bb50-404e9e53dcf2
 langcode: en
 status: true
 dependencies:
@@ -11,13 +11,13 @@ entity_type: node
 bundle: hotel
 label: Prix
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  min: !!float 0
-  max: !!float 2000
+  min: null
+  max: null
   prefix: ''
   suffix: €
 field_type: float

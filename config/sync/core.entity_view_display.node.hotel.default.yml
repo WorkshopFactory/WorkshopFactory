@@ -1,21 +1,22 @@
-uuid: 746c46c7-9558-4c8b-8431-d7f2765e5649
+uuid: 6192e6ec-bb5b-42b3-a67d-6d599c6c0c91
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.hotel.field_adresse
-    - field.field.node.hotel.field_description
+    - field.field.node.hotel.body
+    - field.field.node.hotel.field_adressetest
+    - field.field.node.hotel.field_cartetest
     - field.field.node.hotel.field_email
     - field.field.node.hotel.field_image
     - field.field.node.hotel.field_prix
-    - field.field.node.hotel.field_telephone
-    - field.field.node.hotel.field_titre
+    - field.field.node.hotel.field_site_web
     - filter.format.basic_html
     - node.type.hotel
   module:
-    - geolocation_address
+    - address
+    - geolocation
     - image
-    - telephone
+    - link
     - text
     - user
 id: node.hotel.default
@@ -23,46 +24,159 @@ targetEntityType: node
 bundle: hotel
 mode: default
 content:
-  field_adresse:
-    weight: 110
-    label: above
-    settings:
-      title: ''
-      set_marker: '1'
-      common_map: '1'
-      data_provider_settings: {  }
-      map_provider_id: leaflet
-      centre:
-        fit_bounds:
-          enable: true
-          weight: -101
-          map_center_id: fit_bounds
-          settings:
-            reset_zoom: true
-      map_provider_settings: {  }
-      info_text:
-        value: ''
-        format: basic_html
-      use_overridden_map_settings: 0
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
     third_party_settings: {  }
-    type: geolocation_address
     region: content
-  field_description:
-    weight: 103
+  field_adressetest:
+    weight: 102
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    type: address_default
+    region: content
+  field_cartetest:
+    weight: 103
+    label: above
+    settings:
+      set_marker: '1'
+      title: ''
+      info_text:
+        value: ''
+        format: basic_html
+      centre:
+        fit_bounds:
+          enable: true
+          settings:
+            reset_zoom: true
+          weight: -101
+          map_center_id: fit_bounds
+        client_location:
+          weight: 0
+          enable: false
+          map_center_id: client_location
+        freeogeoip:
+          weight: 0
+          enable: false
+          map_center_id: location_plugins
+        fixed_value:
+          settings:
+            latitude: null
+            longitude: null
+          weight: 0
+          enable: false
+          map_center_id: location_plugins
+      map_provider_id: leaflet
+      map_provider_settings:
+        height: 400px
+        width: 100%
+        zoom: '10'
+        map_features:
+          leaflet_control_locate:
+            weight: 0
+            settings:
+              position: topright
+            enabled: false
+          leaflet_custom_tile_layer:
+            weight: 0
+            settings:
+              tile_layer_url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+              tile_layer_attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+              tile_layer_subdomains: abc
+            enabled: false
+          leaflet_marker_popup:
+            enabled: true
+            weight: 0
+            settings:
+              info_auto_display: false
+          leaflet_marker_icon:
+            weight: 0
+            settings:
+              marker_icon_path: ''
+              icon_size:
+                width: ''
+                height: ''
+              icon_anchor:
+                x: ''
+                'y': ''
+              popup_anchor:
+                x: '0'
+                'y': '0'
+              marker_shadow_path: ''
+              shadow_size:
+                width: ''
+                height: ''
+              shadow_anchor:
+                x: ''
+                'y': ''
+            enabled: false
+          leaflet_marker_clusterer:
+            weight: 0
+            enabled: false
+            settings:
+              cluster_settings:
+                show_coverage_on_hover: 0
+                zoom_to_bounds_on_click: 0
+          leaflet_control_zoom:
+            enabled: true
+            weight: 0
+            settings:
+              position: topright
+          leaflet_control_scale:
+            weight: 0
+            settings:
+              position: topright
+              metric: '1'
+              imperial: '1'
+            enabled: false
+          leaflet_control_recenter:
+            weight: 0
+            settings:
+              position: topright
+            enabled: false
+          leaflet_control_geocoder:
+            weight: 0
+            settings:
+              position: topright
+              geocoder: photon
+              settings:
+                label: Address
+                description: 'Enter an address to be localized.'
+            enabled: false
+          leaflet_control_fullscreen:
+            weight: 0
+            settings:
+              position: topright
+            enabled: false
+          leaflet_gesture_handling:
+            weight: 0
+            enabled: false
+          leaflet_client_location_indicator:
+            weight: 0
+            enabled: false
+          leaflet_tile_layer:
+            weight: 0
+            settings:
+              tile_layer_provider: OpenStreetMap.Mapnik
+            enabled: false
+      use_overridden_map_settings: 0
+      common_map: '1'
+      data_provider_settings: {  }
+    third_party_settings: {  }
+    type: geolocation_map
     region: content
   field_email:
-    weight: 106
+    weight: 104
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_image:
-    weight: 108
+    weight: 106
     label: above
     settings:
       image_style: ''
@@ -81,21 +195,17 @@ content:
     third_party_settings: {  }
     type: number_decimal
     region: content
-  field_telephone:
-    weight: 111
+  field_site_web:
+    weight: 105
     label: above
     settings:
-      title: ''
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
     third_party_settings: {  }
-    type: telephone_link
-    region: content
-  field_titre:
-    weight: 102
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
+    type: link
     region: content
   links:
     weight: 100
