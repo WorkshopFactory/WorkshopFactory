@@ -8656,7 +8656,7 @@
     "stability-flags": {
         "drupal/default_content_deploy": 15,
         "drupal/file_entity": 10,
-        "drupal/webform": 5
+        "drupal/webform": 5,
         "drupal/geolocation": 20
     },
     "prefer-stable": true,
