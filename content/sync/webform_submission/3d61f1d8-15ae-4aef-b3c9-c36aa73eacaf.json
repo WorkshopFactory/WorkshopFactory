@@ -1,12 +1,12 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/webform\/manage\/workshop_webform\/submission\/1?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/webform\/manage\/workshop_register_webform\/submission\/53?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/webform_submission\/workshop_webform"
+            "href": "http:\/\/drupal.org\/rest\/type\/webform_submission\/workshop_register_webform"
         },
-        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop_webform\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop_register_webform\/uid": [
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
@@ -19,39 +19,39 @@
     ],
     "sid": [
         {
-            "value": 1
+            "value": 53
         }
     ],
     "uuid": [
         {
-            "value": "452f0e41-d925-4495-a1ef-52824fcae17b"
+            "value": "3d61f1d8-15ae-4aef-b3c9-c36aa73eacaf"
         }
     ],
     "token": [
         {
-            "value": "ehGtzC3I2rJUX334VAhFbDwWHIrU-bMviOF2hTB8EU0"
+            "value": "fm0ZNzegVg72PHBve-vlpTqupuAmMDToC4COLDYmqNg"
         }
     ],
     "uri": [
         {
-            "value": "\/form\/workshop-webform"
+            "value": "\/form\/workshop-register-webform"
         }
     ],
     "created": [
         {
-            "value": "2018-10-10T08:31:07+00:00",
+            "value": "2018-10-10T13:25:09+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "completed": [
         {
-            "value": "2018-10-10T08:31:38+00:00",
+            "value": "2018-10-10T13:25:09+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-10-10T08:31:38+00:00",
+            "value": "2018-10-10T13:25:09+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -60,18 +60,13 @@
             "value": false
         }
     ],
-    "current_page": [
-        {
-            "value": "invitations"
-        }
-    ],
     "remote_addr": [
         {
             "value": "::1"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop_webform\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop_register_webform\/uid": [
             {
                 "_links": {
                     "self": {
@@ -96,7 +91,7 @@
     ],
     "webform_id": [
         {
-            "target_id": "workshop_webform"
+            "target_id": "workshop_register_webform"
         }
     ],
     "locked": [

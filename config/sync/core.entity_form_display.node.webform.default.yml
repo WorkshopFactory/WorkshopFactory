@@ -9,14 +9,13 @@ dependencies:
     - field.field.node.webform.field_workshop_end_date
     - field.field.node.webform.field_workshop_est_attendance
     - field.field.node.webform.field_workshop_institution
-    - field.field.node.webform.field_workshop_name
     - field.field.node.webform.field_workshop_not
     - field.field.node.webform.field_workshop_notification_date
     - field.field.node.webform.field_workshop_referent
+    - field.field.node.webform.field_workshop_register_webform
     - field.field.node.webform.field_workshop_startdate
     - field.field.node.webform.field_workshop_submission_date
     - field.field.node.webform.field_workshop_theme
-    - field.field.node.webform.webform
     - node.type.webform
   module:
     - datetime
@@ -31,7 +30,7 @@ bundle: webform
 mode: default
 content:
   field_workshop_address:
-    weight: 5
+    weight: 3
     settings:
       size: 60
       placeholder: ''
@@ -39,14 +38,14 @@ content:
     type: text_textfield
     region: content
   field_workshop_budget:
-    weight: 6
+    weight: 4
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
   field_workshop_description:
-    weight: 4
+    weight: 2
     settings:
       rows: 9
       summary_rows: 3
@@ -55,28 +54,20 @@ content:
     type: text_textarea_with_summary
     region: content
   field_workshop_end_date:
-    weight: 14
+    weight: 12
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_workshop_est_attendance:
-    weight: 9
+    weight: 7
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
   field_workshop_institution:
-    weight: 8
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textfield
-    region: content
-  field_workshop_name:
-    weight: 2
+    weight: 6
     settings:
       size: 60
       placeholder: ''
@@ -84,19 +75,19 @@ content:
     type: text_textfield
     region: content
   field_workshop_not:
-    weight: 12
+    weight: 10
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_workshop_notification_date:
-    weight: 11
+    weight: 9
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_workshop_referent:
-    weight: 7
+    weight: 5
     settings:
       match_operator: CONTAINS
       size: 60
@@ -104,33 +95,40 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_workshop_startdate:
+  field_workshop_register_webform:
     weight: 13
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+  field_workshop_startdate:
+    weight: 11
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_workshop_submission_date:
-    weight: 10
+    weight: 8
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_workshop_theme:
-    weight: 3
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   path:
     type: path
-    weight: 15
+    weight: 14
     settings: {  }
     third_party_settings: {  }
     region: content
   promote:
     type: boolean_checkbox
-    weight: 17
+    weight: 16
     region: content
     settings:
       display_label: true
@@ -139,14 +137,14 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 15
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 18
+    weight: 17
     third_party_settings: {  }
     region: content
   title:
@@ -156,13 +154,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    region: content
-  webform:
-    weight: 1
-    settings:
-      default_data: true
-    third_party_settings: {  }
-    type: webform_entity_reference_select
     region: content
 hidden:
   created: true

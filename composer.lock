@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ba61689ff319be290606f7dc589b377",
+    "content-hash": "b823ce1a3474fd70f5d11c0b9e19de16",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1906,6 +1906,53 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/antibot",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/antibot",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/antibot-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "4cb067e77929984c8cf5b05a84734c62d6fd19b3"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1522335671",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mstef",
+                    "homepage": "https://www.drupal.org/user/107190"
+                }
+            ],
+            "description": "Prevent forms from being submitted without JavaScript enabled",
+            "homepage": "https://www.drupal.org/project/antibot",
+            "support": {
+                "source": "http://cgit.drupalcode.org/antibot"
             }
         },
         {
@@ -8908,11 +8955,6 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "75f73363165a450e9a2f9f1ce3930f148184c964"
-            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
@@ -8943,8 +8985,8 @@
         "drupal/default_content_deploy": 15,
         "drupal/file_entity": 10,
         "drupal/geocoder": 10,
-        "drupal/webform": 5,
-        "drupal/geolocation": 20
+        "drupal/geolocation": 20,
+        "drupal/webform": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,

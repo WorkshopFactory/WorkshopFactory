@@ -1,17 +1,17 @@
-uuid: 672d2754-7e5f-4b35-adbb-7ce502519f0b
+uuid: 0d22cd7f-62c9-483e-ad2f-bafd370633e8
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
-id: node.field_workshop_name
-field_name: field_workshop_name
+    - webform
+id: node.field_workshop_register_webform
+field_name: field_workshop_register_webform
 entity_type: node
-type: text
+type: webform
 settings:
-  max_length: 255
-module: text
+  target_type: webform
+module: webform
 locked: false
 cardinality: 1
 translatable: true

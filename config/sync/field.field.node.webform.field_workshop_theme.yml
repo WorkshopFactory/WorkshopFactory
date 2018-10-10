@@ -1,12 +1,11 @@
-uuid: 10a1108a-607d-48d3-b177-2095f22cb18b
+uuid: 5c05a30c-19f9-45c6-b734-e98ac4ad0541
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_workshop_theme
     - node.type.webform
-  module:
-    - options
+    - taxonomy.vocabulary.workshop_themes
 id: node.webform.field_workshop_theme
 field_name: field_workshop_theme
 entity_type: node
@@ -17,5 +16,14 @@ required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: list_string
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      workshop_themes: workshop_themes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

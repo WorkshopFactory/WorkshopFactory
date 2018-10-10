@@ -10,18 +10,15 @@ dependencies:
     - field.field.node.webform.field_workshop_end_date
     - field.field.node.webform.field_workshop_est_attendance
     - field.field.node.webform.field_workshop_institution
-    - field.field.node.webform.field_workshop_name
     - field.field.node.webform.field_workshop_not
     - field.field.node.webform.field_workshop_notification_date
     - field.field.node.webform.field_workshop_referent
+    - field.field.node.webform.field_workshop_register_webform
     - field.field.node.webform.field_workshop_startdate
     - field.field.node.webform.field_workshop_submission_date
-    - field.field.node.webform.field_workshop_theme
-    - field.field.node.webform.webform
     - node.type.webform
   module:
     - datetime
-    - options
     - text
     - user
 _core:
@@ -48,13 +45,6 @@ content:
       format_type: medium
       timezone_override: ''
     third_party_settings: {  }
-  field_workshop_name:
-    type: text_default
-    weight: 1
-    region: content
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
   field_workshop_startdate:
     type: datetime_default
     weight: 4
@@ -63,13 +53,6 @@ content:
     settings:
       format_type: medium
       timezone_override: ''
-    third_party_settings: {  }
-  field_workshop_theme:
-    type: list_default
-    weight: 2
-    region: content
-    label: hidden
-    settings: {  }
     third_party_settings: {  }
   links:
     weight: 0
@@ -84,5 +67,5 @@ hidden:
   field_workshop_not: true
   field_workshop_notification_date: true
   field_workshop_referent: true
+  field_workshop_register_webform: true
   field_workshop_submission_date: true
-  webform: true

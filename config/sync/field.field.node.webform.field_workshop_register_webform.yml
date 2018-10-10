@@ -1,22 +1,20 @@
-uuid: bbaea624-a918-470d-87a6-a209424ed3b6
+uuid: e54790fe-32e2-43f5-ba34-9f5c7bfec0d9
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.webform
+    - field.storage.node.field_workshop_register_webform
     - node.type.webform
-    - webform.webform.workshop_webform
+    - webform.webform.workshop_register_webform
   module:
     - webform
-_core:
-  default_config_hash: IYDvt9GwiPFhqabK4wieBb-5xvTG0CkOFeRDf5A3W1E
-id: node.webform.webform
-field_name: webform
+id: node.webform.field_workshop_register_webform
+field_name: field_workshop_register_webform
 entity_type: node
 bundle: webform
-label: Webform
-description: 'Select the webform that you would like to attach to this node.'
-required: false
+label: 'Registration form'
+description: 'You can customize the registration that the attendees will see.'
+required: true
 translatable: false
 default_value:
   -
@@ -25,7 +23,7 @@ default_value:
     status: open
     open: ''
     close: ''
-    target_uuid: f05c1385-790e-462c-bd78-8ee4292dbae6
+    target_uuid: 4f8e6281-6ef5-4cfd-8bac-c09d1d02f64c
 default_value_callback: ''
 settings:
   handler: 'default:webform'
