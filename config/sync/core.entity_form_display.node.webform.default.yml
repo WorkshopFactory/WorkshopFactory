@@ -3,10 +3,23 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.webform.body
+    - field.field.node.webform.field_workshop_address
+    - field.field.node.webform.field_workshop_budget
+    - field.field.node.webform.field_workshop_description
+    - field.field.node.webform.field_workshop_end_date
+    - field.field.node.webform.field_workshop_est_attendance
+    - field.field.node.webform.field_workshop_institution
+    - field.field.node.webform.field_workshop_name
+    - field.field.node.webform.field_workshop_not
+    - field.field.node.webform.field_workshop_notification_date
+    - field.field.node.webform.field_workshop_referent
+    - field.field.node.webform.field_workshop_startdate
+    - field.field.node.webform.field_workshop_submission_date
+    - field.field.node.webform.field_workshop_theme
     - field.field.node.webform.webform
     - node.type.webform
   module:
+    - datetime
     - path
     - text
     - webform
@@ -17,69 +30,140 @@ targetEntityType: node
 bundle: webform
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 0
+  field_workshop_address:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_workshop_budget:
+    weight: 6
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_workshop_description:
+    weight: 4
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+    type: text_textarea_with_summary
     region: content
-  created:
-    type: datetime_timestamp
+  field_workshop_end_date:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_workshop_est_attendance:
+    weight: 9
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_workshop_institution:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_workshop_name:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_workshop_not:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_workshop_notification_date:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_workshop_referent:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_workshop_startdate:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_workshop_submission_date:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_workshop_theme:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   path:
     type: path
-    weight: 30
+    weight: 15
     settings: {  }
     third_party_settings: {  }
     region: content
   promote:
     type: boolean_checkbox
+    weight: 17
+    region: content
     settings:
       display_label: true
-    weight: 15
     third_party_settings: {  }
-    region: content
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 16
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 18
     third_party_settings: {  }
     region: content
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
-  uid:
-    type: entity_reference_autocomplete
-    weight: 5
-    settings:
-      match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
     region: content
   webform:
-    weight: 0
-    settings: {  }
+    weight: 1
+    settings:
+      default_data: true
     third_party_settings: {  }
     type: webform_entity_reference_select
     region: content
-hidden: {  }
+hidden:
+  created: true
+  uid: true

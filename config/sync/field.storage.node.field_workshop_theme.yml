@@ -1,0 +1,33 @@
+uuid: 15ae31e1-d782-47fd-bb8d-fc2df3a3fe1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_workshop_theme
+field_name: field_workshop_theme
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Nuclear Physics'
+      label: 'Nuclear Physics'
+    -
+      value: 'AI Research'
+      label: 'AI Research'
+    -
+      value: Biochemistry
+      label: Biochemistry
+    -
+      value: Astrophysics
+      label: Astrophysics
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

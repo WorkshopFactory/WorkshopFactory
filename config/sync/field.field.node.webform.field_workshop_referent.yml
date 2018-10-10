@@ -1,0 +1,32 @@
+uuid: 11b91a98-8a41-4065-a4ee-b7271aa248a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workshop_referent
+    - node.type.webform
+id: node.webform.field_workshop_referent
+field_name: field_workshop_referent
+entity_type: node
+bundle: webform
+label: workshop_referent
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: role
+      role:
+        gestionnaire_de_programme: gestionnaire_de_programme
+        administrator: '0'
+        participant: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

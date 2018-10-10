@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.webform
     - node.type.webform
+    - webform.webform.workshop_webform
   module:
     - webform
 _core:
@@ -17,13 +18,22 @@ label: Webform
 description: 'Select the webform that you would like to attach to this node.'
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    webform_access_group: {  }
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: f05c1385-790e-462c-bd78-8ee4292dbae6
 default_value_callback: ''
 settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
   default_data: ''
   status: open
   open: ''
   close: ''
-  handler: 'default:webform'
-  handler_settings: {  }
 field_type: webform

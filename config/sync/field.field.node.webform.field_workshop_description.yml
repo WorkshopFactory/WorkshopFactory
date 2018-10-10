@@ -1,22 +1,20 @@
-uuid: 25c67510-18de-41ce-829e-dcdfbc20394d
+uuid: 4970781a-cf91-40e5-8668-6ba79da4d416
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
+    - field.storage.node.field_workshop_description
     - node.type.webform
   module:
     - text
-_core:
-  default_config_hash: '-Qu0UyzQ0jD4TDYq8fOasS-D-vGd3gSwzi15PzRJUD4'
-id: node.webform.body
-field_name: body
+id: node.webform.field_workshop_description
+field_name: field_workshop_description
 entity_type: node
 bundle: webform
-label: Body
+label: workshop_description
 description: ''
-required: false
-translatable: true
+required: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

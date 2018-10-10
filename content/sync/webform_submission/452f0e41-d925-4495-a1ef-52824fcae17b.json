@@ -1,0 +1,112 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/structure\/webform\/manage\/workshop_webform\/submission\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/webform_submission\/workshop_webform"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop_webform\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "serial": [
+        {
+            "value": 1
+        }
+    ],
+    "sid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "452f0e41-d925-4495-a1ef-52824fcae17b"
+        }
+    ],
+    "token": [
+        {
+            "value": "ehGtzC3I2rJUX334VAhFbDwWHIrU-bMviOF2hTB8EU0"
+        }
+    ],
+    "uri": [
+        {
+            "value": "\/form\/workshop-webform"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-10T08:31:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "completed": [
+        {
+            "value": "2018-10-10T08:31:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-10T08:31:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "in_draft": [
+        {
+            "value": false
+        }
+    ],
+    "current_page": [
+        {
+            "value": "invitations"
+        }
+    ],
+    "remote_addr": [
+        {
+            "value": "::1"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop_webform\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ]
+    },
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "webform_id": [
+        {
+            "target_id": "workshop_webform"
+        }
+    ],
+    "locked": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ]
+}

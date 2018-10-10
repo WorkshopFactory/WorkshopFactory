@@ -1,0 +1,21 @@
+uuid: 580d9cf1-a6c3-48fd-9022-91e52209f835
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workshop_institution
+    - node.type.webform
+  module:
+    - text
+id: node.webform.field_workshop_institution
+field_name: field_workshop_institution
+entity_type: node
+bundle: webform
+label: workshop_institution
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
