@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/file\/13?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bb66796f-4d52-4977-b33f-5e6a44311df2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "generateImage_D7geOE.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2018-10\/generateImage_D7geOE.png",
+            "url": "\/sites\/default\/files\/2018-10\/generateImage_D7geOE.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 656
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-09T14:54:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-09T14:54:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "data": [
+        {
+            "value": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAF+BAMAAABUpqh2AAAAD1BMVEUTwNIU+MbNAFDZikc0Zl3\/PqcVAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACJ0lEQVR4nO3WUW7CMBAEUD5ygEbyCSIOUIkcIA57\/zO1FFq89uwgUksRYvzFB08z6yRODge6Rro+OJaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpb+hx7surZos+WWbZaf1GZl8xR4rAer506wP9Q\/netdQ\/FIW\/G7+GtqOdAldles5a122F\/vhjfa4+puqXmthwPTY6J6WLgejekat\/d5jrXVuNVudKfroZF2ozvd9IZPaMYaRCOdsAbR8HTISKNoqBPSKBqfTLnVMBrr1GoYHZyKudY4OtCp1jg6OpGz10F0pJPXQXT4Nsj9dFQ81KnUUXT8Hsu9dFg81umuw2jyBs59dFyc6NRHx8XZl0fuoUlxplMPTYrTL668t2ZjU5321mxs\/pWbX1nTTeM6va9etutxkd5BrxNbJ7qkX08ft+v58231tG7W55fWdNsYnk87azo4HXt3zQanY3fQrDot3kOT6rR4D02q0+JddFydFr\/pOJxG99FhdVr8V4fhNLqTjqrT4n86CqfRdx2E0+i7DsJpdKFxOI0uNA6n0aWG4TS61DCcRjuNwmm00yicRnsNwmm015M91vM51G131rvRx5rX2E5EN6OToYGuRydDI11xioH2nGKkHacY6slWoK3FWE9Hq\/VsrY30d7yVekbBRF\/8etMWWKYv\/a8roA+03zVpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpqL8Amhk5YJLh2s4AAAAASUVORK5CYII="
+        }
+    ]
+}

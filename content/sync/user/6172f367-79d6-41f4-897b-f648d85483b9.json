@@ -1,0 +1,92 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/60?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 60
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6172f367-79d6-41f4-897b-f648d85483b9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "jsnow"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T14:19:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T14:21:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "EC",
+            "administrative_area": null,
+            "locality": "Ecuador City",
+            "dependent_locality": null,
+            "postal_code": "",
+            "sorting_code": null,
+            "address_line1": "10 strada magica",
+            "address_line2": "",
+            "organization": "University of Ecuador",
+            "given_name": "John",
+            "additional_name": null,
+            "family_name": "Snow"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": -0.0119761,
+            "lng": -91.5513648,
+            "lat_sin": -0.00020902237502604934,
+            "lat_cos": 0.9999999781548231,
+            "lng_rad": -1.5978727504544399,
+            "data": [],
+            "value": "-0.0119761, -91.5513648"
+        }
+    ],
+    "field_indications_particulieres": [
+        {
+            "value": "<p>Je suis allergique aux hamsters<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Je suis allergique aux hamsters<\/p>"
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "http:\/\/example.com",
+            "title": "",
+            "options": []
+        }
+    ]
+}

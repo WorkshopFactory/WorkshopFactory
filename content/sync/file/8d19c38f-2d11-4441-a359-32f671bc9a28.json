@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/file\/136?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 136
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8d19c38f-2d11-4441-a359-32f671bc9a28"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "generateImage_tzf78b.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/pictures\/2018-10\/generateImage_tzf78b.png",
+            "url": "\/sites\/default\/files\/pictures\/2018-10\/generateImage_tzf78b.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 671
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T10:09:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T10:09:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "data": [
+        {
+            "value": "iVBORw0KGgoAAAANSUhEUgAAAMUAAAB3BAMAAABBFJm9AAAAD1BMVEWAyIbiIBTmYAhdZkcjy7bGbNeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACNklEQVRoge3SUU7DMBCE4T7kAFTKCaIeAIkeIBTf\/0w0hJY4npndTamsRs4DFKT60z\/O4RB5ujQ\/x8jzFhFSGq8\/p6+l9PkUI6X59\/zF3q+4jS7dPt2+2nsX8xo\/K+XGdTFfitNIi8+Lb\/cuxGcsiaXhQ1xGRmSGC\/EYOZEbHsRhdKu\/Vyf0\/2B0ozaO5itsG2uiMI7WWqaxXgoY1lqWUSwFDGstyygJYBhrGUa5FDT0WoYBMpChQ7SBMqAhQ7SBMqAhQ6QBM7ChQqQBM7ChQpSBM4ghQpSBM4ghQiobZCpm8LGEQTKYwUO4wTKoQUPqGmPUoGNRg2Zwg4VUNca4wcaqafCphEHGqmmMWwwyVkVDTKUMPNbOjXGbgS9k34a6DmnAC2nGo8a41YCX3owXMORrpQ30YjWjGc8xhvI5gf\/9PR\/qOYP\/vTejGXsyhstm46sZL2rIF0sR6LVqxsOGvHRloCvfu6EuRBDwOvZuqAsRBryOqoYYixN4qqqGGIsbeKq6Bh+LEmSqugYfixpkKmHQkGhGZYOOxY5iUymDhUQzlMFCohnVDTIWPohPJQ0SEs3QBg6JZmgDh0QzDAOGRDMMA4ZEMywDhUQzLAOFRDNM41Qi5SFJEqYB1irO0Es5jHKt4gy9lMco1lofYSzlMYq1VidYS7mMISnjbC3lM1ZIlPAZORIlnEaGRAmvMaQLMJKLcBvD6Z5yjzBf2qhxTUlL4+yMiBmTcvk1kl8IGtNi8+MHJuMb5By5DxbqoWMAAAAASUVORK5CYII="
+        }
+    ]
+}
