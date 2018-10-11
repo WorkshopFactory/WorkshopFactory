@@ -6,14 +6,11 @@ dependencies:
     - field.field.node.webform.field_adressetest
     - field.field.node.webform.field_cartetest
     - field.field.node.webform.field_hotel_s_
-    - field.field.node.webform.field_workshop_address
     - field.field.node.webform.field_workshop_budget
     - field.field.node.webform.field_workshop_description
     - field.field.node.webform.field_workshop_end_date
     - field.field.node.webform.field_workshop_est_attendance
     - field.field.node.webform.field_workshop_institution
-    - field.field.node.webform.field_workshop_name
-    - field.field.node.webform.field_workshop_not
     - field.field.node.webform.field_workshop_notification_date
     - field.field.node.webform.field_workshop_referent
     - field.field.node.webform.field_workshop_startdate
@@ -180,13 +177,6 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_workshop_address:
-    weight: 107
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_workshop_budget:
     weight: 108
     label: above
@@ -227,22 +217,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
-  field_workshop_name:
-    weight: 104
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_workshop_not:
-    weight: 114
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
     region: content
   field_workshop_notification_date:
     weight: 113

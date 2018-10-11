@@ -172,12 +172,12 @@ content:
       auto_client_location: ''
     third_party_settings:
       geolocation_address:
-        enable: '1'
         address_field: field_adressetest
         geocoder: nominatim
         sync_mode: auto
         button_position: topleft
         direction: duplex
+        enable: 0
     type: geolocation_leaflet
     region: content
   field_email:

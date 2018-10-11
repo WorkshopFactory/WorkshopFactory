@@ -31,8 +31,6 @@ settings:
       override: hidden
     addressLine2:
       override: hidden
-    postalCode:
-      override: hidden
     sortingCode:
       override: hidden
     dependentLocality:

@@ -81,6 +81,9 @@ content:
               settings:
                 label: Address
                 description: 'Enter an address to be localized.'
+                location_priority:
+                  lat: ''
+                  lng: ''
           leaflet_control_locate:
             weight: 0
             settings:
@@ -164,12 +167,12 @@ content:
       auto_client_location: ''
     third_party_settings:
       geolocation_address:
-        enable: '1'
         address_field: field_adresse
         geocoder: photon
         sync_mode: auto
         button_position: topleft
         direction: duplex
+        enable: 0
     type: geolocation_leaflet
     region: content
   field_indications_particulieres:

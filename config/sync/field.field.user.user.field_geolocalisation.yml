@@ -5,25 +5,8 @@ dependencies:
   config:
     - field.storage.user.field_geolocalisation
   module:
-    - geocoder_field
     - geolocation
     - user
-third_party_settings:
-  geocoder_field:
-    method: source
-    weight: 0
-    geocode_field: field_adresse
-    reverse_geocode_field: ''
-    hidden: true
-    disabled: true
-    plugins:
-      - openstreetmap
-    dumper: geolocation
-    delta_handling: s_to_m
-    failure:
-      handling: preserve
-      status_message: true
-      log: true
 id: user.user.field_geolocalisation
 field_name: field_geolocalisation
 entity_type: user
