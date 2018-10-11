@@ -1,17 +1,18 @@
-uuid: 2e74ac38-b2f0-40d4-9df2-f0b9dd67a56c
+uuid: 224bb58c-2c81-4263-ab21-d5609628a5ea
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_hotel_s_
-    - node.type.hotel
+    - field.storage.user.field_workshop_s_
     - node.type.webform
-id: node.webform.field_hotel_s_
-field_name: field_hotel_s_
-entity_type: node
-bundle: webform
-label: Hôtel(s)
-description: ''
+  module:
+    - user
+id: user.user.field_workshop_s_
+field_name: field_workshop_s_
+entity_type: user
+bundle: user
+label: Workshop(s)
+description: 'Workshop(s) auxquels l''utilisateur participe.'
 required: false
 translatable: false
 default_value: {  }
@@ -20,9 +21,9 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      hotel: hotel
+      webform: webform
     sort:
-      field: field_prix
+      field: field_cartetest.data
       direction: ASC
     auto_create: false
     auto_create_bundle: ''

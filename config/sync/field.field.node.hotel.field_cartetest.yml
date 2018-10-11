@@ -17,14 +17,10 @@ third_party_settings:
     hidden: false
     disabled: false
     plugins:
-      - openstreetmap
-      - freegeoip
-      - geoplugin
-      - geoip
-      - geonames
-      - nominatim
-      - opencage
       - random
+      - yandex
+      - openstreetmap
+      - nominatim
     dumper: geolocation
     delta_handling: s_to_m
     failure:
@@ -39,7 +35,15 @@ label: Geolocalisation
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    value: '31.625794149999997, -7.988855007921185'
+    lat: '31.625794149999997'
+    lng: '-7.988855007921185'
+    lat_sin: '0.52436929422993'
+    lat_cos: '0.85149095313386'
+    lng_rad: '-0.13943182335266'
+    data: null
 default_value_callback: ''
 settings: {  }
 field_type: geolocation

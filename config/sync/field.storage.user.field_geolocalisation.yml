@@ -1,0 +1,19 @@
+uuid: 3689e974-0610-4cdf-9664-30201cb54c9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - geolocation
+    - user
+id: user.field_geolocalisation
+field_name: field_geolocalisation
+entity_type: user
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

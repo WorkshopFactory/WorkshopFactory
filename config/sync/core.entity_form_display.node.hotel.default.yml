@@ -72,6 +72,7 @@ content:
           weight: 0
           enable: false
           map_center_id: location_plugins
+      auto_client_location_marker: '1'
       leaflet_settings:
         height: 400px
         width: 100%
@@ -167,14 +168,13 @@ content:
             settings:
               tile_layer_provider: OpenStreetMap.Mapnik
             enabled: false
-      auto_client_location_marker: '0'
       allow_override_map_settings: 0
       auto_client_location: ''
     third_party_settings:
       geolocation_address:
         enable: '1'
         address_field: field_adressetest
-        geocoder: photon
+        geocoder: nominatim
         sync_mode: auto
         button_position: topleft
         direction: duplex

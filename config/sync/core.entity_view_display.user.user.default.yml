@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.user.user.field_adresse
+    - field.field.user.user.field_geolocalisation
     - field.field.user.user.field_indications_particulieres
     - field.field.user.user.field_site_web
+    - field.field.user.user.field_workshop_s_
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - address
+    - geolocation
     - image
     - link
     - text
@@ -27,6 +30,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: address_default
+    region: content
+  field_geolocalisation:
+    weight: 15
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
     region: content
   field_indications_particulieres:
     weight: 12
@@ -46,6 +56,14 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
+  field_workshop_s_:
+    weight: 14
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   member_for:
     weight: 5

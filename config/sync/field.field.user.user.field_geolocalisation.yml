@@ -1,0 +1,46 @@
+uuid: d12ea46d-db92-43ec-ba20-2337a0c8e02e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_geolocalisation
+  module:
+    - geocoder_field
+    - geolocation
+    - user
+third_party_settings:
+  geocoder_field:
+    method: source
+    weight: 0
+    geocode_field: field_adresse
+    reverse_geocode_field: ''
+    hidden: true
+    disabled: true
+    plugins:
+      - openstreetmap
+    dumper: geolocation
+    delta_handling: s_to_m
+    failure:
+      handling: preserve
+      status_message: true
+      log: true
+id: user.user.field_geolocalisation
+field_name: field_geolocalisation
+entity_type: user
+bundle: user
+label: Geolocalisation
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '51.47879, -0.010677'
+    lat: '51.47879'
+    lng: '-0.010677'
+    lat_sin: '0.78237765806837'
+    lat_cos: '0.62280430325701'
+    lng_rad: '-0.00018634880423543'
+    data: null
+default_value_callback: ''
+settings: {  }
+field_type: geolocation
