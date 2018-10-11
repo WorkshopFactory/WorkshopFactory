@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/file\/193?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 193
+        }
+    ],
+    "uuid": [
+        {
+            "value": "27878310-19fb-40d8-8aa6-56cd50c0f7f3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "generateImage_2fArf6.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2018-10\/generateImage_2fArf6.jpg",
+            "url": "\/sites\/default\/files\/2018-10\/generateImage_2fArf6.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 4350
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T13:52:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T13:52:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "data": [
+        {
+            "value": "\/9j\/4AAQSkZJRgABAQEAYABgAAD\/\/gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBkZWZhdWx0IHF1YWxpdHkK\/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy\/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy\/8AAEQgBZAEDAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A4yiiivRPLCiiigAooooAKKKKACiiigAooooAKKKKACiiigB46ClpB0FLX0UPhR0LYKKKKoAooooAKKKKACiiigAooooAKKKKACiiigAooooAjooor5s5wooooAKKKKACiiigAooooAKKKKACiiigAooooAeOgpaQdBS19FD4UdC2CiiiqAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAI6KKK+bOcKKKKACiiigAooooAKKKKACiiigAooooAKKKKAHjoKWkHQUtfRQ+FHQtgoooqgCiiigAooooAKKKKACiiigAooooAKKKKACiiigCOiiivmznCiiigAooooAKKKKACilVWdwqqWZjgADJJqz9mjg5upNrf88k5f8ey+nPI9KBlWp47O4ljEgj2xnpJIQin2BOAT7U\/7Z5fFvDHD\/tY3P7HJ6H3XH8qrySSTSGSV2dz1Zjkn8aegFjyLVP9Zebs9PJiLfnu2\/pmjzLNPuW8kjDoZJMK3uVABH03fnVWii4Fr7XGOVsbZW7H5zg\/QsQfxFH2+b+5bf8AgNH\/APE1VoouFy6L6bA+S3\/8Bo\/\/AImj7Zu\/1ttbyenybMf98Yz+NVR0FLXvwiuVG62LPn2z8PZqo9YZGU\/+Pbhj8KNtk\/SWaInorIGA+rAg4\/4D+dVqKvl7AWfsTv8A6h47j2jPzfgpwx\/AVXZWRirKVYHBBGCDSVYW9nChHYSxgYCyjcAPQZ5X8MUaoCvRVn\/RZ\/8Ap2f8WjP82H\/j2Se1RzW8sGDIuFb7rAgq30I4NCYEVFFFMAooooAKKKKACiiigAooooAjooor5s5wooooAKKKVVZ3CqpZmOAAMkmgBKsLbCNBJckxoRuVMEPIPbjge598ZxinZitPuFZZ+hJUMifTqGPbPTrjPBFZmZ3LMxZmOSSckmmMna7YIY4FEEZGDt+8w\/2m6n3HA9qr0UUgCiiigQUUUUAFFFFADx0FLSDoKWvoofCjoWwUUUVQBRRRQAVLDcSwZEbYVvvKQCrfUHg1FRQ1cCziC4+4Ft5PQsdjewJ5U\/U468ioJI3icpIjI46qwwRTanjnBQQzDdF2IA3J9D6e3Tk9DzS1QEFFSzQ+XhlbfE33XxjPsfQjuP6EGoqadwCiiigAooooAKKKKAI6KKK+bOcKKKVVZ3CqpZmOAAMkmgBY43lkCIMsfw\/E+g96maZYUMVuQcjDy7eW+meQO3qcnPoCZlhD28TAjOJJAfvken+z6evU9gK9MYUUUUhBRRRQAUUUUAFFFFABRRRQA8dBS0g6Clr6KHwo6FsFFFFUAUUUUAFFFFABRRRQBLDO0OQArI33kcZB\/wAD15HPNLLEoUSxEmInHPVD6H+h7\/mBDT4pWiYkAEEYZT0YehpNdUAyipp4lQJJGSYpASueqnup9x\/Ig8ZxUNNO4BRRRQAUUUUAR0UUV82c4Vaf\/RIvLHFw2RJ6ov8Ad9iec\/gP7wptuqxxtcyKGVTtRSPvNjr7gcE9ew71AzM7lmYszHJJOSTTGJRRRSEFFFFABRRRQAUUUUAFFFFABRRRQA8dBS0g6Clr6KHwo6FsFFFFUAUUUUAFFFFABRRRQAUUUUATW8qo2yUFoHI8xR1x6j3Hb\/AmmSxNEwBIIIyrDow9RTKsw\/6RF9nPMg5iJ\/ElPx7e\/wBSaT01ArUUUUwCiiigCOnRxvNKkUYy7sFUepNNq1D+4tZLj+J8xR\/l8x\/Igf8AAs9q+bMBl3IjyhIjmKJdiH1A6n8SScds4qCiigAooooEFFFFABRRRQAUUUUAFFFFABRRRQA8dBS0g6Clr6KHwo6FsFFFFUAUUUUAFFFFABRRRQAUUUUAFFFFAFm7\/e7Lof8ALbO\/\/fH3vzyG9Pmx2qtVm0\/e77U\/8tsbP98fd\/PJX0+bPaq1KOmgBRRRTAjq1f8AyXPkDpAoix7j72PYsWP40WHyXPnnpAplz7j7ufYsVH41Vr5zoYBRRRSEFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAPHQUtIOgpa+ih8KOhbBRRRVAFFFFABRRRQAUUUUAFFFFABRRRQAVZvfnlSf\/AJ7oJD67uQx\/FgT+NVqsr+9090\/ihfzAP9lsAk\/iE\/M\/gnumBWooopgTL+70xz3mlCgj0UZIPtllP4ewqrVq5+S2tIhx8hkZe+5mPP4qE\/n3qrXzjMAooopCCiiigAooooAKKKKACiiigAooooAKKKKAHjoKWkHQUtfRQ+FHQtgoooqgCiiigAooooAKKKKACiiigAooooAKs2HzXQi\/57KYsHplhhc+wbB\/Cq1OjkaKVJEOHRgyn0IpNXVgG0VPeRrFezJGMRhzs7\/L2PuMYopp3VwEv\/8Aj4T\/AK4xf+i1qrVrUv8AkKXf\/XZ\/\/QjVWvm3uYBRRRQIKKKKACiiigAooooAKKKKACiiigAooooAeOgpaQdBS19FD4UdC2CiiiqAKKKKACiiigAooooAKKKKACiiigAooooAs33\/AB8J\/wBcYv8A0WtFddoH\/IEt\/wDgX\/oRorjeK5Hy22C4suh6bNK8r22XdizHe3JP40z\/AIR\/S\/8An1\/8iN\/jWnRX5pWxVdVJJTe76s96FCk4r3V9yMz\/AIR\/S\/8An1\/8iN\/jR\/wj+l\/8+v8A5Eb\/ABrTorP63iP5397K+r0f5F9yMz\/hH9L\/AOfX\/wAiN\/jR\/wAI\/pf\/AD6\/+RG\/xrToo+t4j+d\/ew+r0f5F9yMz\/hH9L\/59f\/Ijf40f8I\/pf\/Pr\/wCRG\/xrToo+t4j+d\/ew+r0f5F9yMz\/hH9L\/AOfX\/wAiN\/jR\/wAI\/pf\/AD6\/+RG\/xrToo+t4j+d\/ew+r0f5F9yMz\/hH9L\/59f\/Ijf40f8I\/pf\/Pr\/wCRG\/xrToo+t4j+d\/ew+r0f5F9yMz\/hH9L\/AOfX\/wAiN\/jR\/wAI\/pf\/AD6\/+RG\/xrToo+t4j+d\/ew+r0f5F9yMz\/hH9L\/59f\/Ijf40f8I\/pf\/Pr\/wCRG\/xrToo+t4j+d\/ew+r0f5F9yMz+wdM\/59v8AyI3+NH9g6b\/z7f8AkRv8a0e9FfXU8RW5F7727s1VCl\/KvuRnf2Dpv\/Pt\/wCRG\/xo\/sHTf+fb\/wAiN\/jWjRV\/WK387+9j9hS\/lX3Izv7B03\/n2\/8AIjf40f2Dpv8Az7f+RG\/xrRoo+sVv5397D2FL+VfcjO\/sHTf+fb\/yI3+NH9g6b\/z7f+RG\/wAa0aKPrFb+d\/ew9hS\/lX3Izv7B03\/n2\/8AIjf40f2Dpv8Az7f+RG\/xrRoo+sVv5397D2FL+VfcjO\/sHTf+fb\/yI3+NH9g6b\/z7f+RG\/wAa0aKPrFb+d\/ew9hS\/lX3Izv7B03\/n2\/8AIjf40f2Dpv8Az7f+RG\/xrRoo+sVv5397D2FL+VfcjO\/sHTf+fb\/yI3+NH9g6b\/z7f+RG\/wAa0aKPrFb+d\/ew9hS\/lX3IbbQRWtusMK7Y1zgZJ7570VIDgUV1xqxsuZ6nh1cLVc24x0voFFFFfAVvjv31+9XPZh8NgooorMsKKKKACiiigAooooAKKKKACiiigAooooAb3oo70V9fT+BehqFFFFWAUUUUAFFFFABRRRQAUUUUAFFFFABRRR3prUTdldgaKKKHqxQVopMdRRRXyEtYJ9tP1\/z+4xWkmgooorMsKKKKACiiigAooooAKKKKACiiigAooooAb3oo70V9fT+BehqFFFFWAUUUUAFFFFABRRRQAUUUUAFFFFABRRR2ql3InqrdwoooqSx1FFFfI09fcfX8+hzy017BRRRWZYUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA3vRR3or6+n8C9DUKKKKsAooooAKKKKACiiigAooooAKKKKACiiiqeisQtZXCiiipLHUUUV8aZBRRRWk\/eXP9\/+fz\/MhaPlCiiisywooooAKKKKACiiigAooooAKKKKAG96KO9FfX0\/gXoahRRRVgFFFFABRRRQAUUUUAFFFFABRRRTRMn0W4UUUUPUaVlYKKKKQx1FFFfGmQUUUU4ycWJq4UUUU5RS1Wwk+j3CiiipKCiiigAooooAKKKKACiiigBveijvRX19P4F6GoUUUVYBRRRQAUUUUAFFFFABRRRTSE3YKKKKGxRXV7hRRRSKCiiigB1FFFfGmQUUUUAFFFFVGTiJq4UUUVTgmrw\/4P8AX9aC5raMKKKKzKCiiigAooooAKKKKAG96KO9FfX0\/gXoahRRRVgFFFFABRRRQAUUUU7EuXRbhRRRQ2CXV7hRRRSKCiiigAooooAdRRRXxpkFFFFABRRRQAUUUUJtO6EFFFFac8ZfEvmv6\/yJs1sFFFFHsm\/hd\/67f5BzW30CiiiocXF2ZSaeqCiiikMb3oo70V9fT+BehqFFFFWAUUYoquV9SOddNQoooo0QWk99P6\/r\/MKKKKTdykktgooopDCiiigAooooAKKKKAHUUUV8aZBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFWqs4qyehLjF62Ciiin7WXl9y\/yFyL+mxOKSjvRX1tOT5F6GvIv6bCjNFFXzMfJHsFFFFSUFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAOooor40yCiiigAooooAKKKKACiiigAooooAKKKKACiiigBveijvRX19P4F6GoUUUVYBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA6iiivjTIKKKKACiiigAooooAKKKKACiiigAooooAKKKKAG96KO9FfX0\/gXoahRRRVgFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFADqKKK+NMgooooAKKKKACiiigAooooAKKKKACiiigAooooAb3ooor6+n8C9DUKKKKsAooooAKKKKACiiigAooooAKKKKACiiigAooooA\/\/Z"
+        }
+    ]
+}

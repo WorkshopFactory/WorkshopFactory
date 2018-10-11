@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/531?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/field_image": [
+            {
+                "href": "http:\/\/default\/file\/245?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 531
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6cbcaff9-21e2-4ec2-80da-cfa3e21442a0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 537
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hotel"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-11T14:29:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/245?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a1925278-7535-4b78-b8ac-654a0de1a399"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "275",
+                "height": "183"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "H\u00f4tel Pigalle",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T14:26:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T14:29:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><a>H\u00f4tel branch\u00e9 offrant chambres d\u00e9cor\u00e9es sur le th\u00e8me de Paris, bar anim\u00e9 et salon en sous-sol avec juke-box.<\/a><\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><a>H\u00f4tel branch\u00e9 offrant chambres d\u00e9cor\u00e9es sur le th\u00e8me de Paris, bar anim\u00e9 et salon en sous-sol avec juke-box.<\/a><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_adressetest": [
+        {
+            "langcode": "",
+            "country_code": "FR",
+            "administrative_area": null,
+            "locality": "Paris",
+            "dependent_locality": null,
+            "postal_code": "75009",
+            "sorting_code": null,
+            "address_line1": "9 Rue Frochot",
+            "address_line2": "",
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "en"
+        }
+    ],
+    "field_cartetest": [
+        {
+            "lat": 48.8810319,
+            "lng": 2.3376852,
+            "lat_sin": 0.7533457231246338,
+            "lat_cos": 0.6576246812961194,
+            "lng_rad": 0.04080030361514215,
+            "data": [],
+            "value": "48.8810319, 2.3376852",
+            "lang": "en"
+        }
+    ],
+    "field_prix": [
+        {
+            "value": 85
+        }
+    ]
+}

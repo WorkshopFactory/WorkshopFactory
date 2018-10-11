@@ -1,0 +1,78 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/59?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 59
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ea979c16-7949-4e92-8828-e4f02803f888"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "test"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T13:56:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T13:57:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "DZ",
+            "administrative_area": null,
+            "locality": "nantes",
+            "dependent_locality": null,
+            "postal_code": "44100",
+            "sorting_code": null,
+            "address_line1": "test",
+            "address_line2": "",
+            "organization": "test",
+            "given_name": "test",
+            "additional_name": null,
+            "family_name": "test"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": 51.479382709213,
+            "lng": -0.010055601596832,
+            "lat_sin": 0.7823841007671732,
+            "lat_cos": 0.6227962097401859,
+            "lng_rad": -0.0001755033561335178,
+            "data": [],
+            "value": "51.479382709213, -0.010055601596832"
+        }
+    ]
+}

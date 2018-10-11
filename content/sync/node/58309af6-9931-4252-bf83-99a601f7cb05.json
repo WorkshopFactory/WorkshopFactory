@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/1?_format=hal_json"
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
@@ -20,17 +20,17 @@
     },
     "nid": [
         {
-            "value": 1
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "e452d7d0-d3e3-4a8c-a4cd-3e2d5c722a6b"
+            "value": "58309af6-9931-4252-bf83-99a601f7cb05"
         }
     ],
     "vid": [
         {
-            "value": 6
+            "value": 5
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-09T12:23:15+00:00",
+            "value": "2018-10-09T12:19:11+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -95,20 +95,20 @@
     ],
     "title": [
         {
-            "value": "Front Page",
+            "value": "ggfdgfdgh",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2018-10-09T09:22:58+00:00",
+            "value": "2018-10-09T12:19:02+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-10-09T12:23:15+00:00",
+            "value": "2018-10-09T12:19:11+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -130,6 +130,12 @@
             "lang": "en"
         }
     ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
     "path": [
         {
             "alias": null,
@@ -140,9 +146,9 @@
     ],
     "body": [
         {
-            "value": "<p>This is the front page<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>accueil Workshop Factory<\/p>\r\n\r\n<p>notre site il est ... vraiment tr\u00e8s tr\u00e8s bien !<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>to do :<\/p>\r\n\r\n<p>- liste des workshops \u00e0 venir<\/p>\r\n\r\n<p>- liste des h\u00f4tels disponibles (?)<\/p>\r\n\r\n<p>- legalises<\/p>\r\n",
+            "value": "<p>dghfghfgj<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>This is the front page<\/p>\n\n<p>\u00a0<\/p>\n\n<p>accueil Workshop Factory<\/p>\n\n<p>notre site il est ... vraiment tr\u00e8s tr\u00e8s bien !<\/p>\n\n<p>\u00a0<\/p>\n\n<p>to do :<\/p>\n\n<p>- liste des workshops \u00e0 venir<\/p>\n\n<p>- liste des h\u00f4tels disponibles (?)<\/p>\n\n<p>- legalises<\/p>",
+            "processed": "<p>dghfghfgj<\/p>",
             "summary": "",
             "lang": "en"
         }
