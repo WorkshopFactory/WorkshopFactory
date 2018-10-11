@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/user\/3?_format=hal_json"
+            "href": "http:\/\/default\/user\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -9,12 +9,12 @@
     },
     "uid": [
         {
-            "value": 3
+            "value": 4
         }
     ],
     "uuid": [
         {
-            "value": "4dc23665-f259-4bc0-8d98-10a9423a109a"
+            "value": "a9deb9eb-fe1b-4c26-9d35-1fdee4fbaf66"
         }
     ],
     "langcode": [
@@ -25,18 +25,18 @@
     ],
     "name": [
         {
-            "value": "zregqrthqh"
+            "value": "gestionnaireman"
         }
     ],
     "created": [
         {
-            "value": "2018-10-10T12:33:15+00:00",
+            "value": "2018-10-11T10:11:15+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-10-10T12:33:15+00:00",
+            "value": "2018-10-11T10:11:15+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -52,16 +52,23 @@
             "langcode": "",
             "country_code": "AF",
             "administrative_area": null,
-            "locality": "qvervqer",
+            "locality": "aebaetha",
             "dependent_locality": null,
-            "postal_code": "",
+            "postal_code": "5454",
             "sorting_code": null,
-            "address_line1": "qervqerq",
+            "address_line1": "abvbaet",
             "address_line2": "",
-            "organization": "",
-            "given_name": "drgeqg",
+            "organization": "rrtafb",
+            "given_name": "qtbqeth",
             "additional_name": null,
-            "family_name": "qrvqeqerv"
+            "family_name": "qvaetbqb"
+        }
+    ],
+    "field_indications_particulieres": [
+        {
+            "value": "<p>un putain de vegan<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>un putain de vegan<\/p>"
         }
     ]
 }

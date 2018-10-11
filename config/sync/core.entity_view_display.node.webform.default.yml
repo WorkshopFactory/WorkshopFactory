@@ -48,9 +48,10 @@ content:
   field_workshop_description:
     weight: 2
     label: above
-    settings: {  }
+    settings:
+      trim_length: 250
     third_party_settings: {  }
-    type: text_default
+    type: text_summary_or_trimmed
     region: content
   field_workshop_end_date:
     weight: 12

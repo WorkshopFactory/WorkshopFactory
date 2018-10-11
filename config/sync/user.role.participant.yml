@@ -6,4 +6,7 @@ id: participant
 label: Participant
 weight: 3
 is_admin: null
-permissions: {  }
+permissions:
+  - 'create field_workshop_register_webform'
+  - 'edit own field_workshop_register_webform'
+  - 'view own field_workshop_register_webform'
