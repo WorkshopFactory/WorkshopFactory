@@ -1,0 +1,29 @@
+uuid: e54790fe-32e2-43f5-ba34-9f5c7bfec0d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workshop_register_webform
+    - node.type.webform
+  module:
+    - webform
+id: node.webform.field_workshop_register_webform
+field_name: field_workshop_register_webform
+entity_type: node
+bundle: webform
+label: 'Registration form'
+description: 'You can customize the registration that the attendees will see.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform

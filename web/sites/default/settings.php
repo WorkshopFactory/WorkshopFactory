@@ -534,7 +534,7 @@ if ($settings['hash_salt']) {
  * See https://www.drupal.org/documentation/modules/file for more information
  * about securing private files.
  */
-# $settings['file_private_path'] = '';
+$settings['file_private_path'] = '../private/files';
 
 /**
  * Session write interval:
@@ -779,3 +779,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $config['content_directory'] = '../content/sync';
+$config['system.mail']['interface']['default'] = 'devel_mail_log';
