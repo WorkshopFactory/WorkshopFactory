@@ -1,0 +1,215 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node-9-hotel?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/webform"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "href": "http:\/\/default\/user\/4?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "href": "http:\/\/default\/user\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "949ea3e2-6411-441f-a464-dafba5db7bab"
+        }
+    ],
+    "vid": [
+        {
+            "value": 11
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "webform"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-11T12:15:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a9deb9eb-fe1b-4c26-9d35-1fdee4fbaf66"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a9deb9eb-fe1b-4c26-9d35-1fdee4fbaf66"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a9deb9eb-fe1b-4c26-9d35-1fdee4fbaf66"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Conventio Imputo In Pagus",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-09T14:34:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T12:15:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_workshop_budget": [
+        {
+            "value": 918
+        }
+    ],
+    "field_workshop_description": [
+        {
+            "value": "Acsi aliquip antehabeo humo immitto secundum zelus. Brevitas camur dolus imputo ullamcorper ut vel virtus. Commodo iaceo nutus quis. Incassum jus tego torqueo tum zelus. Damnum eros jugis nostrud paratus. Importunus nimis nostrud rusticus turpis usitas venio. Eum nunc quibus tamen te vulputate. Decet melior odio quidem tincidunt vereor. Commoveo suscipere vel. Erat nobis ratis vereor.\n\nGenitus macto minim persto pneum usitas. Adipiscing antehabeo dignissim esse ex ludus metuo meus pala praesent. Augue bene genitus hos letalis nostrud paratus scisco sit sudo. Aliquam brevitas sit. Exerci fere lobortis paulatim populus. Modo venio virtus. Brevitas hendrerit refoveo turpis voco. Iusto magna pertineo sino. Fere genitus nulla pertineo quia te. Aliquip immitto jumentum meus neo olim.\n\nEligo ideo jus obruo vulputate. Luctus similis vereor. Camur commoveo elit modo. Abico letalis lucidus. Acsi cui minim praemitto praesent qui quidne sed venio. Commoveo exerci facilisis iaceo in interdico mos secundum singularis validus.\n\nIriure jugis loquor nostrud probo quadrum sit. Aliquip minim nunc tum ulciscor uxor. Antehabeo magna quae. Abluo brevitas huic iusto jus laoreet quadrum singularis suscipit. Abbas ad brevitas commodo consectetuer pagus pertineo qui. Esse ex mos nimis populus quidem suscipere voco. Exputo haero ibidem vulpes. Caecus consectetuer dolor saepius vicis.\n\nAcsi genitus mauris neo pagus te tum usitas vulputate. Ea incassum pala vulputate. Esca nimis torqueo. Decet dolus illum ut. Ad nutus ullamcorper. Abdo melior nisl quia sagaciter. Aptent defui enim exerci. Acsi causa facilisi jugis oppeto quidne rusticus suscipit te typicus. Commoveo consectetuer esca facilisis genitus ibidem ideo praesent.\n\nGemino macto nibh quis. Brevitas caecus erat inhibeo nisl obruo os quis. Consectetuer illum letalis pagus ratis scisco tum verto.\n\nRusticus suscipere usitas. Appellatio bene immitto loquor magna pneum quis suscipere turpis utinam. Enim exputo fere nutus praemitto te. Abdo blandit brevitas mos roto. Esse hos inhibeo iriure validus.\n\nCommodo nimis pecus proprius scisco singularis vero. Cui eu gemino jumentum typicus velit. Elit huic luctus melior velit. Amet comis virtus. Blandit conventio dignissim distineo elit gilvus iaceo ibidem. In probo venio. Euismod huic minim pneum wisi. Blandit decet obruo refoveo. Blandit comis esca vulpes.\n\nEros in laoreet metuo pneum. Modo praemitto saluto turpis valetudo. Immitto ludus molior pala sit ut. Dignissim ille neque pneum ratis vel vulputate ymo.\n\nAliquip camur cogo distineo iusto pala suscipere vel. Interdico magna neque probo quidne. Abigo ex hos ibidem ideo nisl nutus patria virtus. Damnum gravis jus. Adipiscing esca et hos interdico paulatim si uxor valetudo.\n\nAccumsan consequat eum exerci gravis laoreet similis validus vel. Antehabeo decet gemino gilvus huic iriure oppeto pagus tum uxor. Euismod singularis torqueo. Abico ibidem letalis quadrum saepius tation. Augue capto esca genitus letalis pala refoveo. Camur capto erat haero pala scisco sino.\n\nAmet appellatio consequat humo inhibeo uxor validus vereor. Ad capto euismod genitus iriure quidem saepius uxor volutpat vulputate. Amet eros sino ut. Dolus feugiat nunc plaga. Aptent comis diam inhibeo singularis te. Brevitas humo ille mauris meus pagus. Inhibeo scisco venio. Gravis nostrud qui turpis zelus.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Acsi aliquip antehabeo humo immitto secundum zelus. Brevitas camur dolus imputo ullamcorper ut vel virtus. Commodo iaceo nutus quis. Incassum jus tego torqueo tum zelus. Damnum eros jugis nostrud paratus. Importunus nimis nostrud rusticus turpis usitas venio. Eum nunc quibus tamen te vulputate. Decet melior odio quidem tincidunt vereor. Commoveo suscipere vel. Erat nobis ratis vereor.<\/p>\n<p>Genitus macto minim persto pneum usitas. Adipiscing antehabeo dignissim esse ex ludus metuo meus pala praesent. Augue bene genitus hos letalis nostrud paratus scisco sit sudo. Aliquam brevitas sit. Exerci fere lobortis paulatim populus. Modo venio virtus. Brevitas hendrerit refoveo turpis voco. Iusto magna pertineo sino. Fere genitus nulla pertineo quia te. Aliquip immitto jumentum meus neo olim.<\/p>\n<p>Eligo ideo jus obruo vulputate. Luctus similis vereor. Camur commoveo elit modo. Abico letalis lucidus. Acsi cui minim praemitto praesent qui quidne sed venio. Commoveo exerci facilisis iaceo in interdico mos secundum singularis validus.<\/p>\n<p>Iriure jugis loquor nostrud probo quadrum sit. Aliquip minim nunc tum ulciscor uxor. Antehabeo magna quae. Abluo brevitas huic iusto jus laoreet quadrum singularis suscipit. Abbas ad brevitas commodo consectetuer pagus pertineo qui. Esse ex mos nimis populus quidem suscipere voco. Exputo haero ibidem vulpes. Caecus consectetuer dolor saepius vicis.<\/p>\n<p>Acsi genitus mauris neo pagus te tum usitas vulputate. Ea incassum pala vulputate. Esca nimis torqueo. Decet dolus illum ut. Ad nutus ullamcorper. Abdo melior nisl quia sagaciter. Aptent defui enim exerci. Acsi causa facilisi jugis oppeto quidne rusticus suscipit te typicus. Commoveo consectetuer esca facilisis genitus ibidem ideo praesent.<\/p>\n<p>Gemino macto nibh quis. Brevitas caecus erat inhibeo nisl obruo os quis. Consectetuer illum letalis pagus ratis scisco tum verto.<\/p>\n<p>Rusticus suscipere usitas. Appellatio bene immitto loquor magna pneum quis suscipere turpis utinam. Enim exputo fere nutus praemitto te. Abdo blandit brevitas mos roto. Esse hos inhibeo iriure validus.<\/p>\n<p>Commodo nimis pecus proprius scisco singularis vero. Cui eu gemino jumentum typicus velit. Elit huic luctus melior velit. Amet comis virtus. Blandit conventio dignissim distineo elit gilvus iaceo ibidem. In probo venio. Euismod huic minim pneum wisi. Blandit decet obruo refoveo. Blandit comis esca vulpes.<\/p>\n<p>Eros in laoreet metuo pneum. Modo praemitto saluto turpis valetudo. Immitto ludus molior pala sit ut. Dignissim ille neque pneum ratis vel vulputate ymo.<\/p>\n<p>Aliquip camur cogo distineo iusto pala suscipere vel. Interdico magna neque probo quidne. Abigo ex hos ibidem ideo nisl nutus patria virtus. Damnum gravis jus. Adipiscing esca et hos interdico paulatim si uxor valetudo.<\/p>\n<p>Accumsan consequat eum exerci gravis laoreet similis validus vel. Antehabeo decet gemino gilvus huic iriure oppeto pagus tum uxor. Euismod singularis torqueo. Abico ibidem letalis quadrum saepius tation. Augue capto esca genitus letalis pala refoveo. Camur capto erat haero pala scisco sino.<\/p>\n<p>Amet appellatio consequat humo inhibeo uxor validus vereor. Ad capto euismod genitus iriure quidem saepius uxor volutpat vulputate. Amet eros sino ut. Dolus feugiat nunc plaga. Aptent comis diam inhibeo singularis te. Brevitas humo ille mauris meus pagus. Inhibeo scisco venio. Gravis nostrud qui turpis zelus.<\/p>\n",
+            "summary": "Acsi aliquip antehabeo humo immitto secundum zelus. Brevitas camur dolus imputo ullamcorper ut vel virtus. Commodo iaceo nutus quis. Incassum jus tego torqueo tum zelus. Damnum eros jugis nostrud paratus. Importunus nimis nostrud rusticus turpis usitas venio. Eum nunc quibus tamen te vulputate. Decet melior odio quidem tincidunt vereor. Commoveo suscipere vel. Erat nobis ratis vereor.\n\nGenitus macto minim persto pneum usitas. Adipiscing antehabeo dignissim esse ex ludus metuo meus pala praesent. Augue bene genitus hos letalis nostrud paratus scisco sit sudo. Aliquam brevitas sit. Exerci fere lobortis paulatim populus. Modo venio virtus. Brevitas hendrerit refoveo turpis voco. Iusto magna pertineo sino. Fere genitus nulla pertineo quia te. Aliquip immitto jumentum meus neo olim.\n\nEligo ideo jus obruo vulputate. Luctus similis vereor. Camur commoveo elit modo. Abico letalis lucidus. Acsi cui minim praemitto praesent qui quidne sed venio. Commoveo exerci facilisis iaceo in interdico mos secundum singularis validus.\n\nIriure jugis loquor nostrud probo quadrum sit. Aliquip minim nunc tum ulciscor uxor. Antehabeo magna quae. Abluo brevitas huic iusto jus laoreet quadrum singularis suscipit. Abbas ad brevitas commodo consectetuer pagus pertineo qui. Esse ex mos nimis populus quidem suscipere voco. Exputo haero ibidem vulpes. Caecus consectetuer dolor saepius vicis.\n\nAcsi genitus mauris neo pagus te tum usitas vulputate. Ea incassum pala vulputate. Esca nimis torqueo. Decet dolus illum ut. Ad nutus ullamcorper. Abdo melior nisl quia sagaciter. Aptent defui enim exerci. Acsi causa facilisi jugis oppeto quidne rusticus suscipit te typicus. Commoveo consectetuer esca facilisis genitus ibidem ideo praesent.\n\nGemino macto nibh quis. Brevitas caecus erat inhibeo nisl obruo os quis. Consectetuer illum letalis pagus ratis scisco tum verto.\n\nRusticus suscipere usitas. Appellatio bene immitto loquor magna pneum quis suscipere turpis utinam. Enim exputo fere nutus praemitto te. Abdo blandit brevitas mos roto. Esse hos inhibeo iriure validus.\n\nCommodo nimis pecus proprius scisco singularis vero. Cui eu gemino jumentum typicus velit. Elit huic luctus melior velit. Amet comis virtus. Blandit conventio dignissim distineo elit gilvus iaceo ibidem. In probo venio. Euismod huic minim pneum wisi. Blandit decet obruo refoveo. Blandit comis esca vulpes.\n\nEros in laoreet metuo pneum. Modo praemitto saluto turpis valetudo. Immitto ludus molior pala sit ut. Dignissim ille neque pneum ratis vel vulputate ymo.\n\nAliquip camur cogo distineo iusto pala suscipere vel. Interdico magna neque probo quidne. Abigo ex hos ibidem ideo nisl nutus patria virtus. Damnum gravis jus. Adipiscing esca et hos interdico paulatim si uxor valetudo.\n\nAccumsan consequat eum exerci gravis laoreet similis validus vel. Antehabeo decet gemino gilvus huic iriure oppeto pagus tum uxor. Euismod singularis torqueo. Abico ibidem letalis quadrum saepius tation. Augue capto esca genitus letalis pala refoveo. Camur capto erat haero pala scisco sino.\n\nAmet appellatio consequat humo inhibeo uxor validus vereor. Ad capto euismod genitus iriure quidem saepius uxor volutpat vulputate. Amet eros sino ut. Dolus feugiat nunc plaga. Aptent comis diam inhibeo singularis te. Brevitas humo ille mauris meus pagus. Inhibeo scisco venio. Gravis nostrud qui turpis zelus.\n\n"
+        }
+    ],
+    "field_workshop_end_date": [
+        {
+            "value": "2018-01-13"
+        }
+    ],
+    "field_workshop_est_attendance": [
+        {
+            "value": 638
+        }
+    ],
+    "field_workshop_institution": [
+        {
+            "value": "Abigo at conventio dolus importunus quidem uxor voco. Decet dignissim et genitus in lenis nisl refoveo scisco tego. Abbas comis consectetuer conventio eligo metuo nobis roto si virtus. Hos pneum sudo. Metuo plaga praesent. Abbas ad consequat valetudo wisi",
+            "format": "plain_text",
+            "processed": "<p>Abigo at conventio dolus importunus quidem uxor voco. Decet dignissim et genitus in lenis nisl refoveo scisco tego. Abbas comis consectetuer conventio eligo metuo nobis roto si virtus. Hos pneum sudo. Metuo plaga praesent. Abbas ad consequat valetudo wisi<\/p>\n"
+        }
+    ],
+    "field_workshop_notification_date": [
+        {
+            "value": "2018-03-04"
+        }
+    ],
+    "field_workshop_startdate": [
+        {
+            "value": "2018-02-13"
+        }
+    ],
+    "field_workshop_submission_date": [
+        {
+            "value": "2018-09-02"
+        }
+    ]
+}
