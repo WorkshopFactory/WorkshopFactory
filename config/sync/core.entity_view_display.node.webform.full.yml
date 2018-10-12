@@ -263,3 +263,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_hotel_s_: true
+  field_workshop_register_webform: true
