@@ -7,5 +7,6 @@ label: Participant
 weight: 3
 is_admin: null
 permissions:
-  - 'edit own webform submission'
-  - 'view own webform submission'
+  - 'create field_workshop_register_webform'
+  - 'edit own field_workshop_register_webform'
+  - 'view own field_workshop_register_webform'

@@ -1,0 +1,14 @@
+uuid: c3f9f7e7-719d-4259-98af-77ef7412cb3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - action
+id: send_email_to_guests_selected
+label: 'Send email to guests selected'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: '[webform_submission:user:mail]'
+  subject: ''
+  message: "Hello !\r\n\r\nHotel chosen : [webform_submission:values:available_accomodations]"
