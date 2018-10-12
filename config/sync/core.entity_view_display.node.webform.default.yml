@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.webform.field_adressetest
     - field.field.node.webform.field_cartetest
     - field.field.node.webform.field_hotel_s_
+    - field.field.node.webform.field_workshop
     - field.field.node.webform.field_workshop_budget
     - field.field.node.webform.field_workshop_description
     - field.field.node.webform.field_workshop_end_date
@@ -25,6 +26,7 @@ dependencies:
     - options
     - text
     - user
+    - webform
 _core:
   default_config_hash: 3r1i0UMUbeNHhvmiqHDYznoS4G9XR1jq6lQ49r80lDE
 id: node.webform.default
@@ -177,6 +179,14 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
+  field_workshop:
+    weight: 120
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
   field_workshop_budget:
     weight: 108
     label: above
@@ -231,9 +241,10 @@ content:
     weight: 109
     label: above
     settings:
-      link: true
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: entity_reference_entity_view
     region: content
   field_workshop_startdate:
     weight: 115

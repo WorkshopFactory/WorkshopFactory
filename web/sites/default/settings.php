@@ -779,3 +779,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $config['content_directory'] = '../content/sync';
+$config['system.mail']['interface']['default'] = 'devel_mail_log';

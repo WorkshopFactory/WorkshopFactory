@@ -1,0 +1,272 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/535?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/webform"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_hotel_s_": [
+            {
+                "href": "http:\/\/default\/node\/534?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "href": "http:\/\/default\/user\/60?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 535
+        }
+    ],
+    "uuid": [
+        {
+            "value": "598ff894-18fb-4fab-935c-b70973368d14"
+        }
+    ],
+    "vid": [
+        {
+            "value": 541
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "webform"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-11T15:20:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_hotel_s_": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/534?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c16efca3-029e-4833-8081-56a1117efadd"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/60?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6172f367-79d6-41f4-897b-f648d85483b9"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Debate about synthetizing body hair from fruits",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T15:20:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T15:21:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_adressetest": [
+        {
+            "langcode": "",
+            "country_code": "US",
+            "administrative_area": null,
+            "locality": "New York City",
+            "dependent_locality": null,
+            "postal_code": "10012",
+            "sorting_code": null,
+            "address_line1": "West 4th Street",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "en"
+        }
+    ],
+    "field_cartetest": [
+        {
+            "lat": 40.72925325,
+            "lng": -73.996253936096,
+            "lat_sin": 0.6524853960787209,
+            "lat_cos": 0.7578012984311882,
+            "lng_rad": -1.291478265326689,
+            "data": [],
+            "value": "40.72925325, -73.996253936096",
+            "lang": "en"
+        }
+    ],
+    "field_workshop_budget": [
+        {
+            "value": 25600
+        }
+    ],
+    "field_workshop_description": [
+        {
+            "value": "<p><strong>Body hair<\/strong>, or&nbsp;<strong>androgenic hair<\/strong>, is the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Terminal_hair\">terminal hair<\/a>&nbsp;that develops on the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_body\">human body<\/a>&nbsp;during and after&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Puberty\">puberty<\/a>. It is differentiated from the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Head_hair\">head hair<\/a>&nbsp;and less visible&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Vellus_hair\">vellus hair<\/a>, which are much finer and lighter in color. The growth of androgenic hair is related to the level of&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Androgen\">androgens<\/a>&nbsp;(often referred to as male&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hormone\">hormones<\/a>) and the density of androgen receptors in the dermal papillae. Both must reach a threshold for the proliferation of hair follicle cells.<\/p>\r\n\r\n<p>From childhood onward, regardless of&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Sex\">sex<\/a>, vellus hair covers almost the entire area of the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_body\">human body<\/a>. Exceptions exclude the lips; the backs of the ears; the palms of hands; the soles of the feet; certain external&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Sex_organ\">genital<\/a>&nbsp;areas; the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Navel\">navel<\/a>; and&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Scar\">scar<\/a>&nbsp;tissue. The density of hair \u2013&nbsp;i.e. the number of&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hair_follicle\">hair follicles<\/a>&nbsp;per unit area of skin&nbsp;\u2013 varies from person to person. In many cases, areas on the human body that contain vellus hair will begin to produce darker and thicker body hair, such as the first growth of&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Beard\">beard hair<\/a>&nbsp;on a male and female&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Adolescence\">adolescent<\/a>'s previously smooth chin; although it may appear thinner on the female.<\/p>\r\n\r\n<p>Androgenic hair follows the same&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_hair_growth\">growth pattern<\/a>&nbsp;as the hair that grows on the scalp, but with a shorter&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hair_follicle#Anagen_phase\">anagen phase<\/a>&nbsp;and longer&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hair_follicle#Telogen_phase\">telogen phase<\/a>. While the anagen phase for the hair on one's head lasts for years, the androgenic hair growth phase for body hair lasts a few months. The telogen phase for body hair lasts close to a year.[<em><a href=\"https:\/\/en.wikipedia.org\/wiki\/Wikipedia:Citation_needed\">citation needed<\/a><\/em>]&nbsp;This shortened growing period and extended dormant period explains why the hair on the head tends to be much longer than other hair found on the body. Differences in length seen in comparing the hair on the back of the hand and pubic hair, for example, can be explained by varied growth cycles in those two regions. The same goes for differences in body hair length seen in different people, especially when comparing&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Men\">men<\/a>&nbsp;and&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Women\">women<\/a>.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Body hair<\/strong>, or\u00a0<strong>androgenic hair<\/strong>, is the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Terminal_hair\">terminal hair<\/a>\u00a0that develops on the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_body\">human body<\/a>\u00a0during and after\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Puberty\">puberty<\/a>. It is differentiated from the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Head_hair\">head hair<\/a>\u00a0and less visible\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Vellus_hair\">vellus hair<\/a>, which are much finer and lighter in color. The growth of androgenic hair is related to the level of\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Androgen\">androgens<\/a>\u00a0(often referred to as male\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hormone\">hormones<\/a>) and the density of androgen receptors in the dermal papillae. Both must reach a threshold for the proliferation of hair follicle cells.<\/p>\n\n<p>From childhood onward, regardless of\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Sex\">sex<\/a>, vellus hair covers almost the entire area of the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_body\">human body<\/a>. Exceptions exclude the lips; the backs of the ears; the palms of hands; the soles of the feet; certain external\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Sex_organ\">genital<\/a>\u00a0areas; the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Navel\">navel<\/a>; and\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Scar\">scar<\/a>\u00a0tissue. The density of hair \u2013\u00a0i.e. the number of\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hair_follicle\">hair follicles<\/a>\u00a0per unit area of skin\u00a0\u2013 varies from person to person. In many cases, areas on the human body that contain vellus hair will begin to produce darker and thicker body hair, such as the first growth of\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Beard\">beard hair<\/a>\u00a0on a male and female\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Adolescence\">adolescent<\/a>'s previously smooth chin; although it may appear thinner on the female.<\/p>\n\n<p>Androgenic hair follows the same\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_hair_growth\">growth pattern<\/a>\u00a0as the hair that grows on the scalp, but with a shorter\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hair_follicle#Anagen_phase\">anagen phase<\/a>\u00a0and longer\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hair_follicle#Telogen_phase\">telogen phase<\/a>. While the anagen phase for the hair on one's head lasts for years, the androgenic hair growth phase for body hair lasts a few months. The telogen phase for body hair lasts close to a year.[<em><a href=\"https:\/\/en.wikipedia.org\/wiki\/Wikipedia:Citation_needed\">citation needed<\/a><\/em>]\u00a0This shortened growing period and extended dormant period explains why the hair on the head tends to be much longer than other hair found on the body. Differences in length seen in comparing the hair on the back of the hand and pubic hair, for example, can be explained by varied growth cycles in those two regions. The same goes for differences in body hair length seen in different people, especially when comparing\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Men\">men<\/a>\u00a0and\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Women\">women<\/a>.<\/p>",
+            "summary": "Body hair, or\u00a0androgenic hair, is the\u00a0terminal hair\u00a0that develops on the\u00a0human body\u00a0during and after\u00a0puberty. It is differentiated from the\u00a0head hair\u00a0and less visible\u00a0vellus hair, which are much finer and lighter in color. The growth of androgenic hair is related to the level of\u00a0androgens\u00a0(often referred to as male\u00a0hormones) and the density of androgen receptors in the dermal papillae. Both must reach a threshold for the proliferation of hair follicle cells."
+        }
+    ],
+    "field_workshop_end_date": [
+        {
+            "value": "2018-11-02"
+        }
+    ],
+    "field_workshop_est_attendance": [
+        {
+            "value": 125
+        }
+    ],
+    "field_workshop_institution": [
+        {
+            "value": "University of New York",
+            "format": "basic_html",
+            "processed": "University of New York"
+        }
+    ],
+    "field_workshop_notification_date": [
+        {
+            "value": "2018-10-12"
+        }
+    ],
+    "field_workshop_startdate": [
+        {
+            "value": "2018-10-22"
+        }
+    ],
+    "field_workshop_submission_date": [
+        {
+            "value": "2018-10-08"
+        }
+    ],
+    "field_workshop_theme": [
+        {
+            "value": "Biochemistry"
+        }
+    ]
+}
