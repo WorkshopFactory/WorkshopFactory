@@ -1,8 +1,9 @@
-uuid: b14df27d-49ef-4e3c-a51b-675cd9e27b09
+uuid: bf82932f-14f1-40ad-bfeb-9e923c1f6ab7
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.webform.field_adressetest
     - field.field.node.webform.field_cartetest
     - field.field.node.webform.field_hotel_s_
@@ -13,7 +14,6 @@ dependencies:
     - field.field.node.webform.field_workshop_institution
     - field.field.node.webform.field_workshop_notification_date
     - field.field.node.webform.field_workshop_referent
-    - field.field.node.webform.field_workshop_register_webform
     - field.field.node.webform.field_workshop_startdate
     - field.field.node.webform.field_workshop_submission_date
     - field.field.node.webform.field_workshop_theme
@@ -23,25 +23,25 @@ dependencies:
     - address
     - datetime
     - geolocation
+    - options
     - text
     - user
-    - webform
 _core:
   default_config_hash: 3r1i0UMUbeNHhvmiqHDYznoS4G9XR1jq6lQ49r80lDE
-id: node.webform.default
+id: node.webform.full
 targetEntityType: node
 bundle: webform
-mode: default
+mode: full
 content:
   field_adressetest:
-    weight: 7
+    weight: 11
     label: above
     settings: {  }
     third_party_settings: {  }
     type: address_default
     region: content
   field_cartetest:
-    weight: 8
+    weight: 12
     label: above
     settings:
       set_marker: '1'
@@ -173,16 +173,8 @@ content:
     third_party_settings: {  }
     type: geolocation_map
     region: content
-  field_hotel_s_:
-    weight: 6
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   field_workshop_budget:
-    weight: 5
+    weight: 3
     label: above
     settings:
       thousand_separator: ''
@@ -191,38 +183,13 @@ content:
     type: number_integer
     region: content
   field_workshop_description:
-    weight: 1
-    label: above
+    weight: 2
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_workshop_end_date:
-    weight: 12
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
-  field_workshop_est_attendance:
-    weight: 4
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
-    region: content
-  field_workshop_institution:
-    weight: 3
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_workshop_notification_date:
     weight: 10
     label: above
     settings:
@@ -231,24 +198,24 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_workshop_referent:
-    weight: 2
+  field_workshop_est_attendance:
+    weight: 6
     label: above
     settings:
-      link: true
+      thousand_separator: ''
+      prefix_suffix: true
     third_party_settings: {  }
-    type: entity_reference_label
+    type: number_integer
     region: content
-  field_workshop_register_webform:
-    weight: 13
+  field_workshop_institution:
+    weight: 5
     label: above
-    settings:
-      source_entity: true
+    settings: {  }
     third_party_settings: {  }
-    type: webform_entity_reference_entity_view
+    type: text_default
     region: content
-  field_workshop_startdate:
-    weight: 11
+  field_workshop_notification_date:
+    weight: 8
     label: above
     settings:
       format_type: medium
@@ -256,7 +223,15 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_workshop_submission_date:
+  field_workshop_referent:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_workshop_startdate:
     weight: 9
     label: above
     settings:
@@ -265,18 +240,27 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_workshop_theme:
-    weight: 0
+  field_workshop_submission_date:
+    weight: 7
     label: above
     settings:
-      link: true
+      format_type: medium
+      timezone_override: ''
     third_party_settings: {  }
-    type: entity_reference_label
+    type: datetime_default
+    region: content
+  field_workshop_theme:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   links:
-    weight: 14
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   field_hotel_s_: true
+  field_workshop_register_webform: true

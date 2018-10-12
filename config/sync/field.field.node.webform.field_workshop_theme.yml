@@ -10,7 +10,7 @@ id: node.webform.field_workshop_theme
 field_name: field_workshop_theme
 entity_type: node
 bundle: webform
-label: workshop_theme
+label: 'Theme :'
 description: ''
 required: true
 translatable: false

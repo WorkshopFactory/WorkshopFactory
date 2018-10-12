@@ -1,0 +1,22 @@
+uuid: 461e187b-e766-41d7-964e-ea4afb78a052
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.last_workshops
+    - field.field.block_content.last_workshops.body
+  module:
+    - text
+id: block_content.last_workshops.default
+targetEntityType: block_content
+bundle: last_workshops
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

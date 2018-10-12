@@ -13,7 +13,7 @@ _core:
 id: nexus_tools
 theme: nexus
 region: sidebar_first
-weight: 30
+weight: -5
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
@@ -23,4 +23,9 @@ settings:
   label_display: visible
   level: 1
   depth: 0
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /
+    negate: false
+    context_mapping: {  }

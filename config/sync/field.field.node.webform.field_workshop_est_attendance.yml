@@ -9,7 +9,7 @@ id: node.webform.field_workshop_est_attendance
 field_name: field_workshop_est_attendance
 entity_type: node
 bundle: webform
-label: workshop_est_attendance
+label: 'Max people :'
 description: ''
 required: true
 translatable: false
@@ -19,5 +19,5 @@ settings:
   min: 0
   max: null
   prefix: ''
-  suffix: ' '' attendee| attendees'''
+  suffix: ''
 field_type: integer

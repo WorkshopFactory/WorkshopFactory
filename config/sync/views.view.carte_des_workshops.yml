@@ -451,7 +451,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Carte des workshops'
+      title: 'Worldwide Workshops'
       header: {  }
       footer: {  }
       empty: {  }

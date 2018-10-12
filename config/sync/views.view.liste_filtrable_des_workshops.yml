@@ -59,10 +59,13 @@ display:
       pager:
         type: mini
         options:
-          items_per_page: 20
+          items_per_page: 0
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -71,13 +74,14 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
         type: table
         options:
-          grouping: {  }
+          grouping:
+            1:
+              field: title
+              rendered: false
+              rendered_strip: false
           row_class: ''
           default_row_class: true
           override: true
@@ -125,7 +129,7 @@ display:
               sortable: true
               default_sort_order: asc
               align: ''
-              separator: ''
+              separator: '   '
               empty_column: false
               responsive: ''
             field_workshop_theme:
@@ -135,7 +139,7 @@ display:
               separator: ''
               empty_column: false
               responsive: ''
-          default: field_workshop_end_date
+          default: '-1'
           empty_table: false
       row:
         type: fields
@@ -158,8 +162,8 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Titre
-          exclude: false
+          label: ''
+          exclude: true
           alter:
             alter_text: false
             text: ''
@@ -223,11 +227,11 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Pays
+          label: Country
           exclude: false
           alter:
             alter_text: false
-            text: ''
+            text: Country
             make_link: false
             path: ''
             absolute: false
@@ -314,10 +318,10 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: summary
-          type: text_summary_or_trimmed
+          click_sort_column: value
+          type: text_trimmed
           settings:
-            trim_length: 200
+            trim_length: 80
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -336,7 +340,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Date de fin'
+          label: 'End date'
           exclude: false
           alter:
             alter_text: false
@@ -400,7 +404,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Date de début'
+          label: 'Start date'
           exclude: false
           alter:
             alter_text: false
@@ -464,7 +468,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Thème
+          label: Topic
           exclude: false
           alter:
             alter_text: false
@@ -541,7 +545,7 @@ display:
           entity_field: type
           plugin_id: bundle
       sorts: {  }
-      title: 'Liste filtrable des workshops'
+      title: 'All Workshops'
       header: {  }
       footer: {  }
       empty: {  }
@@ -568,11 +572,16 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: liste-filtrable-des-workshops
+      path: allworkshops
       menu:
         type: normal
-        title: 'Liste filtrable des workshops'
+        title: 'All Workshops'
         menu_name: main
+        description: ''
+        parent: ''
+        weight: 0
+        expanded: false
+        enabled: true
     cache_metadata:
       max-age: -1
       contexts:
