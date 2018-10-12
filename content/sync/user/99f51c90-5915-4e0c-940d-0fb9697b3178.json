@@ -1,0 +1,122 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/61?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "http:\/\/default\/file\/246?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 61
+        }
+    ],
+    "uuid": [
+        {
+            "value": "99f51c90-5915-4e0c-940d-0fb9697b3178"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "pmorris"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T14:47:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T14:57:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "AU",
+            "administrative_area": "TAS",
+            "locality": "Kangooroo",
+            "dependent_locality": null,
+            "postal_code": "7005",
+            "sorting_code": null,
+            "address_line1": "University of Tasmania",
+            "address_line2": "",
+            "organization": "",
+            "given_name": "Philipp",
+            "additional_name": null,
+            "family_name": "Morris"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": -42.9070751,
+            "lng": 147.32151676087,
+            "lat_sin": -0.6808113209422005,
+            "lat_cos": 0.7324588352098267,
+            "lng_rad": 2.571245526509193,
+            "data": [],
+            "value": "-42.9070751, 147.32151676087"
+        }
+    ],
+    "field_indications_particulieres": [
+        {
+            "value": "<p>I love smoking.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>I love smoking.<\/p>"
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "http:\/\/morris.com",
+            "title": "",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/246?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a953bf9e-d100-42d4-86ed-f133e86385bf"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "200",
+                "height": "200"
+            }
+        ]
+    }
+}

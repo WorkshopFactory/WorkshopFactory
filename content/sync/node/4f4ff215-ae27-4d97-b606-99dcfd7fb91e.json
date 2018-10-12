@@ -1,0 +1,260 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/533?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/webform"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_hotel_s_": [
+            {
+                "href": "http:\/\/default\/node\/532?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "href": "http:\/\/default\/user\/61?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 533
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4f4ff215-ae27-4d97-b606-99dcfd7fb91e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 539
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "webform"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-11T15:08:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_hotel_s_": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/532?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8f2935dc-d857-49f0-a280-d7553c85fc0e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/61?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "99f51c90-5915-4e0c-940d-0fb9697b3178"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Brainstorming about climate change and how machine learning can help",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T15:08:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T15:09:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_adressetest": [
+        {
+            "langcode": "",
+            "country_code": "CG",
+            "administrative_area": null,
+            "locality": "Brazzaville",
+            "dependent_locality": null,
+            "postal_code": null,
+            "sorting_code": null,
+            "address_line1": "Universit\u00e9 Marien-Ngouabi",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "en"
+        }
+    ],
+    "field_cartetest": [
+        {
+            "lat": -4.27708475,
+            "lng": 15.248298762822,
+            "lat_sin": -0.07457990007501446,
+            "lat_cos": 0.9972150412547942,
+            "lng_rad": 0.2661330187390218,
+            "data": [],
+            "value": "-4.27708475, 15.248298762822",
+            "lang": "en"
+        }
+    ],
+    "field_workshop_budget": [
+        {
+            "value": 450
+        }
+    ],
+    "field_workshop_description": [
+        {
+            "value": "<p><strong>Machine learning<\/strong>&nbsp;is a field of&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Artificial_intelligence\">artificial intelligence<\/a>&nbsp;that uses statistical techniques to give&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Computer_systems\">computer systems<\/a>&nbsp;the ability to \"learn\" (e.g., progressively improve performance on a specific task) from&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data\">data<\/a>, without being explicitly programmed.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-2\">[2]<\/a><\/p>\r\n\r\n<p>The name&nbsp;<em>machine learning<\/em>&nbsp;was coined in 1959 by&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Arthur_Samuel\">Arthur Samuel<\/a>.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-Samuel-1\">[1]<\/a>&nbsp;Machine learning explores the study and construction of&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Algorithm\">algorithms<\/a>&nbsp;that can learn from and make predictions on&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data\">data<\/a><a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-3\">[3]<\/a>&nbsp;\u2013 such algorithms overcome following strictly static&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Computer_program\">program instructions<\/a>&nbsp;by making data-driven predictions or decisions,<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-bishop2006-4\">[4]<\/a>:2&nbsp;through building a&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Mathematical_model\">model<\/a>&nbsp;from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms with good performance is difficult or infeasible; example applications include&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Email_filtering\">email filtering<\/a>, detection of network intruders, and&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Computer_vision\">computer vision<\/a>.<\/p>\r\n\r\n<p>Machine learning is closely related to (and often overlaps with)&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Computational_statistics\">computational statistics<\/a>, which also focuses on prediction-making through the use of computers. It has strong ties to&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Mathematical_optimization\">mathematical optimization<\/a>, which delivers methods, theory and application domains to the field. Machine learning is sometimes conflated with&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data_mining\">data mining<\/a>,<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-5\">[5]<\/a>&nbsp;where the latter subfield focuses more on&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Exploratory_data_analysis\">exploratory data analysis<\/a>&nbsp;and is known as&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Unsupervised_learning\">unsupervised learning<\/a>.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-6\">[6]<\/a><a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-7\">[7]<\/a><\/p>\r\n\r\n<p>Within the field of&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data_analytics\">data analytics<\/a>, machine learning is a method used to devise complex models and algorithms that lend themselves to prediction; in commercial use, this is known as&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Predictive_analytics\">predictive analytics<\/a>. These analytical models allow researchers,&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data_science\">data scientists<\/a>, engineers, and analysts to \"produce reliable, repeatable decisions and results\" and uncover \"hidden insights\" through learning from historical relationships and trends in the data.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-8\">[8]<\/a><\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Machine learning<\/strong>\u00a0is a field of\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Artificial_intelligence\">artificial intelligence<\/a>\u00a0that uses statistical techniques to give\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Computer_systems\">computer systems<\/a>\u00a0the ability to \"learn\" (e.g., progressively improve performance on a specific task) from\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data\">data<\/a>, without being explicitly programmed.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-2\">[2]<\/a><\/p>\n\n<p>The name\u00a0<em>machine learning<\/em>\u00a0was coined in 1959 by\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Arthur_Samuel\">Arthur Samuel<\/a>.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-Samuel-1\">[1]<\/a>\u00a0Machine learning explores the study and construction of\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Algorithm\">algorithms<\/a>\u00a0that can learn from and make predictions on\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data\">data<\/a><a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-3\">[3]<\/a>\u00a0\u2013 such algorithms overcome following strictly static\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Computer_program\">program instructions<\/a>\u00a0by making data-driven predictions or decisions,<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-bishop2006-4\">[4]<\/a>:2\u00a0through building a\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Mathematical_model\">model<\/a>\u00a0from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms with good performance is difficult or infeasible; example applications include\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Email_filtering\">email filtering<\/a>, detection of network intruders, and\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Computer_vision\">computer vision<\/a>.<\/p>\n\n<p>Machine learning is closely related to (and often overlaps with)\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Computational_statistics\">computational statistics<\/a>, which also focuses on prediction-making through the use of computers. It has strong ties to\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Mathematical_optimization\">mathematical optimization<\/a>, which delivers methods, theory and application domains to the field. Machine learning is sometimes conflated with\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data_mining\">data mining<\/a>,<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-5\">[5]<\/a>\u00a0where the latter subfield focuses more on\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Exploratory_data_analysis\">exploratory data analysis<\/a>\u00a0and is known as\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Unsupervised_learning\">unsupervised learning<\/a>.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-6\">[6]<\/a><a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-7\">[7]<\/a><\/p>\n\n<p>Within the field of\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data_analytics\">data analytics<\/a>, machine learning is a method used to devise complex models and algorithms that lend themselves to prediction; in commercial use, this is known as\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Predictive_analytics\">predictive analytics<\/a>. These analytical models allow researchers,\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Data_science\">data scientists<\/a>, engineers, and analysts to \"produce reliable, repeatable decisions and results\" and uncover \"hidden insights\" through learning from historical relationships and trends in the data.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Machine_learning#cite_note-8\">[8]<\/a><\/p>",
+            "summary": "Machine learning\u00a0is a field of\u00a0artificial intelligence\u00a0that uses statistical techniques to give\u00a0computer systems\u00a0the ability to \"learn\" (e.g., progressively improve performance on a specific task) from\u00a0data, without being explicitly programmed.[2]"
+        }
+    ],
+    "field_workshop_end_date": [
+        {
+            "value": "2018-10-29"
+        }
+    ],
+    "field_workshop_est_attendance": [
+        {
+            "value": 100
+        }
+    ],
+    "field_workshop_notification_date": [
+        {
+            "value": "2018-10-11"
+        }
+    ],
+    "field_workshop_startdate": [
+        {
+            "value": "2018-10-15"
+        }
+    ],
+    "field_workshop_submission_date": [
+        {
+            "value": "2018-10-09"
+        }
+    ]
+}

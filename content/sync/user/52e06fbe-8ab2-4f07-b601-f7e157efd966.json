@@ -63,5 +63,16 @@
             "additional_name": null,
             "family_name": "qetqetbqe"
         }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": 51.47879,
+            "lng": -0.010677,
+            "lat_sin": 0.7823776580683737,
+            "lat_cos": 0.6228043032570078,
+            "lng_rad": -0.00018634880423543457,
+            "data": [],
+            "value": "51.47879, -0.010677"
+        }
     ]
 }
