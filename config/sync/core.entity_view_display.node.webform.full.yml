@@ -1,8 +1,9 @@
-uuid: b14df27d-49ef-4e3c-a51b-675cd9e27b09
+uuid: bf82932f-14f1-40ad-bfeb-9e923c1f6ab7
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.webform.field_adressetest
     - field.field.node.webform.field_cartetest
     - field.field.node.webform.field_hotel_s_
@@ -27,10 +28,10 @@ dependencies:
     - user
 _core:
   default_config_hash: 3r1i0UMUbeNHhvmiqHDYznoS4G9XR1jq6lQ49r80lDE
-id: node.webform.default
+id: node.webform.full
 targetEntityType: node
 bundle: webform
-mode: default
+mode: full
 content:
   field_adressetest:
     weight: 11
@@ -183,7 +184,7 @@ content:
     region: content
   field_workshop_description:
     weight: 2
-    label: inline
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
@@ -250,7 +251,7 @@ content:
     region: content
   field_workshop_theme:
     weight: 1
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: list_default

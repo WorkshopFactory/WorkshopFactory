@@ -11,7 +11,7 @@ id: node.webform.field_workshop_submission_date
 field_name: field_workshop_submission_date
 entity_type: node
 bundle: webform
-label: workshop_submission_date
+label: 'Submission date :'
 description: ''
 required: true
 translatable: false

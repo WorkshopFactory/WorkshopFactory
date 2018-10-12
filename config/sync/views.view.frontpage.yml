@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - core.entity_view_mode.node.rss
-    - core.entity_view_mode.node.teaser
   module:
     - node
     - user
@@ -234,7 +234,8 @@ display:
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
+          relationship: none
+          view_mode: full
       sorts:
         sticky:
           admin_label: ''
@@ -268,7 +269,6 @@ display:
       style:
         type: default
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           uses_fields: false
@@ -330,6 +330,7 @@ display:
     display_options:
       path: node
       display_extenders: {  }
+      display_description: ''
     display_plugin: page
     display_title: Page
     id: page_1

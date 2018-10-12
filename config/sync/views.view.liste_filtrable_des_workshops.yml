@@ -541,7 +541,7 @@ display:
           entity_field: type
           plugin_id: bundle
       sorts: {  }
-      title: 'Liste filtrable des workshops'
+      title: 'All Workshops'
       header: {  }
       footer: {  }
       empty: {  }
@@ -571,8 +571,13 @@ display:
       path: liste-filtrable-des-workshops
       menu:
         type: normal
-        title: 'Liste filtrable des workshops'
+        title: 'All Workshops'
         menu_name: main
+        description: ''
+        parent: ''
+        weight: 0
+        expanded: false
+        enabled: true
     cache_metadata:
       max-age: -1
       contexts:

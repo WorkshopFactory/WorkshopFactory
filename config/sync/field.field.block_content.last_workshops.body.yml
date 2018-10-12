@@ -1,0 +1,22 @@
+uuid: b13030d9-bbc5-49a3-9d2f-9a44d00e16d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.last_workshops
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.last_workshops.body
+field_name: body
+entity_type: block_content
+bundle: last_workshops
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

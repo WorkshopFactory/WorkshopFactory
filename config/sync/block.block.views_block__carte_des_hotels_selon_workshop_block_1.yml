@@ -5,13 +5,14 @@ dependencies:
   config:
     - views.view.carte_des_hotels_selon_workshop
   module:
+    - node
     - views
   theme:
     - nexus
 id: views_block__carte_des_hotels_selon_workshop_block_1
 theme: nexus
 region: sidebar_first
-weight: 0
+weight: -4
 provider: null
 plugin: 'views_block:carte_des_hotels_selon_workshop-block_1'
 settings:
@@ -22,4 +23,11 @@ settings:
   views_label: ''
   items_per_page: none
   context_mapping: {  }
-visibility: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      webform: webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
