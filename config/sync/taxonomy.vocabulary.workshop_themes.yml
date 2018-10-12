@@ -1,0 +1,9 @@
+uuid: efd5f459-91de-4cf8-b571-b53190f63c1c
+langcode: en
+status: true
+dependencies: {  }
+name: workshop_themes
+vid: workshop_themes
+description: 'Scientific domains for workshops'
+hierarchy: 0
+weight: 0

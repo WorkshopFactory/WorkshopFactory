@@ -14,13 +14,13 @@ dependencies:
     - field.field.node.webform.field_workshop_institution
     - field.field.node.webform.field_workshop_notification_date
     - field.field.node.webform.field_workshop_referent
+    - field.field.node.webform.field_workshop_register_webform
     - field.field.node.webform.field_workshop_startdate
     - field.field.node.webform.field_workshop_submission_date
     - field.field.node.webform.field_workshop_theme
     - node.type.webform
   module:
     - datetime
-    - options
     - text
     - user
 _core:
@@ -56,13 +56,6 @@ content:
       format_type: medium
       timezone_override: ''
     third_party_settings: {  }
-  field_workshop_theme:
-    type: list_default
-    weight: 2
-    region: content
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
   links:
     weight: 0
     region: content
@@ -77,4 +70,6 @@ hidden:
   field_workshop_institution: true
   field_workshop_notification_date: true
   field_workshop_referent: true
+  field_workshop_register_webform: true
   field_workshop_submission_date: true
+  field_workshop_theme: true

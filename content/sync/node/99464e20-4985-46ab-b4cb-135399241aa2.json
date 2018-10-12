@@ -24,7 +24,12 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
             {
-                "href": "http:\/\/default\/user\/60?_format=hal_json"
+                "href": "http:\/\/default\/user\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json"
             }
         ]
     },
@@ -117,7 +122,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/60?_format=hal_json"
+                        "href": "http:\/\/default\/user\/4?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -125,7 +130,24 @@
                 },
                 "uuid": [
                     {
-                        "value": "6172f367-79d6-41f4-897b-f648d85483b9"
+                        "value": "a9deb9eb-fe1b-4c26-9d35-1fdee4fbaf66"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/workshop_themes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2cd086e5-7adf-484d-b642-0c2066d2f8f7"
                     }
                 ]
             }
@@ -152,7 +174,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-11T14:29:48+00:00",
+            "value": "2018-10-12T09:16:54+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -229,7 +251,7 @@
             "value": "<p><strong>Bats<\/strong>&nbsp;are&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Mammal\">mammals<\/a>&nbsp;of the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Order_(biology)\">order<\/a>&nbsp;<strong>Chiroptera<\/strong>;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Bat#cite_note-2\">[a]<\/a>&nbsp;with their forelimbs adapted as&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Wing\">wings<\/a>, they are the only mammals naturally capable of true and sustained&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Flight\">flight<\/a>. Bats are more manoeuvrable than&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Bird\">birds<\/a>, flying with their very long spread-out digits covered with a thin&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Skin\">membrane<\/a>&nbsp;or&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Patagium\">patagium<\/a>. The smallest bat, and arguably the smallest extant mammal, is&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Kitti%27s_hog-nosed_bat\">Kitti's hog-nosed bat<\/a>, which is 29\u201334&nbsp;mm (1.14\u20131.34&nbsp;in) in length, 15&nbsp;cm (5.91&nbsp;in) across the wings and 2\u20132.6&nbsp;g (0.07\u20130.09&nbsp;oz) in mass. The largest bats are the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Flying_fox#Physical_characteristics\">flying foxes<\/a>&nbsp;and the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Giant_golden-crowned_flying_fox\">giant golden-crowned flying fox<\/a>,&nbsp;<em>Acerodon jubatus<\/em>, which can weigh 1.6&nbsp;kg (4&nbsp;lb) and have a wingspan of 1.7&nbsp;m (5&nbsp;ft 7&nbsp;in).<\/p>\r\n\r\n<p>The second largest order of mammals, bats comprise about 20% of all classified mammal species worldwide, with over 1,200 species. These were traditionally divided into two suborders: the largely fruit-eating&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Megabat\">megabats<\/a>, and the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Animal_echolocation\">echolocating<\/a>&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Microbat\">microbats<\/a>. But more recent evidence has supported dividing the order into&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Yinpterochiroptera\">Yinpterochiroptera<\/a>&nbsp;and&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Yangochiroptera\">Yangochiroptera<\/a>, with megabats as members of the former along with several species of microbats. Many bats are&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Insectivore\">insectivores<\/a>, and most of the rest are&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Frugivore\">frugivores<\/a>&nbsp;(fruit-eaters). A few species feed on animals other than insects; for example, the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Vampire_bat\">vampire bats<\/a>&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hematophagy\">feed on blood<\/a>. Most bats are&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Nocturnal\">nocturnal<\/a>, and many roost in caves or other refuges; it is uncertain whether bats have these behaviours to escape&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Predator\">predators<\/a>. Bats are present throughout the world, with the exception of extremely cold regions. They are important in their ecosystems for&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Pollinator\">pollinating<\/a>&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Flower\">flowers<\/a>&nbsp;and dispersing seeds; many tropical plants depend entirely on bats for these services.<\/p>\r\n\r\n<p>Bats provide humans with some benefits, at the cost of some threats. Bat dung has been mined as&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Guano\">guano<\/a>&nbsp;from caves and used as fertiliser. Bats consume insect pests, reducing the need for&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Pesticide\">pesticides<\/a>. They are sometimes numerous enough to serve as tourist attractions, and are used as food across Asia and the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Pacific_Rim\">Pacific Rim<\/a>. They are&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Natural_reservoir\">natural reservoirs<\/a>&nbsp;of many&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Pathogen\">pathogens<\/a>, such as&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Rabies\">rabies<\/a>; and since they are highly mobile, social, and long-lived, they can readily spread disease. In many cultures, bats are popularly associated with darkness, malevolence, witchcraft,&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Vampire\">vampires<\/a>, and death.<\/p>\r\n",
             "format": "basic_html",
             "processed": "<p><strong>Bats<\/strong>\u00a0are\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Mammal\">mammals<\/a>\u00a0of the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Order_(biology)\">order<\/a>\u00a0<strong>Chiroptera<\/strong>;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Bat#cite_note-2\">[a]<\/a>\u00a0with their forelimbs adapted as\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Wing\">wings<\/a>, they are the only mammals naturally capable of true and sustained\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Flight\">flight<\/a>. Bats are more manoeuvrable than\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Bird\">birds<\/a>, flying with their very long spread-out digits covered with a thin\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Skin\">membrane<\/a>\u00a0or\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Patagium\">patagium<\/a>. The smallest bat, and arguably the smallest extant mammal, is\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Kitti%27s_hog-nosed_bat\">Kitti's hog-nosed bat<\/a>, which is 29\u201334\u00a0mm (1.14\u20131.34\u00a0in) in length, 15\u00a0cm (5.91\u00a0in) across the wings and 2\u20132.6\u00a0g (0.07\u20130.09\u00a0oz) in mass. The largest bats are the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Flying_fox#Physical_characteristics\">flying foxes<\/a>\u00a0and the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Giant_golden-crowned_flying_fox\">giant golden-crowned flying fox<\/a>,\u00a0<em>Acerodon jubatus<\/em>, which can weigh 1.6\u00a0kg (4\u00a0lb) and have a wingspan of 1.7\u00a0m (5\u00a0ft 7\u00a0in).<\/p>\n\n<p>The second largest order of mammals, bats comprise about 20% of all classified mammal species worldwide, with over 1,200 species. These were traditionally divided into two suborders: the largely fruit-eating\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Megabat\">megabats<\/a>, and the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Animal_echolocation\">echolocating<\/a>\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Microbat\">microbats<\/a>. But more recent evidence has supported dividing the order into\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Yinpterochiroptera\">Yinpterochiroptera<\/a>\u00a0and\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Yangochiroptera\">Yangochiroptera<\/a>, with megabats as members of the former along with several species of microbats. Many bats are\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Insectivore\">insectivores<\/a>, and most of the rest are\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Frugivore\">frugivores<\/a>\u00a0(fruit-eaters). A few species feed on animals other than insects; for example, the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Vampire_bat\">vampire bats<\/a>\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hematophagy\">feed on blood<\/a>. Most bats are\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Nocturnal\">nocturnal<\/a>, and many roost in caves or other refuges; it is uncertain whether bats have these behaviours to escape\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Predator\">predators<\/a>. Bats are present throughout the world, with the exception of extremely cold regions. They are important in their ecosystems for\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Pollinator\">pollinating<\/a>\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Flower\">flowers<\/a>\u00a0and dispersing seeds; many tropical plants depend entirely on bats for these services.<\/p>\n\n<p>Bats provide humans with some benefits, at the cost of some threats. Bat dung has been mined as\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Guano\">guano<\/a>\u00a0from caves and used as fertiliser. Bats consume insect pests, reducing the need for\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Pesticide\">pesticides<\/a>. They are sometimes numerous enough to serve as tourist attractions, and are used as food across Asia and the\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Pacific_Rim\">Pacific Rim<\/a>. They are\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Natural_reservoir\">natural reservoirs<\/a>\u00a0of many\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Pathogen\">pathogens<\/a>, such as\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Rabies\">rabies<\/a>; and since they are highly mobile, social, and long-lived, they can readily spread disease. In many cultures, bats are popularly associated with darkness, malevolence, witchcraft,\u00a0<a href=\"https:\/\/en.wikipedia.org\/wiki\/Vampire\">vampires<\/a>, and death.<\/p>",
-            "summary": ""
+            "summary": "Bats\u00a0are\u00a0mammals\u00a0of the\u00a0order\u00a0Chiroptera."
         }
     ],
     "field_workshop_end_date": [
@@ -244,9 +266,9 @@
     ],
     "field_workshop_institution": [
         {
-            "value": "University of paris",
+            "value": "University of Paris",
             "format": "basic_html",
-            "processed": "University of paris"
+            "processed": "University of Paris"
         }
     ],
     "field_workshop_notification_date": [
@@ -262,11 +284,6 @@
     "field_workshop_submission_date": [
         {
             "value": "2018-10-12"
-        }
-    ],
-    "field_workshop_theme": [
-        {
-            "value": "Biochemistry"
         }
     ]
 }
