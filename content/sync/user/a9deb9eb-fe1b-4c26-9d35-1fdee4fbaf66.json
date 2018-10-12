@@ -1,0 +1,74 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a9deb9eb-fe1b-4c26-9d35-1fdee4fbaf66"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "gestionnaireman"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T10:11:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T10:11:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "AF",
+            "administrative_area": null,
+            "locality": "aebaetha",
+            "dependent_locality": null,
+            "postal_code": "5454",
+            "sorting_code": null,
+            "address_line1": "abvbaet",
+            "address_line2": "",
+            "organization": "rrtafb",
+            "given_name": "qtbqeth",
+            "additional_name": null,
+            "family_name": "qvaetbqb"
+        }
+    ],
+    "field_indications_particulieres": [
+        {
+            "value": "<p>un putain de vegan<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>un putain de vegan<\/p>"
+        }
+    ]
+}

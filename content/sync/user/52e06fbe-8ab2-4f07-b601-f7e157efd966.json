@@ -1,0 +1,67 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/5?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "52e06fbe-8ab2-4f07-b601-f7e157efd966"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "regularman"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-11T12:56:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-11T12:56:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "AF",
+            "administrative_area": null,
+            "locality": "bqerbqervbqe",
+            "dependent_locality": null,
+            "postal_code": "6648",
+            "sorting_code": null,
+            "address_line1": "bqerqerbqer",
+            "address_line2": "",
+            "organization": "tqetbqe",
+            "given_name": "vseqthqrv",
+            "additional_name": null,
+            "family_name": "qetqetbqe"
+        }
+    ]
+}
