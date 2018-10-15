@@ -1,0 +1,49 @@
+uuid: f618e4db-44a2-4d56-9291-32a801fde020
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.courier_template_collection.courier_template_collection.description
+    - field.field.courier_template_collection.courier_template_collection.referenceable_bundles
+    - field.field.courier_template_collection.courier_template_collection.title
+  module:
+    - bundle_reference
+    - courier
+_core:
+  default_config_hash: Y_shPhKttGLk_YTkIAP3y-djhRfbYkuMhQoIOd1Phxc
+id: courier_template_collection.courier_template_collection.default
+targetEntityType: courier_template_collection
+bundle: courier_template_collection
+mode: default
+content:
+  description:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  langcode:
+    type: language_select
+    weight: 4
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  referenceable_bundles:
+    weight: 3
+    settings:
+      referenceable_bundles: {  }
+    third_party_settings: {  }
+    type: bundle_reference_widget
+    region: content
+  title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden: {  }

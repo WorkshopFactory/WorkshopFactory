@@ -1,0 +1,24 @@
+uuid: 7f284312-08bf-4cbd-83a2-e39422b30727
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.courier_template_collection.referenceable_bundles
+  module:
+    - bundle_reference
+    - courier
+_core:
+  default_config_hash: AkXkfuXVFEUYdMUe3D5NLMJj2Rb6O1yzQA_kUcrbBf0
+id: courier_template_collection.courier_template_collection.referenceable_bundles
+field_name: referenceable_bundles
+entity_type: courier_template_collection
+bundle: courier_template_collection
+label: 'Bundle reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  referencable_bundles: {  }
+field_type: bundle_reference

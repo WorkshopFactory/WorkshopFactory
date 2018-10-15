@@ -1,0 +1,21 @@
+uuid: 1a1b403e-57f3-42cf-b11c-99ffe36736b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - bundle_reference
+    - courier
+_core:
+  default_config_hash: 75QQyZQQvhp9yKnGb-bnvV0eQADEKXcytycotTK81W4
+id: courier_template_collection.referenceable_bundles
+field_name: referenceable_bundles
+entity_type: courier_template_collection
+type: bundle_reference
+settings: {  }
+module: bundle_reference
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

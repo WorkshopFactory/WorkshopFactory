@@ -1,0 +1,14 @@
+uuid: d0f0eb09-9d6d-4210-a41b-02a2116b10c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - action
+id: send_email_to_guests_selected_test
+label: 'Send email to guests selected test'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: test@test.com
+  subject: test
+  message: test

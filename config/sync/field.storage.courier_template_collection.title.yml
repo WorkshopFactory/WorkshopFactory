@@ -1,0 +1,23 @@
+uuid: a605b6f5-340b-4c6d-b328-ae07b2e21027
+langcode: en
+status: true
+dependencies:
+  module:
+    - courier
+_core:
+  default_config_hash: 4y6KWAkCnHZ-i5H9flD0PQuY05BtVyyhxhKf1G1Hego
+id: courier_template_collection.title
+field_name: title
+entity_type: courier_template_collection
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

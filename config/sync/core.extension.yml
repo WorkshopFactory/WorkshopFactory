@@ -6,6 +6,7 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  bundle_reference: 0
   calendar: 0
   calendar_datetime: 0
   ckeditor: 0
@@ -16,10 +17,14 @@ module:
   config_split: 0
   contact: 0
   contextual: 0
+  courier: 0
+  courier_message_composer: 0
+  courier_ui: 0
   datetime: 0
   dblog: 0
   default_content: 0
   default_content_deploy: 0
+  dynamic_entity_reference: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -63,6 +68,7 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_bulk_operations: 0
   views_templates: 0
   views_ui: 0
   webform: 0
