@@ -1,57 +1,57 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/webform\/manage\/workshop_webform\/submission\/2?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/webform\/manage\/workshop01_register_webform\/submission\/85?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/webform_submission\/workshop_webform"
+            "href": "http:\/\/drupal.org\/rest\/type\/webform_submission\/workshop01_register_webform"
         },
-        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop_webform\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop01_register_webform\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/60?_format=hal_json"
             }
         ]
     },
     "serial": [
         {
-            "value": 2
+            "value": 83
         }
     ],
     "sid": [
         {
-            "value": 2
+            "value": 85
         }
     ],
     "uuid": [
         {
-            "value": "c92e14fd-ae89-4a97-9d2e-ce8810231cc2"
+            "value": "996ba94a-9912-473f-b6b5-4cf6213196f7"
         }
     ],
     "token": [
         {
-            "value": "8U8wtDAIwM4h0aySOPGsZZFG9us6Ysbnw6-taubJTPg"
+            "value": "gjVk68L1GqAG9712i95ELMtB3qu5Tj1SXnH-p22ljf4"
         }
     ],
     "uri": [
         {
-            "value": "\/form\/workshop-webform"
+            "value": "\/form\/workshop01-register-webform"
         }
     ],
     "created": [
         {
-            "value": "2018-10-12T09:18:20+00:00",
+            "value": "2018-10-04T10:04:51+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "completed": [
         {
-            "value": "2018-10-12T09:18:40+00:00",
+            "value": "2018-10-12T13:48:23+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-10-12T09:18:40+00:00",
+            "value": "2018-10-12T13:48:23+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -60,22 +60,17 @@
             "value": false
         }
     ],
-    "current_page": [
-        {
-            "value": "invitations"
-        }
-    ],
     "remote_addr": [
         {
-            "value": "::1"
+            "value": "237.41.114.178"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop_webform\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/workshop01_register_webform\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/60?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -83,7 +78,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                        "value": "6172f367-79d6-41f4-897b-f648d85483b9"
                     }
                 ]
             }
@@ -96,7 +91,7 @@
     ],
     "webform_id": [
         {
-            "target_id": "workshop_webform"
+            "target_id": "workshop01_register_webform"
         }
     ],
     "locked": [
