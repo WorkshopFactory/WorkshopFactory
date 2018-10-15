@@ -1,0 +1,42 @@
+uuid: 6539ecf4-9867-4b02-beff-15d23269a757
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.workshop01_register_webform
+  module:
+    - node
+    - user
+    - webform
+  theme:
+    - nexus
+id: webform
+theme: nexus
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: visible
+  webform_id: workshop01_register_webform
+  default_data: ''
+  redirect: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      webform: webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      participant: participant
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
