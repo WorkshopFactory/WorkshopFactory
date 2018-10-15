@@ -1,0 +1,12 @@
+uuid: a6484c73-f10f-4358-91a5-8afd72f1a016
+langcode: en
+status: true
+dependencies: {  }
+id: participant
+label: Participant
+recipients:
+  role:
+    categories:
+      - participant
+    conjunction: OR
+selected: false
