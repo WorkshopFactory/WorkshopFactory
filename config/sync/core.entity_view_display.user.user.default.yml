@@ -8,7 +8,9 @@ dependencies:
     - field.field.user.user.field_indications_particulieres
     - field.field.user.user.field_site_web
     - field.field.user.user.field_workshop_s_
+    - field.field.user.user.mass_contact_opt_out
     - field.field.user.user.user_picture
+    - filter.format.basic_html
     - image.style.thumbnail
   module:
     - address
@@ -34,9 +36,26 @@ content:
   field_geolocalisation:
     weight: 15
     label: above
-    settings: {  }
+    settings:
+      title: ''
+      set_marker: '1'
+      common_map: '1'
+      data_provider_settings: {  }
+      map_provider_id: leaflet
+      centre:
+        fit_bounds:
+          enable: true
+          weight: -101
+          map_center_id: fit_bounds
+          settings:
+            reset_zoom: true
+      map_provider_settings: {  }
+      info_text:
+        value: ''
+        format: basic_html
+      use_overridden_map_settings: 0
     third_party_settings: {  }
-    type: geolocation_latlng
+    type: geolocation_map
     region: content
   field_indications_particulieres:
     weight: 12
@@ -67,12 +86,14 @@ content:
     region: content
   masquerade:
     weight: 50
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   member_for:
     weight: 5
     region: content
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image
     weight: 0
@@ -82,4 +103,5 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
-hidden: {  }
+hidden:
+  mass_contact_opt_out: true
