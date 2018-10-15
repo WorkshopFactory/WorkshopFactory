@@ -23,3 +23,5 @@ web/sites/*/files/
 
 # Ignore .env files as they are personal
 .env
+
+config/sync/README\.txt

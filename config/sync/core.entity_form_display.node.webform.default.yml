@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.webform.field_adressetest
     - field.field.node.webform.field_cartetest
     - field.field.node.webform.field_hotel_s_
+    - field.field.node.webform.field_workshop
     - field.field.node.webform.field_workshop_budget
     - field.field.node.webform.field_workshop_description
     - field.field.node.webform.field_workshop_end_date
@@ -25,6 +26,7 @@ dependencies:
     - geolocation_leaflet
     - path
     - text
+    - webform
 _core:
   default_config_hash: A3evv2pt6d-bKCPcgjXA5VGTemXWOxG3lSXvWiRWcck
 id: node.webform.default
@@ -174,6 +176,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_workshop:
+    weight: 29
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
     region: content
   field_workshop_budget:
     weight: 4
