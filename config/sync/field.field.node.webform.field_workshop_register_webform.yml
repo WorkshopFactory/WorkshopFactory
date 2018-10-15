@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_workshop_register_webform
     - node.type.webform
+    - webform.webform.workshop01_register_webform
   module:
     - webform
 id: node.webform.field_workshop_register_webform
@@ -15,7 +16,14 @@ label: 'Registration form'
 description: 'You can customize the registration that the attendees will see.'
 required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    webform_access_group: {  }
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: fa6f4138-5ddc-46db-a4b5-cb9beb19fe16
 default_value_callback: ''
 settings:
   handler: 'default:webform'

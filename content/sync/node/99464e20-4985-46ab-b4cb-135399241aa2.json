@@ -24,7 +24,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
             {
-                "href": "http:\/\/default\/user\/61?_format=hal_json"
+                "href": "http:\/\/default\/user\/4?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
@@ -122,7 +122,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/61?_format=hal_json"
+                        "href": "http:\/\/default\/user\/4?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -130,7 +130,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "99f51c90-5915-4e0c-940d-0fb9697b3178"
+                        "value": "a9deb9eb-fe1b-4c26-9d35-1fdee4fbaf66"
                     }
                 ]
             }
@@ -174,7 +174,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-12T12:12:02+00:00",
+            "value": "2018-10-12T16:16:31+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -274,15 +274,6 @@
     "field_workshop_notification_date": [
         {
             "value": "2018-10-14"
-        }
-    ],
-    "field_workshop_register_webform": [
-        {
-            "target_id": "workshop01_register_webform",
-            "default_data": "",
-            "status": "open",
-            "open": "",
-            "close": ""
         }
     ],
     "field_workshop_startdate": [

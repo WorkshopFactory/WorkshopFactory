@@ -12,6 +12,7 @@ permissions:
   - 'create webform content'
   - 'delete own hotel content'
   - 'delete own webform content'
+  - 'edit field_workshop_register_webform'
   - 'edit own field_workshop_register_webform'
   - 'edit own hotel content'
   - 'edit own webform content'
