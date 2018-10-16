@@ -1,0 +1,32 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/courier\/email\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/courier_email\/courier_email"
+        }
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "subject": [
+        {
+            "value": "You are welcome to stay at .\/.. hotel"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>gsdgsdg<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>gsdgsdg<\/p>"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ]
+}

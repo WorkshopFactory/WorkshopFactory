@@ -1,7 +1,12 @@
 uuid: 06683db7-590b-4cbc-aa00-442ac4a18811
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - rng
+third_party_settings:
+  rng:
+    condition_rng_role: true
 id: participant
 label: Participant
 weight: 3
@@ -10,4 +15,5 @@ permissions:
   - 'access webform submission user'
   - 'create field_workshop_register_webform'
   - 'edit own field_workshop_register_webform'
+  - 'rng register self'
   - 'view own field_workshop_register_webform'

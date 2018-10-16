@@ -1,0 +1,21 @@
+uuid: efec1170-ef6a-4ffb-a8ed-020d576642b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.rng_contact.participant.field_email
+    - rng_contact.rng_contact_type.participant
+id: rng_contact.participant.default
+targetEntityType: rng_contact
+bundle: participant
+mode: default
+content:
+  field_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+hidden: {  }

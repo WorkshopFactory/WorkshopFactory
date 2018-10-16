@@ -1,0 +1,56 @@
+uuid: eeec78bf-6521-496a-8f3c-c42e5903fd0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event_1.field_end_date
+    - field.field.node.event_1.field_start_date
+    - field.field.node.event_1.rng_capacity
+    - field.field.node.event_1.rng_registrants_duplicate
+    - field.field.node.event_1.rng_registrants_maximum
+    - field.field.node.event_1.rng_registrants_minimum
+    - field.field.node.event_1.rng_registration_groups
+    - field.field.node.event_1.rng_registration_type
+    - field.field.node.event_1.rng_reply_to
+    - field.field.node.event_1.rng_status
+    - node.type.event_1
+  module:
+    - datetime
+    - user
+id: node.event_1.default
+targetEntityType: node
+bundle: event_1
+mode: default
+content:
+  field_end_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_start_date:
+    weight: 101
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  rng_capacity: true
+  rng_registrants_duplicate: true
+  rng_registrants_maximum: true
+  rng_registrants_minimum: true
+  rng_registration_groups: true
+  rng_registration_type: true
+  rng_reply_to: true
+  rng_status: true

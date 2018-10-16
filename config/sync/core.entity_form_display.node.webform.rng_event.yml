@@ -1,0 +1,123 @@
+uuid: abb29110-a19d-45f9-a302-aade7189ee9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.rng_event
+    - field.field.node.webform.field_adressetest
+    - field.field.node.webform.field_cartetest
+    - field.field.node.webform.field_hotel_s_
+    - field.field.node.webform.field_workshop_budget
+    - field.field.node.webform.field_workshop_description
+    - field.field.node.webform.field_workshop_end_date
+    - field.field.node.webform.field_workshop_est_attendance
+    - field.field.node.webform.field_workshop_institution
+    - field.field.node.webform.field_workshop_notification_date
+    - field.field.node.webform.field_workshop_referent
+    - field.field.node.webform.field_workshop_register_webform
+    - field.field.node.webform.field_workshop_startdate
+    - field.field.node.webform.field_workshop_submission_date
+    - field.field.node.webform.field_workshop_theme
+    - field.field.node.webform.rng_capacity
+    - field.field.node.webform.rng_registrants_duplicate
+    - field.field.node.webform.rng_registrants_maximum
+    - field.field.node.webform.rng_registrants_minimum
+    - field.field.node.webform.rng_registration_groups
+    - field.field.node.webform.rng_registration_type
+    - field.field.node.webform.rng_reply_to
+    - field.field.node.webform.rng_status
+    - node.type.webform
+  module:
+    - rng
+    - unlimited_number
+id: node.webform.rng_event
+targetEntityType: node
+bundle: webform
+mode: rng_event
+content:
+  rng_capacity:
+    type: unlimited_number
+    weight: 2
+    settings:
+      value_unlimited: 0
+      label_unlimited: Unlimited
+      label_number: Limited
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  rng_registrants_duplicate:
+    type: boolean_checkbox
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  rng_registrants_maximum:
+    type: unlimited_number
+    settings:
+      value_unlimited: -1
+      label_unlimited: 'No maximum'
+      label_number: Maximum
+      placeholder: ''
+    weight: 7
+    third_party_settings: {  }
+    region: content
+  rng_registrants_minimum:
+    type: unlimited_number
+    settings:
+      value_unlimited: 0
+      label_unlimited: 'No registrants required'
+      label_number: Minimum
+      placeholder: ''
+    weight: 6
+    third_party_settings: {  }
+    region: content
+  rng_registration_groups:
+    type: rng_registration_group
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  rng_registration_type:
+    type: rng_registration_type
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  rng_reply_to:
+    type: email_default
+    settings:
+      placeholder: 'Leave empty to use site default.'
+      size: 60
+    weight: 3
+    third_party_settings: {  }
+    region: content
+  rng_status:
+    type: boolean_checkbox
+    weight: 0
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_adressetest: true
+  field_cartetest: true
+  field_hotel_s_: true
+  field_workshop_budget: true
+  field_workshop_description: true
+  field_workshop_end_date: true
+  field_workshop_est_attendance: true
+  field_workshop_institution: true
+  field_workshop_notification_date: true
+  field_workshop_referent: true
+  field_workshop_register_webform: true
+  field_workshop_startdate: true
+  field_workshop_submission_date: true
+  field_workshop_theme: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

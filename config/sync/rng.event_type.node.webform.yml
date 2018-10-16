@@ -1,0 +1,20 @@
+uuid: 6f9690bd-3dd5-43c9-8d38-47699da0b295
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.webform
+    - rng.registrant_type.registrant
+id: node.webform
+entity_type: node
+bundle: webform
+mirror_operation_to_event_manage: update
+custom_rules: true
+default_registrant: registrant
+people_types:
+  1:
+    entity_type: user
+    bundle: user
+    create: false
+    existing: true
+    entity_form_mode: default

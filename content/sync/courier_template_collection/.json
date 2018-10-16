@@ -1,0 +1,62 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/courier_template_collection\/courier_template_collection"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/courier_template_collection\/courier_template_collection\/owner": [
+            {
+                "href": "http:\/\/default\/node\/540?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/courier_template_collection\/courier_template_collection\/templates": [
+            {
+                "href": "http:\/\/default\/courier\/email\/2?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 2
+        }
+    ],
+    "context": [
+        {
+            "target_id": "rng_registration_node"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/courier_template_collection\/courier_template_collection\/owner": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/540?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/event_1"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ac06b1e1-8bb7-41cd-8653-d3cddedc1030"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/courier_template_collection\/courier_template_collection\/templates": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/courier\/email\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/courier_email\/courier_email"
+                    }
+                }
+            }
+        ]
+    },
+    "target_type": "courier_email"
+}

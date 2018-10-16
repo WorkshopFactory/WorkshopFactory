@@ -1,0 +1,19 @@
+uuid: 20f880fc-7931-4b73-adcd-07b79d18eaa9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.registration.field_mkumlk
+    - rng.registration_type.workshop_sign_up_form
+id: registration.workshop_sign_up_form.field_mkumlk
+field_name: field_mkumlk
+entity_type: registration
+bundle: workshop_sign_up_form
+label: mkùmlk
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

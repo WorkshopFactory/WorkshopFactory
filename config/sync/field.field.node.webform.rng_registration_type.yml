@@ -1,0 +1,21 @@
+uuid: ac7860c5-a03a-4888-b882-035401e32a3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_registration_type
+    - node.type.webform
+id: node.webform.rng_registration_type
+field_name: rng_registration_type
+entity_type: node
+bundle: webform
+label: 'Registration type'
+description: 'Select which registration types are valid for this event.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:registration_type'
+  handler_settings: {  }
+field_type: entity_reference

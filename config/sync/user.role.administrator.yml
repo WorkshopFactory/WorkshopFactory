@@ -1,7 +1,12 @@
 uuid: 9fa410e2-f6b6-4ebf-8da7-7da1ecb1c64b
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - rng
+third_party_settings:
+  rng:
+    condition_rng_role: false
 _core:
   default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
 id: administrator

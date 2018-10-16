@@ -1,0 +1,40 @@
+uuid: 6aaed60c-b363-4054-bcc4-029691cf7264
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_1
+    - rng.registrant_type.registrant
+  module:
+    - rng_date_scheduler
+third_party_settings:
+  rng_date_scheduler:
+    default_access: null
+    fields:
+      -
+        status: true
+        field_name: field_end_date
+        access:
+          before: null
+          during: null
+          after: false
+      -
+        status: true
+        field_name: field_start_date
+        access:
+          before: false
+          during: null
+          after: null
+id: node.event_1
+entity_type: node
+bundle: event_1
+mirror_operation_to_event_manage: update
+custom_rules: true
+default_registrant: registrant
+people_types:
+  1:
+    entity_type: user
+    bundle: user
+    create: false
+    existing: true
+    entity_form_mode: default

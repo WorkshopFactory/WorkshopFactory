@@ -1,0 +1,21 @@
+uuid: 23b46cab-5dc2-4218-9e5e-26ed6766819a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.registration.workshop_sign_up_form.field_mkumlk
+    - rng.registration_type.workshop_sign_up_form
+id: registration.workshop_sign_up_form.default
+targetEntityType: registration
+bundle: workshop_sign_up_form
+mode: default
+content:
+  field_mkumlk:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden: {  }

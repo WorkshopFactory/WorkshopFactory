@@ -1,0 +1,23 @@
+uuid: f1ba9dd2-6d0d-46cf-b1da-82c7ff348f95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_capacity
+    - node.type.event_1
+id: node.event_1.rng_capacity
+field_name: rng_capacity
+entity_type: node
+bundle: event_1
+label: 'Maximum registrations'
+description: 'Maximum amount of registrations for this event.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

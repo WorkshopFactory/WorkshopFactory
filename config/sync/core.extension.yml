@@ -55,6 +55,13 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  rng: 0
+  rng_conflict: 0
+  rng_contact: 0
+  rng_date_scheduler: 0
+  rng_debug: 0
+  rng_quick: 0
+  rng_views: 0
   search: 0
   serialization: 0
   shortcut: 0
@@ -66,8 +73,11 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  unlimited_number: 0
   update: 0
   user: 0
+  veoa: 0
+  views_advanced_routing: 0
   views_bulk_operations: 0
   views_templates: 0
   views_ui: 0

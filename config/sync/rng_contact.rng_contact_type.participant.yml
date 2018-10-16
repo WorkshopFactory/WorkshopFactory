@@ -1,0 +1,10 @@
+uuid: 2021e620-78ec-4d5c-8cbd-77d2d1475b7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.rng_contact.participant.field_email
+label: Participant
+id: participant
+description: ''
+courier_email_field: field_email

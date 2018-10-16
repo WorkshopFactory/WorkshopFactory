@@ -1,0 +1,25 @@
+uuid: 86b5888c-9ea0-4af8-a7be-2809a50530ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - rng.event_type.node.webform
+id: node.webform.event_manager
+entity_type: node
+bundle: webform
+machine_name: event_manager
+trigger: rng_event.register
+conditions:
+  operation:
+    id: rng_event_operation
+    operations:
+      'manage event': true
+actions:
+  registration_operations:
+    id: registration_operations
+    configuration:
+      operations:
+        create: true
+        view: true
+        update: true
+        delete: true

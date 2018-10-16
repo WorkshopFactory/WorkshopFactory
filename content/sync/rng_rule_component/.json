@@ -1,0 +1,53 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/rng\/component\/4\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rng_rule_component\/rng_rule_component"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rng_rule_component\/rng_rule_component\/rule": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 4
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rng_rule_component\/rng_rule_component\/rule": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/rng_rule\/rng_rule"
+                    }
+                }
+            }
+        ]
+    },
+    "type": [
+        {
+            "value": "condition"
+        }
+    ],
+    "action": [
+        {
+            "value": "rng_rule_scheduler"
+        }
+    ],
+    "configuration": [
+        {
+            "id": "rng_rule_scheduler",
+            "rng_rule_component": "4",
+            "rng_rule_scheduler": null,
+            "date": "1539615612",
+            "negate": false
+        }
+    ]
+}

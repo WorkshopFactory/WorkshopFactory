@@ -1,0 +1,25 @@
+uuid: dcdbcd90-07a0-43d1-af2a-45a5d53f0389
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_registrants_maximum
+    - node.type.event_1
+id: node.event_1.rng_registrants_maximum
+field_name: rng_registrants_maximum
+entity_type: node
+bundle: event_1
+label: 'Maximum registrants'
+description: 'Maximum number of registrants per registration.'
+required: false
+translatable: true
+default_value:
+  -
+    value: -1
+default_value_callback: ''
+settings:
+  min: -1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

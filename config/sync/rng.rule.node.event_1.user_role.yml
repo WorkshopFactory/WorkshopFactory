@@ -1,0 +1,21 @@
+uuid: 3c4b6ec1-555f-4c11-a52d-829ea81fd878
+langcode: en
+status: true
+dependencies:
+  config:
+    - rng.event_type.node.event_1
+id: node.event_1.user_role
+entity_type: node
+bundle: event_1
+machine_name: user_role
+trigger: rng_event.register
+conditions:
+  role:
+    id: rng_user_role
+    roles: {  }
+actions:
+  registration_operations:
+    id: registration_operations
+    configuration:
+      operations:
+        create: true

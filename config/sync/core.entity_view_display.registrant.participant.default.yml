@@ -1,0 +1,12 @@
+uuid: 8b860c93-373c-4269-a509-2d69233eddf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - rng.registrant_type.participant
+id: registrant.participant.default
+targetEntityType: registrant
+bundle: participant
+mode: default
+content: {  }
+hidden: {  }

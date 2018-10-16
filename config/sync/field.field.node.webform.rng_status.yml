@@ -1,0 +1,21 @@
+uuid: daafeb6d-c99b-4f8e-9432-faff91716bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_status
+    - node.type.webform
+id: node.webform.rng_status
+field_name: rng_status
+entity_type: node
+bundle: webform
+label: 'Accept new registrations'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Accepting new registrations'
+  off_label: 'Not accepting new registrations'
+field_type: boolean

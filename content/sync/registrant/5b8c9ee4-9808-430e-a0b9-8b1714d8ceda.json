@@ -1,0 +1,72 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/registrant\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/registrant\/registrant"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/registrant\/registrant\/registration": [
+            {
+                "href": "http:\/\/default\/registration\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/registrant\/registrant\/identity": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5b8c9ee4-9808-430e-a0b9-8b1714d8ceda"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "registrant"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/registrant\/registrant\/registration": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/registration\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/registration\/workshop_sign_up_form"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ede6e7f8-680e-49e5-94ec-6d6cdb1af62c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/registrant\/registrant\/identity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ]
+    },
+    "target_type": "user"
+}

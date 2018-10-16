@@ -1,0 +1,21 @@
+uuid: 37076085-7c41-4559-9cc2-d02f17781079
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_registration_groups
+    - node.type.webform
+id: node.webform.rng_registration_groups
+field_name: rng_registration_groups
+entity_type: node
+bundle: webform
+label: 'Registration groups'
+description: 'New registrations will be added to these groups.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:registration_group'
+  handler_settings: {  }
+field_type: entity_reference

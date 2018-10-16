@@ -276,15 +276,6 @@
             "value": "2018-10-14"
         }
     ],
-    "field_workshop_register_webform": [
-        {
-            "target_id": "workshop01_register_webform",
-            "default_data": "",
-            "status": "open",
-            "open": "",
-            "close": ""
-        }
-    ],
     "field_workshop_startdate": [
         {
             "value": "2018-10-22"

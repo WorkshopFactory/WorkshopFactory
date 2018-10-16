@@ -1,0 +1,23 @@
+uuid: a7df65ca-22bb-445d-92d1-b53d189c9570
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_capacity
+    - node.type.webform
+id: node.webform.rng_capacity
+field_name: rng_capacity
+entity_type: node
+bundle: webform
+label: 'Maximum registrations'
+description: 'Maximum amount of registrations for this event.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

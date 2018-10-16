@@ -1,0 +1,78 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/63?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 63
+        }
+    ],
+    "uuid": [
+        {
+            "value": "75e12bde-ea42-4cab-8d12-bf64e6f21b04"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "rere"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-15T13:38:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-15T13:38:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "AF",
+            "administrative_area": null,
+            "locality": "rere",
+            "dependent_locality": null,
+            "postal_code": "",
+            "sorting_code": null,
+            "address_line1": "rere",
+            "address_line2": "",
+            "organization": "",
+            "given_name": "rere",
+            "additional_name": null,
+            "family_name": "rere"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": 49.4773592,
+            "lng": 1.2981757,
+            "lat_sin": 0.7601492726173802,
+            "lat_cos": 0.6497484769811068,
+            "lng_rad": 0.02265744023438215,
+            "data": [],
+            "value": "49.4773592, 1.2981757"
+        }
+    ]
+}

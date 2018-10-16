@@ -1,0 +1,25 @@
+uuid: 4adca288-2bb8-449a-a4e7-1be77d7b01b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - rng.event_type.node.event_1
+id: node.event_1.event_manager
+entity_type: node
+bundle: event_1
+machine_name: event_manager
+trigger: rng_event.register
+conditions:
+  operation:
+    id: rng_event_operation
+    operations:
+      'manage event': true
+actions:
+  registration_operations:
+    id: registration_operations
+    configuration:
+      operations:
+        create: true
+        view: true
+        update: true
+        delete: true

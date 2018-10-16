@@ -1,0 +1,62 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rng_rule\/rng_rule"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rng_rule\/rng_rule\/event": [
+            {
+                "href": "http:\/\/default\/node\/540?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rng_rule\/rng_rule\/event": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/540?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/event_1"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ac06b1e1-8bb7-41cd-8653-d3cddedc1030"
+                    }
+                ]
+            }
+        ]
+    },
+    "target_type": "node",
+    "trigger_id": [
+        {
+            "value": "rng:custom:date"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-15T14:53:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-15T14:53:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ]
+}

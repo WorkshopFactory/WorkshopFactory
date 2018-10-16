@@ -1,0 +1,22 @@
+uuid: adc2fc61-1d37-48a0-817e-bb899de9ce61
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - rng_contact
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: rng_contact.field_email
+field_name: field_email
+entity_type: rng_contact
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

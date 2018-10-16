@@ -1,0 +1,9 @@
+uuid: 47f7d0c0-3ea6-46d2-8ae0-aac7d2cd2474
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: N2XiVSH0twwstcHPy12KxY_aN5kO27lbG7oUJU6uYug
+label: Registrant
+id: registrant
+description: ''

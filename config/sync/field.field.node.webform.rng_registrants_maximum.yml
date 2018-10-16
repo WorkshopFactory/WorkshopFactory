@@ -1,0 +1,25 @@
+uuid: f603e937-4801-40c9-853e-2033fb9af157
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.rng_registrants_maximum
+    - node.type.webform
+id: node.webform.rng_registrants_maximum
+field_name: rng_registrants_maximum
+entity_type: node
+bundle: webform
+label: 'Maximum registrants'
+description: 'Maximum number of registrants per registration.'
+required: false
+translatable: true
+default_value:
+  -
+    value: -1
+default_value_callback: ''
+settings:
+  min: -1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
