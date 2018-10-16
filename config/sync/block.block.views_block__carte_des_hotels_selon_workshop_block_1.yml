@@ -12,7 +12,7 @@ dependencies:
 id: views_block__carte_des_hotels_selon_workshop_block_1
 theme: nexus
 region: sidebar_first
-weight: -4
+weight: -6
 provider: null
 plugin: 'views_block:carte_des_hotels_selon_workshop-block_1'
 settings:

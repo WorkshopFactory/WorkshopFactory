@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - node.type.webform
     - webform.webform.workshop01_register_webform
+    - webform.webform.workshop_register_webform
   module:
     - node
     - user
@@ -718,10 +720,82 @@ display:
           id: webform_id
           table: webform_submission
           field: webform_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
             workshop01_register_webform: workshop01_register_webform
+            workshop_register_webform: workshop_register_webform
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: webform_submission
           entity_field: webform_id
+          plugin_id: bundle
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          relationship: entity_id
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            webform: webform
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: type
           plugin_id: bundle
       sorts: {  }
       title: 'My Applications'

@@ -1,23 +1,23 @@
-uuid: 6e497e0a-d38b-4dac-aafd-cdbe54f8ad2b
+uuid: 274efcf8-309c-41cc-85f2-bb0d64a86b20
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.submissions_list
+    - views.view.workshop_submissions
   module:
     - node
     - user
     - views
   theme:
     - nexus
-id: views_block__submissions_list_block_1
+id: views_block__workshop_submissions_block_1
 theme: nexus
 region: sidebar_first
-weight: -2
+weight: -3
 provider: null
-plugin: 'views_block:submissions_list-block_1'
+plugin: 'views_block:workshop_submissions-block_1'
 settings:
-  id: 'views_block:submissions_list-block_1'
+  id: 'views_block:workshop_submissions-block_1'
   label: ''
   provider: views
   label_display: visible
@@ -35,7 +35,9 @@ visibility:
   user_role:
     id: user_role
     roles:
+      authenticated: authenticated
       administrator: administrator
+      participant: participant
       gestionnaire_de_programme: gestionnaire_de_programme
     negate: false
     context_mapping:

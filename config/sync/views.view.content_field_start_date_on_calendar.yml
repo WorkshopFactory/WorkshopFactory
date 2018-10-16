@@ -1,18 +1,21 @@
-uuid: 0800e3ab-9b66-4da2-a4df-527a5fe64220
+uuid: 49783fa9-4a08-4b1a-ae7c-a02f4aee59ef
 langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.field_workshop_end_date
+    - field.storage.node.field_workshop_notification_date
     - field.storage.node.field_workshop_startdate
+    - field.storage.node.field_workshop_submission_date
   module:
     - calendar
     - datetime
     - node
     - user
-id: calendrier_des_workshops
-label: 'Calendrier des workshops'
+id: content_field_start_date_on_calendar
+label: 'Content Field Start date : on Calendar'
 module: views
-description: 'A calendar view of the ''workshop_startdate'' field in the ''Content'' base table'
+description: 'A calendar view of the ''Start date :'' field in the ''Content'' base table'
 tag: ''
 base_table: node_field_data
 base_field: nid
@@ -57,7 +60,8 @@ display:
         type: calendar
         options:
           calendar_type: month
-          mini: '0'
+          mini: '1'
+          month_name_size: '99'
           name_size: '3'
           with_weekno: '0'
           max_items: '0'
@@ -68,6 +72,9 @@ display:
           groupby_field: ''
           multiday_theme: '1'
           multiday_hidden: {  }
+          granularity_links:
+            day: ''
+            week: ''
       row:
         type: calendar_row
         options:
@@ -75,9 +82,9 @@ display:
             legend: type
             calendar_colors_type:
               article: '#ffffff'
+              hotel: '#ffffff'
               page: '#ffffff'
-            taxonomy_field: ''
-            calendar_colors_vocabulary: {  }
+              webform: '#c924aa'
       fields:
         title:
           id: title
@@ -205,18 +212,199 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-      filters:
-        status:
-          value: '1'
-          table: node_field_data
-          field: status
-          plugin_id: boolean
-          entity_type: node
-          entity_field: status
-          id: status
-          expose:
-            operator: ''
-          group: 1
+        field_workshop_end_date:
+          id: field_workshop_end_date
+          table: node__field_workshop_end_date
+          field: field_workshop_end_date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: datetime_default
+          settings:
+            timezone_override: ''
+            format_type: medium
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_workshop_notification_date:
+          id: field_workshop_notification_date
+          table: node__field_workshop_notification_date
+          field: field_workshop_notification_date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: datetime_default
+          settings:
+            timezone_override: ''
+            format_type: medium
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_workshop_submission_date:
+          id: field_workshop_submission_date
+          table: node__field_workshop_submission_date
+          field: field_workshop_submission_date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: datetime_default
+          settings:
+            timezone_override: ''
+            format_type: medium
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      filters: {  }
       sorts:
         field_workshop_startdate_value:
           id: field_workshop_startdate_value
@@ -245,7 +433,10 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_notification_date'
         - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_submission_date'
   page_day:
     display_plugin: page
     id: page_day
@@ -362,7 +553,10 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_notification_date'
         - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_submission_date'
   page_month:
     display_plugin: page
     id: page_month
@@ -457,7 +651,10 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_notification_date'
         - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_submission_date'
   page_week:
     display_plugin: page
     id: page_week
@@ -574,7 +771,10 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_notification_date'
         - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_submission_date'
   page_year:
     display_plugin: page
     id: page_year
@@ -691,4 +891,7 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_notification_date'
         - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_submission_date'
