@@ -22,9 +22,20 @@
                 "href": "http:\/\/default\/node\/534?_format=hal_json"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_image": [
+            {
+                "href": "http:\/\/default\/file\/254?_format=hal_json",
+                "lang": "en"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
             {
-                "href": "http:\/\/default\/user\/60?_format=hal_json"
+                "href": "http:\/\/default\/user\/62?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/23?_format=hal_json"
             }
         ]
     },
@@ -113,11 +124,33 @@
                 ]
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/254?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "34d61513-3c9f-4845-b660-a0ff12dfe380"
+                    }
+                ],
+                "lang": "en",
+                "alt": "hary orange",
+                "title": "",
+                "width": "872",
+                "height": "602"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/60?_format=hal_json"
+                        "href": "http:\/\/default\/user\/62?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -125,7 +158,24 @@
                 },
                 "uuid": [
                     {
-                        "value": "6172f367-79d6-41f4-897b-f648d85483b9"
+                        "value": "7af936d6-7cb9-4419-955f-bbe142ae272b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/23?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/workshop_themes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c480277b-9dfe-422b-804b-4fc07416c05d"
                     }
                 ]
             }
@@ -152,7 +202,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-11T15:21:38+00:00",
+            "value": "2018-10-16T09:57:59+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

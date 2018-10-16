@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/2?_format=hal_json"
+            "href": "http:\/\/default\/generalinformations?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
@@ -30,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": 4
+            "value": 549
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-09T10:01:57+00:00",
+            "value": "2018-10-16T09:34:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -108,7 +108,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-09T10:01:57+00:00",
+            "value": "2018-10-16T09:34:55+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -138,17 +138,17 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
+            "alias": "\/generalinformations",
+            "pid": 143,
             "langcode": "en",
             "lang": "en"
         }
     ],
     "body": [
         {
-            "value": "<p>Page d\u2019information g\u00e9n\u00e9rale sur le proc\u00e9d\u00e9 d\u2019adh\u00e9sion aux programmes.<\/p>\r\n\r\n<p>LES ANONYMES :<\/p>\r\n\r\n<p>- ils peuvent voir les workshops disponibles (sauf \u00e9ventuellement des workshops priv\u00e9s (?) )<\/p>\r\n\r\n<p>&nbsp; &nbsp; - ils voient les boutons d'inscriptions\u00e0 un workshops mais s'ils cliquent dessus ca les emm\u00e8nent vers la page d'inscription\/connexion<\/p>\r\n\r\n<p>&nbsp; &nbsp; - ils peuvent voir les h\u00f4tels li\u00e9s aux workshops (faut les inciter \u00e0 s'inscrire :) ) mais ils ne peuvent rien faire vis-\u00e0-vis de ces h\u00f4tels.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>LES COMPTES PARTICIPANTS :<\/p>\r\n\r\n<p>- en gros: les gens cr\u00e9ent un compte participant (compte de base utilisateur)<\/p>\r\n\r\n<p>ils ont alors acc\u00e8s aux commandes et boutons d'inscriptions aux workshops<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>LES COMPTES ORGANISATEURS<\/p>\r\n\r\n<p>- un compte participant peut demander un \"upgrade\" vers un compte \"organisateur\" qui doit \u00eatre valid\u00e9 par un admin :<\/p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp;- v\u00e9rification d'appartenance \u00e0 un organisme de recherche<\/p>\r\n\r\n<p>&nbsp; &nbsp; - paiements des droits relatifs au site ...<\/p>\r\n\r\n<p>Suite \u00e0 quoi ils peuvent cr\u00e9er un workshop en remplissant les formulaires adapt\u00e9s et le site doit proposer les h\u00f4tels proches mais les organisateurs peuvent \u00e9ventuellement avoir la possibilit\u00e9 de proposer des h\u00f4tels en plus (?)<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>LITIGES :<\/p>\r\n\r\n<p>- les profils utilisateurs (participant et organisateurs) peuvent communiquer avec le staff du site via leur page de profil<\/p>\r\n\r\n<p>- les organisateurs doivent avoir une page (formulaire (?)) d\u00e9di\u00e9e \u00e0 leur(s) workshop(s) dans la page des&nbsp;workshops mais aussi dans leurs liste de workshops.<\/p>\r\n",
+            "value": "<p>THE VISITORS&nbsp;:<\/p>\r\n\r\n<ul>\r\n\t<li>can see the available&nbsp;workshops<\/li>\r\n\t<li>can suscribes to the&nbsp;public&nbsp;workshops (they will be redirect to a sign up page)<\/li>\r\n\t<li>can see the hotels related to the workshops<\/li>\r\n<\/ul>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>THE PARTICIPANTS (REGISTRED USERS)&nbsp;:<\/p>\r\n\r\n<ul>\r\n\t<li>can directly suscribe to participate in the workshops.<\/li>\r\n<\/ul>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>THE MANAGERS :<\/p>\r\n\r\n<ul>\r\n\t<li>can create workshops and allow the participants to suscribe to their workshops<\/li>\r\n\t<li>can propose the links to the&nbsp;hotels nears from their workshops and add his own customs hotels.<\/li>\r\n\t<li>have to pay for the publication and the usement of the website<\/li>\r\n<\/ul>\r\n\r\n<p>(a registered user can upgrade to a manager account, it will require&nbsp;a validation from an administrator)<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>DISPUTES&nbsp;:<\/p>\r\n\r\n<ul>\r\n\t<li>All the registred users can communicate&nbsp;with the staff of the website by using the link in their account page.<\/li>\r\n\t<li>The managers have&nbsp;<\/li>\r\n<\/ul>\r\n",
             "format": "basic_html",
-            "processed": "<p>Page d\u2019information g\u00e9n\u00e9rale sur le proc\u00e9d\u00e9 d\u2019adh\u00e9sion aux programmes.<\/p>\n\n<p>LES ANONYMES :<\/p>\n\n<p>- ils peuvent voir les workshops disponibles (sauf \u00e9ventuellement des workshops priv\u00e9s (?) )<\/p>\n\n<p>\u00a0 \u00a0 - ils voient les boutons d'inscriptions\u00e0 un workshops mais s'ils cliquent dessus ca les emm\u00e8nent vers la page d'inscription\/connexion<\/p>\n\n<p>\u00a0 \u00a0 - ils peuvent voir les h\u00f4tels li\u00e9s aux workshops (faut les inciter \u00e0 s'inscrire :) ) mais ils ne peuvent rien faire vis-\u00e0-vis de ces h\u00f4tels.<\/p>\n\n<p>\u00a0<\/p>\n\n<p>LES COMPTES PARTICIPANTS :<\/p>\n\n<p>- en gros: les gens cr\u00e9ent un compte participant (compte de base utilisateur)<\/p>\n\n<p>ils ont alors acc\u00e8s aux commandes et boutons d'inscriptions aux workshops<\/p>\n\n<p>\u00a0<\/p>\n\n<p>LES COMPTES ORGANISATEURS<\/p>\n\n<p>- un compte participant peut demander un \"upgrade\" vers un compte \"organisateur\" qui doit \u00eatre valid\u00e9 par un admin :<\/p>\n\n<p>\u00a0 \u00a0 \u00a0- v\u00e9rification d'appartenance \u00e0 un organisme de recherche<\/p>\n\n<p>\u00a0 \u00a0 - paiements des droits relatifs au site ...<\/p>\n\n<p>Suite \u00e0 quoi ils peuvent cr\u00e9er un workshop en remplissant les formulaires adapt\u00e9s et le site doit proposer les h\u00f4tels proches mais les organisateurs peuvent \u00e9ventuellement avoir la possibilit\u00e9 de proposer des h\u00f4tels en plus (?)<\/p>\n\n<p>\u00a0<\/p>\n\n<p>LITIGES :<\/p>\n\n<p>- les profils utilisateurs (participant et organisateurs) peuvent communiquer avec le staff du site via leur page de profil<\/p>\n\n<p>- les organisateurs doivent avoir une page (formulaire (?)) d\u00e9di\u00e9e \u00e0 leur(s) workshop(s) dans la page des\u00a0workshops mais aussi dans leurs liste de workshops.<\/p>",
+            "processed": "<p>THE VISITORS\u00a0:<\/p>\n\n<ul><li>can see the available\u00a0workshops<\/li>\n\t<li>can suscribes to the\u00a0public\u00a0workshops (they will be redirect to a sign up page)<\/li>\n\t<li>can see the hotels related to the workshops<\/li>\n<\/ul><p>\u00a0<\/p>\n\n<p>THE PARTICIPANTS (REGISTRED USERS)\u00a0:<\/p>\n\n<ul><li>can directly suscribe to participate in the workshops.<\/li>\n<\/ul><p>\u00a0<\/p>\n\n<p>THE MANAGERS :<\/p>\n\n<ul><li>can create workshops and allow the participants to suscribe to their workshops<\/li>\n\t<li>can propose the links to the\u00a0hotels nears from their workshops and add his own customs hotels.<\/li>\n\t<li>have to pay for the publication and the usement of the website<\/li>\n<\/ul><p>(a registered user can upgrade to a manager account, it will require\u00a0a validation from an administrator)<\/p>\n\n<p>\u00a0<\/p>\n\n<p>DISPUTES\u00a0:<\/p>\n\n<ul><li>All the registred users can communicate\u00a0with the staff of the website by using the link in their account page.<\/li>\n\t<li>The managers have\u00a0<\/li>\n<\/ul>",
             "summary": "",
             "lang": "en"
         }

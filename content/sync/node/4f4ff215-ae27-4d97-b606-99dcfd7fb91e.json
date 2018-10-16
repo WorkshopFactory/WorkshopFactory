@@ -22,9 +22,20 @@
                 "href": "http:\/\/default\/node\/532?_format=hal_json"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_image": [
+            {
+                "href": "http:\/\/default\/file\/252?_format=hal_json",
+                "lang": "en"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
             {
-                "href": "http:\/\/default\/user\/61?_format=hal_json"
+                "href": "http:\/\/default\/user\/62?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/27?_format=hal_json"
             }
         ]
     },
@@ -113,11 +124,33 @@
                 ]
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/252?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1a063a4a-19b4-4d3c-a7a1-e44866fe59b2"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Machine learning",
+                "title": "",
+                "width": "1600",
+                "height": "1001"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/61?_format=hal_json"
+                        "href": "http:\/\/default\/user\/62?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -125,7 +158,24 @@
                 },
                 "uuid": [
                     {
-                        "value": "99f51c90-5915-4e0c-940d-0fb9697b3178"
+                        "value": "7af936d6-7cb9-4419-955f-bbe142ae272b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/27?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/workshop_themes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5219302d-3428-4b4b-aa8e-5524cf5251ab"
                     }
                 ]
             }
@@ -152,7 +202,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-11T15:09:11+00:00",
+            "value": "2018-10-16T09:40:47+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

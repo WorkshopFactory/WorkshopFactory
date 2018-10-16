@@ -81,5 +81,10 @@
             "format": "basic_html",
             "processed": "<p>un putain de vegan<\/p>"
         }
+    ],
+    "mass_contact_opt_out": [
+        {
+            "value": "0"
+        }
     ]
 }

@@ -8,7 +8,7 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
             {
-                "href": "http:\/\/default\/user\/0?_format=hal_json"
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ]
     },
@@ -19,7 +19,7 @@
     ],
     "uuid": [
         {
-            "value": "5e96cbfb-6f75-407c-b7f6-fbc687b9c936"
+            "value": "90c9c4c9-a396-4a08-ac98-aa5b640b10d8"
         }
     ],
     "langcode": [
@@ -37,7 +37,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -45,7 +45,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e6036b10-3fed-4771-9d4e-859e1445a67a"
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
                     }
                 ]
             }
@@ -53,23 +53,23 @@
     },
     "filename": [
         {
-            "value": "eqrgeg.jpg"
+            "value": "generateImage_eWv9zZ.png"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/pictures\/2018-10\/eqrgeg.jpg",
-            "url": "\/sites\/default\/files\/pictures\/2018-10\/eqrgeg.jpg"
+            "value": "public:\/\/2018-10\/generateImage_eWv9zZ.png",
+            "url": "\/sites\/default\/files\/2018-10\/generateImage_eWv9zZ.png"
         }
     ],
     "filemime": [
         {
-            "value": "image\/jpeg"
+            "value": "image\/png"
         }
     ],
     "filesize": [
         {
-            "value": 9827
+            "value": 1413
         }
     ],
     "status": [
@@ -79,13 +79,13 @@
     ],
     "created": [
         {
-            "value": "2018-10-09T12:12:50+00:00",
+            "value": "2018-10-09T13:32:48+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-10-09T12:12:55+00:00",
+            "value": "2018-10-09T13:32:48+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

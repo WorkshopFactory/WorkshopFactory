@@ -1,0 +1,15 @@
+uuid: a9fc84cf-a649-4479-992a-18434f67b19c
+langcode: en
+status: true
+dependencies: {  }
+name: more_larger
+label: 'More Larger'
+effects:
+  7af987df-13fe-413f-b082-7805b5aace5d:
+    uuid: 7af987df-13fe-413f-b082-7805b5aace5d
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: null
+      upscale: true

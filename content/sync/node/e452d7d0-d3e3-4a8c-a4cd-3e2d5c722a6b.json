@@ -30,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": 6
+            "value": 548
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-09T12:23:15+00:00",
+            "value": "2018-10-16T09:19:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -108,7 +108,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-09T12:23:15+00:00",
+            "value": "2018-10-16T09:19:43+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -146,9 +146,9 @@
     ],
     "body": [
         {
-            "value": "<p>This is the front page<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>accueil Workshop Factory<\/p>\r\n\r\n<p>notre site il est ... vraiment tr\u00e8s tr\u00e8s bien !<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>to do :<\/p>\r\n\r\n<p>- liste des workshops \u00e0 venir<\/p>\r\n\r\n<p>- liste des h\u00f4tels disponibles (?)<\/p>\r\n\r\n<p>- legalises<\/p>\r\n",
+            "value": "<p>Website under construction...<\/p>\r\n\r\n<p>official release date : 2018\/10\/25<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>This is the front page<\/p>\n\n<p>\u00a0<\/p>\n\n<p>accueil Workshop Factory<\/p>\n\n<p>notre site il est ... vraiment tr\u00e8s tr\u00e8s bien !<\/p>\n\n<p>\u00a0<\/p>\n\n<p>to do :<\/p>\n\n<p>- liste des workshops \u00e0 venir<\/p>\n\n<p>- liste des h\u00f4tels disponibles (?)<\/p>\n\n<p>- legalises<\/p>",
+            "processed": "<p>Website under construction...<\/p>\n\n<p>official release date : 2018\/10\/25<\/p>",
             "summary": "",
             "lang": "en"
         }
