@@ -1,0 +1,21 @@
+uuid: 8eaac8ba-bb7f-48cb-9783-f3083c97bba3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cartetest
+    - node.type.event_1
+  module:
+    - geolocation
+id: node.event_1.field_cartetest
+field_name: field_cartetest
+entity_type: node
+bundle: event_1
+label: Geolocalisation
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

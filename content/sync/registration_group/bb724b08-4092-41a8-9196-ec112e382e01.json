@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/rng\/group\/1\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/registration_group\/registration_group"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/registration_group\/registration_group\/event": [
+            {
+                "href": "http:\/\/default\/node\/542?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bb724b08-4092-41a8-9196-ec112e382e01"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/registration_group\/registration_group\/event": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/542?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/event_1"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b54a0863-9f1e-44b1-854d-fc72709d71e8"
+                    }
+                ]
+            }
+        ]
+    },
+    "target_type": "node",
+    "label": [
+        {
+            "value": "Hotel california",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>lorem<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>lorem<\/p>",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-16T12:39:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-16T12:39:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

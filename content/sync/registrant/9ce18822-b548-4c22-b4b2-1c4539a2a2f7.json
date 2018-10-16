@@ -1,43 +1,43 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/registrant\/3?_format=hal_json"
+            "href": "http:\/\/default\/registrant\/8?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/registrant\/registrant"
+            "href": "http:\/\/drupal.org\/rest\/type\/registrant\/participant"
         },
-        "http:\/\/drupal.org\/rest\/relation\/registrant\/registrant\/registration": [
+        "http:\/\/drupal.org\/rest\/relation\/registrant\/participant\/registration": [
             {
-                "href": "http:\/\/default\/registration\/3?_format=hal_json"
+                "href": "http:\/\/default\/registration\/8?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/registrant\/registrant\/identity": [
+        "http:\/\/drupal.org\/rest\/relation\/registrant\/participant\/identity": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/64?_format=hal_json"
             }
         ]
     },
     "id": [
         {
-            "value": 3
+            "value": 8
         }
     ],
     "uuid": [
         {
-            "value": "5b8c9ee4-9808-430e-a0b9-8b1714d8ceda"
+            "value": "9ce18822-b548-4c22-b4b2-1c4539a2a2f7"
         }
     ],
     "type": [
         {
-            "target_id": "registrant"
+            "target_id": "participant"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/registrant\/registrant\/registration": [
+        "http:\/\/drupal.org\/rest\/relation\/registrant\/participant\/registration": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/registration\/3?_format=hal_json"
+                        "href": "http:\/\/default\/registration\/8?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/registration\/workshop_sign_up_form"
@@ -45,16 +45,16 @@
                 },
                 "uuid": [
                     {
-                        "value": "ede6e7f8-680e-49e5-94ec-6d6cdb1af62c"
+                        "value": "e163e738-8f92-40d0-93f4-34c74bd9fbe4"
                     }
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/registrant\/registrant\/identity": [
+        "http:\/\/drupal.org\/rest\/relation\/registrant\/participant\/identity": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/64?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -62,7 +62,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                        "value": "e8e7cff6-9e5d-4490-87cb-ca94c8b7015d"
                     }
                 ]
             }

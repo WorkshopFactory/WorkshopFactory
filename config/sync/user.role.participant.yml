@@ -16,4 +16,7 @@ permissions:
   - 'create field_workshop_register_webform'
   - 'edit own field_workshop_register_webform'
   - 'rng register self'
+  - 'update own participant rng_contact'
+  - 'use text format restricted_html'
   - 'view own field_workshop_register_webform'
+  - 'view own participant rng_contact'

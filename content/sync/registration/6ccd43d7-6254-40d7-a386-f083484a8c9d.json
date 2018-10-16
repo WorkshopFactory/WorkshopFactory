@@ -1,30 +1,30 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/registration\/2?_format=hal_json"
+            "href": "http:\/\/default\/registration\/7?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/registration\/workshop_sign_up_form"
         },
         "http:\/\/drupal.org\/rest\/relation\/registration\/workshop_sign_up_form\/event": [
             {
-                "href": "http:\/\/default\/node\/540?_format=hal_json"
+                "href": "http:\/\/default\/node\/542?_format=hal_json"
             }
         ]
     },
     "id": [
         {
-            "value": 2
+            "value": 7
         }
     ],
     "uuid": [
         {
-            "value": "b2c94cb6-ca99-4dcd-a38a-e66cd6a6909e"
+            "value": "6ccd43d7-6254-40d7-a386-f083484a8c9d"
         }
     ],
     "vid": [
         {
-            "value": 2
+            "value": 7
         }
     ],
     "type": [
@@ -43,7 +43,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/node\/540?_format=hal_json"
+                        "href": "http:\/\/default\/node\/542?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/node\/event_1"
@@ -51,7 +51,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "ac06b1e1-8bb7-41cd-8653-d3cddedc1030"
+                        "value": "b54a0863-9f1e-44b1-854d-fc72709d71e8"
                     }
                 ]
             }
@@ -60,13 +60,13 @@
     "target_type": "node",
     "created": [
         {
-            "value": "2018-10-15T14:24:35+00:00",
+            "value": "2018-10-16T12:35:34+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-10-15T14:24:35+00:00",
+            "value": "2018-10-16T12:35:34+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -81,11 +81,6 @@
         {
             "value": true,
             "lang": "en"
-        }
-    ],
-    "field_mkumlk": [
-        {
-            "value": "rere"
         }
     ]
 }

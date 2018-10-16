@@ -3,19 +3,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.registration.workshop_sign_up_form.field_mkumlk
+    - field.field.registration.workshop_sign_up_form.field_hotel_s_
     - rng.registration_type.workshop_sign_up_form
 id: registration.workshop_sign_up_form.default
 targetEntityType: registration
 bundle: workshop_sign_up_form
 mode: default
 content:
-  field_mkumlk:
+  field_hotel_s_:
     weight: 0
     label: above
     settings:
-      link_to_entity: false
+      link: true
     third_party_settings: {  }
-    type: string
+    type: entity_reference_label
     region: content
 hidden: {  }

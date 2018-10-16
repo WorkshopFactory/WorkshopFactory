@@ -1,0 +1,23 @@
+uuid: b46637cf-4852-4b35-824b-36a99b65a22a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workshop_budget
+    - node.type.event_1
+id: node.event_1.field_workshop_budget
+field_name: field_workshop_budget
+entity_type: node
+bundle: event_1
+label: Budget
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: €
+field_type: integer

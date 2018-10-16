@@ -1,0 +1,22 @@
+uuid: ee5e123e-2f2c-4ab3-9f6a-5619d9cbe074
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workshop_description
+    - node.type.event_1
+  module:
+    - text
+id: node.event_1.field_workshop_description
+field_name: field_workshop_description
+entity_type: node
+bundle: event_1
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

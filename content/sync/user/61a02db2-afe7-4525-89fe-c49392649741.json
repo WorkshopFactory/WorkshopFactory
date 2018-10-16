@@ -1,0 +1,108 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/65?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "http:\/\/default\/file\/252?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 65
+        }
+    ],
+    "uuid": [
+        {
+            "value": "61a02db2-afe7-4525-89fe-c49392649741"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "bsimpson"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-16T12:29:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-16T12:31:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "BS",
+            "administrative_area": "Harbour Island",
+            "locality": "Harbour",
+            "dependent_locality": null,
+            "postal_code": null,
+            "sorting_code": null,
+            "address_line1": "Haynes Avenue",
+            "address_line2": "",
+            "organization": "",
+            "given_name": "Bart",
+            "additional_name": null,
+            "family_name": "Simpson"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": 25.193870558466,
+            "lng": -76.245645562586,
+            "lat_sin": 0.42568249169343697,
+            "lat_cos": 0.9048725967039045,
+            "lng_rad": -1.33073755537573,
+            "data": [],
+            "value": "25.193870558466, -76.245645562586"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/252?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ee00c015-48ba-4bd8-8535-5897853cd7e1"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "168",
+                "height": "300"
+            }
+        ]
+    }
+}

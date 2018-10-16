@@ -1,0 +1,28 @@
+uuid: 7a595c34-15e2-4915-b434-b1f7f789a756
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.registration.field_hotel_s_
+    - node.type.hotel
+    - rng.registration_type.workshop_sign_up_form
+id: registration.workshop_sign_up_form.field_hotel_s_
+field_name: field_hotel_s_
+entity_type: registration
+bundle: workshop_sign_up_form
+label: Hôtel(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      hotel: hotel
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

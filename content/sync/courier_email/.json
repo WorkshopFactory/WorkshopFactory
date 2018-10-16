@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/courier\/email\/1?_format=hal_json"
+            "href": "http:\/\/default\/courier\/email\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/courier_email\/courier_email"
@@ -9,19 +9,19 @@
     },
     "id": [
         {
-            "value": 1
+            "value": 4
         }
     ],
     "subject": [
         {
-            "value": "You are welcome to stay at .\/.. hotel"
+            "value": "Welcome to the workshop !"
         }
     ],
     "body": [
         {
-            "value": "<p>gsdgsdg<\/p>\r\n",
+            "value": "<p>Hi [identity:label]!<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>You're staying at [registration:field_hotel_s_:entity]<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>gsdgsdg<\/p>"
+            "processed": "<p>Hi [identity:label]!<\/p>\n\n<p>\u00a0<\/p>\n\n<p>You're staying at [registration:field_hotel_s_:entity]<\/p>"
         }
     ],
     "langcode": [

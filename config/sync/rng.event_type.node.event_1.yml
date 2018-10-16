@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - node.type.event_1
-    - rng.registrant_type.registrant
+    - rng.registrant_type.participant
   module:
     - rng_date_scheduler
 third_party_settings:
@@ -17,24 +17,30 @@ third_party_settings:
         access:
           before: null
           during: null
-          after: false
+          after: null
       -
         status: true
         field_name: field_start_date
         access:
-          before: false
+          before: null
           during: null
-          after: null
+          after: false
 id: node.event_1
 entity_type: node
 bundle: event_1
 mirror_operation_to_event_manage: update
 custom_rules: true
-default_registrant: registrant
+default_registrant: participant
 people_types:
   1:
     entity_type: user
     bundle: user
     create: false
+    existing: true
+    entity_form_mode: default
+  2:
+    entity_type: rng_contact
+    bundle: participant
+    create: true
     existing: true
     entity_form_mode: default

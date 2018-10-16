@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 2
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "6fc223fa-7688-425e-9930-19e109498fad"
+            "value": "f7819574-e9b8-4dc0-af6f-8fa07051cf07"
         }
     ],
     "langcode": [
@@ -30,12 +30,12 @@
     ],
     "enabled": [
         {
-            "value": false
+            "value": true
         }
     ],
     "title": [
         {
-            "value": "Create a Workshop",
+            "value": "Create a workshop",
             "lang": "en"
         }
     ],
@@ -46,7 +46,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/node\/add\/webform",
+            "uri": "internal:\/node\/add\/event_1",
             "title": "",
             "options": []
         }
@@ -73,7 +73,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-16T09:23:10+00:00",
+            "value": "2018-10-16T09:22:27+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

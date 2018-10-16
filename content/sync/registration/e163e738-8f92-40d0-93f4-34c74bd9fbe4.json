@@ -1,30 +1,35 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/registration\/4?_format=hal_json"
+            "href": "http:\/\/default\/registration\/8?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/registration\/workshop_sign_up_form"
         },
         "http:\/\/drupal.org\/rest\/relation\/registration\/workshop_sign_up_form\/event": [
             {
-                "href": "http:\/\/default\/node\/538?_format=hal_json"
+                "href": "http:\/\/default\/node\/542?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/registration\/workshop_sign_up_form\/field_hotel_s_": [
+            {
+                "href": "http:\/\/default\/node\/531?_format=hal_json"
             }
         ]
     },
     "id": [
         {
-            "value": 4
+            "value": 8
         }
     ],
     "uuid": [
         {
-            "value": "e3b12bf8-b83d-49d5-ad97-b2b7d3b4075d"
+            "value": "e163e738-8f92-40d0-93f4-34c74bd9fbe4"
         }
     ],
     "vid": [
         {
-            "value": 4
+            "value": 8
         }
     ],
     "type": [
@@ -43,7 +48,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/node\/538?_format=hal_json"
+                        "href": "http:\/\/default\/node\/542?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/node\/event_1"
@@ -51,7 +56,24 @@
                 },
                 "uuid": [
                     {
-                        "value": "cefedb66-ca76-493f-801c-1811b434fd44"
+                        "value": "b54a0863-9f1e-44b1-854d-fc72709d71e8"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/registration\/workshop_sign_up_form\/field_hotel_s_": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/531?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6cbcaff9-21e2-4ec2-80da-cfa3e21442a0"
                     }
                 ]
             }
@@ -60,13 +82,13 @@
     "target_type": "node",
     "created": [
         {
-            "value": "2018-10-15T14:56:29+00:00",
+            "value": "2018-10-16T12:46:49+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-10-15T14:56:29+00:00",
+            "value": "2018-10-16T12:46:49+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -81,11 +103,6 @@
         {
             "value": true,
             "lang": "en"
-        }
-    ],
-    "field_mkumlk": [
-        {
-            "value": "fgfgfdg"
         }
     ]
 }

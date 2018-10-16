@@ -3,8 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.event_1.field_adressetest
+    - field.field.node.event_1.field_cartetest
     - field.field.node.event_1.field_end_date
+    - field.field.node.event_1.field_hotel_s_
+    - field.field.node.event_1.field_image
     - field.field.node.event_1.field_start_date
+    - field.field.node.event_1.field_workshop_budget
+    - field.field.node.event_1.field_workshop_description
+    - field.field.node.event_1.field_workshop_theme
     - field.field.node.event_1.rng_capacity
     - field.field.node.event_1.rng_registrants_duplicate
     - field.field.node.event_1.rng_registrants_maximum
@@ -13,10 +20,16 @@ dependencies:
     - field.field.node.event_1.rng_registration_type
     - field.field.node.event_1.rng_reply_to
     - field.field.node.event_1.rng_status
+    - image.style.thumbnail
     - node.type.event_1
   module:
+    - address
     - datetime
+    - geolocation_address
+    - geolocation_leaflet
+    - image
     - path
+    - text
 id: node.event_1.default
 targetEntityType: node
 bundle: event_1
@@ -28,17 +41,190 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_adressetest:
+    weight: 123
+    settings:
+      default_country: null
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_cartetest:
+    weight: 125
+    settings:
+      centre:
+        fit_bounds:
+          weight: 0
+          enable: false
+          map_center_id: fit_bounds
+          settings:
+            reset_zoom: false
+        client_location:
+          weight: 0
+          enable: false
+          map_center_id: client_location
+        freeogeoip:
+          weight: 0
+          enable: false
+          map_center_id: location_plugins
+        fixed_value:
+          settings:
+            latitude: null
+            longitude: null
+          weight: 0
+          enable: false
+          map_center_id: location_plugins
+      leaflet_settings:
+        height: 400px
+        width: 100%
+        zoom: '10'
+        map_features:
+          leaflet_control_geocoder:
+            enabled: true
+            weight: -100
+            settings:
+              position: topright
+              geocoder: photon
+              settings:
+                label: Address
+                description: 'Enter an address to be localized.'
+          leaflet_control_locate:
+            weight: 0
+            settings:
+              position: topright
+            enabled: false
+          leaflet_custom_tile_layer:
+            weight: 0
+            settings:
+              tile_layer_url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+              tile_layer_attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+              tile_layer_subdomains: abc
+            enabled: false
+          leaflet_marker_popup:
+            enabled: true
+            weight: 0
+            settings:
+              info_auto_display: false
+          leaflet_marker_icon:
+            weight: 0
+            settings:
+              marker_icon_path: ''
+              icon_size:
+                width: ''
+                height: ''
+              icon_anchor:
+                x: ''
+                'y': ''
+              popup_anchor:
+                x: '0'
+                'y': '0'
+              marker_shadow_path: ''
+              shadow_size:
+                width: ''
+                height: ''
+              shadow_anchor:
+                x: ''
+                'y': ''
+            enabled: false
+          leaflet_marker_clusterer:
+            weight: 0
+            enabled: false
+            settings:
+              cluster_settings:
+                show_coverage_on_hover: 0
+                zoom_to_bounds_on_click: 0
+          leaflet_control_zoom:
+            enabled: true
+            weight: 0
+            settings:
+              position: topright
+          leaflet_control_scale:
+            weight: 0
+            settings:
+              position: topright
+              metric: '1'
+              imperial: '1'
+            enabled: false
+          leaflet_control_recenter:
+            weight: 0
+            settings:
+              position: topright
+            enabled: false
+          leaflet_control_fullscreen:
+            weight: 0
+            settings:
+              position: topright
+            enabled: false
+          leaflet_gesture_handling:
+            weight: 0
+            enabled: false
+          leaflet_client_location_indicator:
+            weight: 0
+            enabled: false
+          leaflet_tile_layer:
+            weight: 0
+            settings:
+              tile_layer_provider: OpenStreetMap.Mapnik
+            enabled: false
+      auto_client_location_marker: '0'
+      allow_override_map_settings: 0
+      auto_client_location: ''
+    third_party_settings:
+      geolocation_address:
+        address_field: field_adressetest
+        geocoder: nominatim
+        sync_mode: auto
+        button_position: topleft
+        direction: duplex
+        enable: 0
+    type: geolocation_leaflet
+    region: content
   field_end_date:
     weight: 122
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
+  field_hotel_s_:
+    weight: 127
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_image:
+    weight: 126
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
   field_start_date:
     weight: 121
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
+    region: content
+  field_workshop_budget:
+    weight: 128
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_workshop_description:
+    weight: 129
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_workshop_theme:
+    weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   path:
     type: path

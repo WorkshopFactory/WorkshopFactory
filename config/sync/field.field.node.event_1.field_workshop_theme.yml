@@ -1,0 +1,31 @@
+uuid: ba86f0df-66be-4ef8-99fe-a3f8e1819857
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workshop_theme
+    - node.type.event_1
+    - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.workshop_themes
+id: node.event_1.field_workshop_theme
+field_name: field_workshop_theme
+entity_type: node
+bundle: event_1
+label: Theme
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+      workshop_themes: workshop_themes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: tags
+field_type: entity_reference

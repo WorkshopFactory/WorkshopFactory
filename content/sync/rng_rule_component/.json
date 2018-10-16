@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/rng\/component\/4\/edit?_format=hal_json"
+            "href": "http:\/\/default\/rng\/component\/6\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/rng_rule_component\/rng_rule_component"
@@ -14,7 +14,7 @@
     },
     "id": [
         {
-            "value": 4
+            "value": 6
         }
     ],
     "_embedded": {
@@ -44,9 +44,9 @@
     "configuration": [
         {
             "id": "rng_rule_scheduler",
-            "rng_rule_component": "4",
-            "rng_rule_scheduler": null,
-            "date": "1539615612",
+            "rng_rule_component": "6",
+            "rng_rule_scheduler": "1",
+            "date": "1539696000",
             "negate": false
         }
     ]

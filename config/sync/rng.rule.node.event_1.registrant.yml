@@ -19,3 +19,4 @@ actions:
       operations:
         view: true
         update: true
+        delete: false
