@@ -1,0 +1,5 @@
+workshopfactory.nodehistory:
+  title: Applications
+  route_name: workshopfactory.list_applications
+  base_route: entity.node.canonical
+  weight: 50

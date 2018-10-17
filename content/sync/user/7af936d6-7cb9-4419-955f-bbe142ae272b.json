@@ -88,6 +88,11 @@
             "options": []
         }
     ],
+    "mass_contact_opt_out": [
+        {
+            "value": "0"
+        }
+    ],
     "_embedded": {
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
             {

@@ -1,0 +1,6 @@
+name: Workshop Factory
+description: Module custom for the website Workshop Factory
+type: module
+core: 8.x
+version: 8.X-1.0
+package: Website

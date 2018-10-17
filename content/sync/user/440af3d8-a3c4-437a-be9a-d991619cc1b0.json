@@ -81,6 +81,11 @@
             "value": "51.4914455, -0.157328"
         }
     ],
+    "mass_contact_opt_out": [
+        {
+            "value": "0"
+        }
+    ],
     "_embedded": {
         "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
             {
