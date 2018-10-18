@@ -3,3 +3,9 @@ workshopfactory.nodeapplications:
   route_name: workshopfactory.list_applications
   base_route: entity.node.canonical
   weight: 50
+
+workshopfactory.nodemailing:
+  title: Mailing
+  route_name: workshopfactory.mailing
+  base_route: entity.node.canonical
+  weight: 60

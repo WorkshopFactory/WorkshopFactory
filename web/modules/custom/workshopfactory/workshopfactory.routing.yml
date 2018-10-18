@@ -1,6 +1,14 @@
 workshopfactory.list_applications:
-  path: 'node/{node}/applications'
+  path: '/node/{node}/applications'
   defaults:
     _title: 'Applications'
+  requirements:
+    _access: 'TRUE'
+
+workshopfactory.mailing:
+  path: '/node/{node}/mailing'
+  defaults:
+#    _controller: '\Drupal\workshopfactory\Controller\MailingController::content'
+    _title: 'Mailing'
   requirements:
     _access: 'TRUE'
