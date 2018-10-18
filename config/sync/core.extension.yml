@@ -2,7 +2,6 @@ module:
   action: 0
   address: 0
   antibot: 0
-  applications: 0
   automated_cron: 0
   block: 0
   block_content: 0
@@ -54,7 +53,6 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
-  signup: 0
   simple_timeline: 0
   system: 0
   taxonomy: 0
