@@ -1,12 +1,13 @@
 uuid: 1b41227f-0448-4659-a2e4-2c2eb108a8af
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.webform.field_adressetest
     - field.field.node.webform.field_cartetest
     - field.field.node.webform.field_hotel_s_
+    - field.field.node.webform.field_image
     - field.field.node.webform.field_workshop_budget
     - field.field.node.webform.field_workshop_description
     - field.field.node.webform.field_workshop_end_date
@@ -18,9 +19,12 @@ dependencies:
     - field.field.node.webform.field_workshop_startdate
     - field.field.node.webform.field_workshop_submission_date
     - field.field.node.webform.field_workshop_theme
+    - image.style.thumbnail
     - node.type.webform
   module:
+    - address
     - datetime
+    - image
     - text
     - user
 _core:
@@ -30,6 +34,22 @@ targetEntityType: node
 bundle: webform
 mode: teaser
 content:
+  field_adressetest:
+    type: address_default
+    weight: 4
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 2
+    region: content
+    label: above
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
   field_workshop_description:
     type: text_summary_or_trimmed
     weight: 3
@@ -40,7 +60,7 @@ content:
     third_party_settings: {  }
   field_workshop_end_date:
     type: datetime_default
-    weight: 5
+    weight: 6
     region: content
     label: above
     settings:
@@ -49,12 +69,20 @@ content:
     third_party_settings: {  }
   field_workshop_startdate:
     type: datetime_default
-    weight: 4
+    weight: 5
     region: content
     label: above
     settings:
       format_type: medium
       timezone_override: ''
+    third_party_settings: {  }
+  field_workshop_theme:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link: true
     third_party_settings: {  }
   links:
     weight: 0
@@ -62,7 +90,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_adressetest: true
   field_cartetest: true
   field_hotel_s_: true
   field_workshop_budget: true
@@ -72,4 +99,3 @@ hidden:
   field_workshop_referent: true
   field_workshop_register_webform: true
   field_workshop_submission_date: true
-  field_workshop_theme: true
