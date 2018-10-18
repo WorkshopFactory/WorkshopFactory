@@ -33,7 +33,21 @@ class MailingAction extends ViewsBulkOperationsActionBase {
     // Do some processing..
 
     // Don't return anything for a default completion message, otherwise return translatable markup.
-    return $this->t('Some result');
+
+    drupal_set_message($this->t('Ca marche !!!'));
+
+    //return $this->t('Some result');
+  }
+
+
+  public function executeMultiple(array $entities) {
+    foreach ($entities as $delta => $entity) {
+      drupal_set_message($this->t('The result language is: @title.', [
+        '@title' => $this->view->result[$delta]->node_field_field_workshop_budget,
+      ]));
+
+      // Process the entity..
+    }
   }
 
   public function access($object, AccountInterface $account = NULL, $return_as_object = FALSE) {
