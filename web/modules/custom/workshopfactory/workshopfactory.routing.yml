@@ -1,0 +1,6 @@
+workshopfactory.list_applications:
+  path: 'node/{node}/applications'
+  defaults:
+    _title: 'Applications'
+  requirements:
+    _access: 'TRUE'
