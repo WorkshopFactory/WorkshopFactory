@@ -7,6 +7,7 @@ dependencies:
   module:
     - node
     - user
+    - views_bulk_operations
     - webform
     - webform_views
 id: mailing_page
@@ -596,6 +597,73 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
+        views_bulk_operations_bulk_form:
+          id: views_bulk_operations_bulk_form
+          table: views
+          field: views_bulk_operations_bulk_form
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Views bulk operations'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          batch: true
+          batch_size: 10
+          form_step: true
+          buttons: true
+          clear_on_exposed: 0
+          action_title: Action
+          selected_actions:
+            comment_delete_action: 0
+            views_bulk_operations_delete_entity: 0
+            webform_submission_make_lock_action: 0
+            webform_submission_make_sticky_action: 0
+            webform_submission_make_unlock_action: 0
+            webform_submission_make_unsticky_action: 0
+            webform_submission_delete_action: 0
+            mailing_action: mailing_action
+          preconfiguration:
+            mailing_action:
+              label_override: ''
+          plugin_id: views_bulk_operations_bulk_form
       filters:
         webform_id:
           id: webform_id
@@ -606,6 +674,74 @@ display:
           entity_type: webform_submission
           entity_field: webform_id
           plugin_id: bundle
+        field_hotel_s__target_id:
+          id: field_hotel_s__target_id
+          table: node__field_hotel_s_
+          field: field_hotel_s__target_id
+          relationship: entity_id
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value:
+            min: ''
+            max: ''
+            value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_hotel_s__target_id_op
+            label: 'Hôtel(s) (field_hotel_s_)'
+            description: ''
+            use_operator: false
+            operator: field_hotel_s__target_id_op
+            identifier: field_hotel_s__target_id
+            required: false
+            remember: false
+            multiple: true
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              participant: '0'
+              gestionnaire_de_programme: '0'
+            placeholder: ''
+            min_placeholder: ''
+            max_placeholder: ''
+          is_grouped: true
+          group_info:
+            label: 'Hôtel(s) (field_hotel_s_)'
+            description: ''
+            identifier: field_hotel_s__target_id
+            optional: true
+            widget: select
+            multiple: true
+            remember: false
+            default_group: All
+            default_group_multiple:
+              All: 0
+            group_items:
+              1:
+                title: ''
+                operator: '='
+                value:
+                  value: ''
+                  min: ''
+                  max: ''
+              2:
+                title: ''
+                operator: '='
+                value:
+                  value: ''
+                  min: ''
+                  max: ''
+              3:
+                title: ''
+                operator: '='
+                value:
+                  value: ''
+                  min: ''
+                  max: ''
+          plugin_id: numeric
       sorts: {  }
       title: 'Page de mailing'
       header: {  }
