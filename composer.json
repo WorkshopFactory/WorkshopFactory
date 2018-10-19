@@ -30,6 +30,7 @@
         "drupal/file_entity": "^2.0@beta",
         "drupal/geocoder": "^2.0@beta",
         "drupal/geolocation": "2.x-dev",
+        "drupal/maillog": "1.x-dev",
         "drupal/mailsystem": "^4.1",
         "drupal/mass_contact": "^1.0",
         "drupal/paragraphs": "^1.3",

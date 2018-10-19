@@ -41,6 +41,8 @@ module:
   history: 0
   image: 0
   link: 0
+  maillog: 0
+  mailsystem: 0
   masquerade: 0
   mass_contact: 0
   menu_ui: 0

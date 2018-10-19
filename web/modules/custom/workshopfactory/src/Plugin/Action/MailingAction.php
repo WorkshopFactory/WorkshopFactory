@@ -9,10 +9,9 @@
 
 namespace Drupal\workshopfactory\Plugin\Action;
 
-use Drupal\views_bulk_operations\Action\ViewsBulkOperationsActionBase;
-
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
+use Drupal\views_bulk_operations\Action\ViewsBulkOperationsActionBase;
 
 /**
  * Mail a message to selected users
@@ -42,11 +41,37 @@ class MailingAction extends ViewsBulkOperationsActionBase {
 
   public function executeMultiple(array $entities) {
     foreach ($entities as $delta => $entity) {
-      drupal_set_message($this->t('The result language is: @title.', [
-        '@title' => $this->view->result[$delta]->node_field_field_workshop_budget,
+
+      drupal_set_message($this->t('The email is: @title.', [
+        '@title' => $entity->getOwner()->getEmail(),
       ]));
 
+      //var_dump($this->view->result[$delta]);
       // Process the entity..
+
+
+
+      $sitename = \Drupal::config('system.site')->get('name');
+      $langcode = \Drupal::config('system.site')->get('langcode');
+      $module = 'my_module';
+      $key = 'my_key';
+      $to = $entity->getOwner()->getEmail();
+      $reply = NULL;
+      $send = TRUE;
+
+      $params['message'] = t('Your wonderful message about @sitename', array('@sitename' => $sitename));
+      $params['subject'] = t('Message subject');
+      $params['options']['username'] = $entity->getOwner()->getUsername();
+      $params['options']['title'] = t('Your wonderful title');
+      $params['options']['footer'] = t('Your wonderful footer');
+
+      $mailManager = \Drupal::service('plugin.manager.mail');
+      $mailManager->mail($module, $key, $to, $langcode, $params, $reply, $send);
+
+
+
+
+
     }
   }
 
