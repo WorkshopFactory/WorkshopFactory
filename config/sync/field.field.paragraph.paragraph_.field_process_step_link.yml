@@ -1,0 +1,23 @@
+uuid: 0d285b80-bd0f-49e4-b750-5ef991e95e90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_process_step_link
+    - paragraphs.paragraphs_type.paragraph_
+  module:
+    - link
+id: paragraph.paragraph_.field_process_step_link
+field_name: field_process_step_link
+entity_type: paragraph
+bundle: paragraph_
+label: 'Process step link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

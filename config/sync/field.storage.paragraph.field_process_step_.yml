@@ -1,0 +1,24 @@
+uuid: 6f83657b-1558-4470-a3af-9edead4b636d
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - paragraphs
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: custom
+id: paragraph.field_process_step_
+field_name: field_process_step_
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

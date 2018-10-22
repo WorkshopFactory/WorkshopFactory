@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_workshop_register_webform
     - node.type.webform
-    - webform.webform.workshop01_register_webform
+    - webform.webform.default_webform
   module:
     - webform
 id: node.webform.field_workshop_register_webform
@@ -23,7 +23,7 @@ default_value:
     status: open
     open: ''
     close: ''
-    target_uuid: fa6f4138-5ddc-46db-a4b5-cb9beb19fe16
+    target_uuid: 2542f915-d5e0-4bf2-b922-bcca955b8a5c
 default_value_callback: ''
 settings:
   handler: 'default:webform'

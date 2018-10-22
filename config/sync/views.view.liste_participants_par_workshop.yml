@@ -1,17 +1,25 @@
-uuid: 244d2c7a-6023-4b53-bb15-4e491840a205
+uuid: 1f82d9dd-fd31-4101-8fb6-d41e2348fcd3
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.webform
+    - field.storage.node.field_workshop_end_date
+    - field.storage.node.field_workshop_startdate
+    - field.storage.node.field_workshop_theme
+    - user.role.administrator
     - webform.webform.workshop_register_form_template
   module:
+    - csv_serialization
+    - datetime
     - node
+    - rest
+    - serialization
     - user
+    - views_data_export
     - webform
     - webform_views
-id: my_applications
-label: 'My Applications'
+id: liste_participants_par_workshop
+label: 'Liste participants par workshop'
 module: views
 description: ''
 tag: ''
@@ -26,8 +34,10 @@ display:
     position: 0
     display_options:
       access:
-        type: none
-        options: {  }
+        type: role
+        options:
+          role:
+            administrator: administrator
       cache:
         type: tag
         options: {  }
@@ -50,81 +60,75 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: full
+        type: none
         options:
-          items_per_page: 5
           offset: 0
-          id: 0
-          total_pages: null
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
-          tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
-          quantity: 9
       style:
         type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          override: true
+          sticky: false
+          caption: ''
+          summary: ''
+          description: ''
+          columns:
+            title: title
+            name: name
+            counter: counter
+            field_workshop_end_date: field_workshop_end_date
+            field_workshop_startdate: field_workshop_startdate
+            field_workshop_theme: field_workshop_theme
+          info:
+            title:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            name:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            counter:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_workshop_end_date:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_workshop_startdate:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_workshop_theme:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+          default: '-1'
+          empty_table: false
       row:
         type: fields
       fields:
-        counter:
-          id: counter
-          table: views
-          field: counter
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: Number
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          counter_start: 1
-          plugin_id: counter
         source_entity_label:
           id: source_entity_label
           table: webform_submission
@@ -132,7 +136,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Workshop
+          label: Title
           exclude: false
           alter:
             alter_text: false
@@ -176,6 +180,329 @@ display:
           link: 1
           entity_type: webform_submission
           plugin_id: webform_submission_submitted_to_label
+        field_workshop_theme:
+          id: field_workshop_theme
+          table: node__field_workshop_theme
+          field: field_workshop_theme
+          relationship: entity_id
+          group_type: group
+          admin_label: ''
+          label: Field
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_workshop_startdate:
+          id: field_workshop_startdate
+          table: node__field_workshop_startdate
+          field: field_workshop_startdate
+          relationship: entity_id
+          group_type: group
+          admin_label: ''
+          label: 'Start date'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: datetime_default
+          settings:
+            timezone_override: ''
+            format_type: html_date
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_workshop_end_date:
+          id: field_workshop_end_date
+          table: node__field_workshop_end_date
+          field: field_workshop_end_date
+          relationship: entity_id
+          group_type: group
+          admin_label: ''
+          label: 'End date'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: datetime_default
+          settings:
+            timezone_override: ''
+            format_type: html_date
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        created:
+          id: created
+          table: webform_submission
+          field: created
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Created on'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: timestamp
+          settings:
+            date_format: short
+            custom_date_format: ''
+            timezone: ''
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: webform_submission
+          entity_field: created
+          plugin_id: field
+        uid:
+          id: uid
+          table: webform_submission
+          field: uid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Submitted by'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: webform_submission
+          entity_field: uid
+          plugin_id: field
         webform_submission_value_9:
           id: webform_submission_value_9
           table: webform_submission_field_workshop_register_form_template_participant_interest_likert
@@ -276,7 +603,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          webform_element_format: fallback
+          webform_element_format: short
           webform_multiple_value: true
           webform_multiple_delta: 0
           plugin_id: webform_submission_field
@@ -381,58 +708,6 @@ display:
           empty_zero: false
           hide_alter_empty: true
           webform_element_format: link
-          webform_multiple_value: true
-          webform_multiple_delta: 0
-          plugin_id: webform_submission_field
-        webform_submission_value_11:
-          id: webform_submission_value_11
-          table: webform_submission_field_workshop_register_form_template_participant_talk_paper
-          field: webform_submission_value
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: 'Talk paper'
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          webform_element_format: file
           webform_multiple_value: true
           webform_multiple_delta: 0
           plugin_id: webform_submission_field
@@ -555,14 +830,14 @@ display:
           webform_multiple_value: true
           webform_multiple_delta: 0
           plugin_id: webform_submission_field
-        webform_submission_user_submission_view:
-          id: webform_submission_user_submission_view
-          table: webform_submission
-          field: webform_submission_user_submission_view
+        webform_submission_value_11:
+          id: webform_submission_value_11
+          table: webform_submission_field_workshop_register_form_template_participant_talk_paper
+          field: webform_submission_value
           relationship: none
           group_type: group
           admin_label: ''
-          label: View
+          label: 'Talk paper'
           exclude: false
           alter:
             alter_text: false
@@ -603,117 +878,10 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          text: View
-          output_url_as_text: 0
-          absolute: 0
-          entity_type: webform_submission
-          plugin_id: webform_submission_user_submission_view_field
-        webform_submission_user_submission_edit:
-          id: webform_submission_user_submission_edit
-          table: webform_submission
-          field: webform_submission_user_submission_edit
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: Edit
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          text: Edit
-          output_url_as_text: 0
-          absolute: 0
-          entity_type: webform_submission
-          plugin_id: webform_submission_user_submission_edit_field
-        delete_webform_submission:
-          id: delete_webform_submission
-          table: webform_submission
-          field: delete_webform_submission
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: Delete
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          text: Delete
-          output_url_as_text: false
-          absolute: false
-          entity_type: webform_submission
-          plugin_id: entity_link_delete
+          webform_element_format: file
+          webform_multiple_value: true
+          webform_multiple_delta: 0
+          plugin_id: webform_submission_field
       filters:
         webform_id:
           id: webform_id
@@ -755,48 +923,89 @@ display:
           entity_type: webform_submission
           entity_field: webform_id
           plugin_id: bundle
-        type:
-          id: type
+        title:
+          id: title
           table: node_field_data
-          field: type
+          field: title
           relationship: entity_id
           group_type: group
           admin_label: ''
-          operator: in
-          value:
-            webform: webform
+          operator: '='
+          value: ''
           group: 1
-          exposed: false
+          exposed: true
           expose:
-            operator_id: ''
-            label: ''
+            operator_id: title_op
+            label: Title
             description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
+            use_operator: true
+            operator: title_op
+            identifier: title
             required: false
             remember: false
             multiple: false
             remember_roles:
               authenticated: authenticated
-            reduce: false
+              anonymous: '0'
+              administrator: '0'
+              participant: '0'
+              gestionnaire_de_programme: '0'
+            placeholder: ''
           is_grouped: false
           group_info:
-            label: ''
+            label: Title
             description: ''
-            identifier: ''
+            identifier: title
             optional: true
-            widget: select
+            widget: radios
             multiple: false
             remember: false
             default_group: All
             default_group_multiple: {  }
-            group_items: {  }
+            group_items:
+              1:
+                title: ''
+                operator: '='
+                value: ''
+              2:
+                title: ''
+                operator: '='
+                value: ''
+              3:
+                title: ''
+                operator: '='
+                value: ''
           entity_type: node
-          entity_field: type
-          plugin_id: bundle
-      sorts: {  }
-      title: 'My Applications'
+          entity_field: title
+          plugin_id: string
+      sorts:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: entity_id
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: true
+          expose:
+            label: Title
+          entity_type: node
+          entity_field: title
+          plugin_id: standard
+        field_workshop_theme_target_id:
+          id: field_workshop_theme_target_id
+          table: node__field_workshop_theme
+          field: field_workshop_theme_target_id
+          relationship: entity_id
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: true
+          expose:
+            label: Field
+          plugin_id: standard
+      title: 'Liste participants par workshop'
       header: {  }
       footer: {  }
       empty: {  }
@@ -811,15 +1020,6 @@ display:
           required: false
           entity_type: webform_submission
           plugin_id: standard
-        webform_submission_value:
-          id: webform_submission_value
-          table: webform_submission_field_workshop01_register_webform_available_accomodations
-          field: webform_submission_value
-          relationship: none
-          group_type: group
-          admin_label: Content
-          required: false
-          plugin_id: standard
         uid:
           id: uid
           table: webform_submission
@@ -831,44 +1031,7 @@ display:
           entity_type: webform_submission
           entity_field: uid
           plugin_id: standard
-      arguments:
-        uid:
-          id: uid
-          table: users_field_data
-          field: uid
-          relationship: uid
-          group_type: group
-          admin_label: ''
-          default_action: default
-          exception:
-            value: all
-            title_enable: false
-            title: All
-          title_enable: false
-          title: ''
-          default_argument_type: user
-          default_argument_options:
-            user: false
-          default_argument_skip_url: false
-          summary_options:
-            base_path: ''
-            count: true
-            items_per_page: 25
-            override: false
-          summary:
-            sort_order: asc
-            number_of_records: 0
-            format: default_summary
-          specify_validation: false
-          validate:
-            type: none
-            fail: 'not found'
-          validate_options: {  }
-          break_phrase: false
-          not: false
-          entity_type: user
-          entity_field: uid
-          plugin_id: user_uid
+      arguments: {  }
       display_extenders: {  }
     cache_metadata:
       max-age: -1
@@ -876,22 +1039,88 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - url.query_args
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
         - user
-      tags: {  }
-  block_1:
-    display_plugin: block
-    id: block_1
-    display_title: Block
+        - user.roles
+      tags:
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_theme'
+  data_export_1:
+    display_plugin: data_export
+    id: data_export_1
+    display_title: 'Data export'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      style:
+        type: data_export
+        options:
+          formats:
+            csv: csv
+          csv_settings:
+            delimiter: ','
+            enclosure: '"'
+            escape_char: \
+            strip_tags: true
+            trim: true
+            encoding: utf8
+          xls_settings:
+            xls_format: Excel2007
+            metadata:
+              creator: ''
+              last_modified_by: ''
+              title: ''
+              description: ''
+              subject: ''
+              keywords: ''
+              category: ''
+              manager: ''
+              company: ''
+      path: applications_list/export/applications_list.csv
+      filename: ''
+      displays:
+        page_1: page_1
+        default: '0'
+      pager:
+        type: none
+        options:
+          offset: 0
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - request_format
+        - url
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
+        - user
+        - user.roles
+      tags:
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_theme'
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: Page
     position: 1
     display_options:
       display_extenders: {  }
+      path: applications_list
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - url.query_args
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
         - user
-      tags: {  }
+        - user.roles
+      tags:
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_theme'

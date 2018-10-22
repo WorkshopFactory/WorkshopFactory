@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/file\/512?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/document"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/document\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 512
+        }
+    ],
+    "uuid": [
+        {
+            "value": "99c146e4-cc9e-4efc-aa07-5b00eedaae8e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "document"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/document\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "participant_talk_paper.ods"
+        }
+    ],
+    "uri": [
+        {
+            "value": "private:\/\/webform\/workshop_register_form_template\/_sid_\/participant_talk_paper.ods",
+            "url": "\/system\/files\/webform\/workshop_register_form_template\/_sid_\/participant_talk_paper.ods"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/vnd.oasis.opendocument.spreadsheet"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 7
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-22T10:15:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T10:15:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "data": [
+        {
+            "value": "e2VtcHR5fQ=="
+        }
+    ]
+}

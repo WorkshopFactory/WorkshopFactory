@@ -29,5 +29,4 @@ class MailingController extends ControllerBase {
       '#markup' => $this->t('Hello, World!'),
     ];
   }
-
 }

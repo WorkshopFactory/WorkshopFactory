@@ -1,0 +1,44 @@
+uuid: ae4d19ac-02fd-4b69-a607-b65b622020b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_.field_process_step_
+    - field.field.paragraph.paragraph_.field_process_step_description
+    - field.field.paragraph.paragraph_.field_process_step_link
+    - paragraphs.paragraphs_type.paragraph_
+  module:
+    - link
+    - text
+id: paragraph.paragraph_.default
+targetEntityType: paragraph
+bundle: paragraph_
+mode: default
+content:
+  field_process_step_:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_process_step_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_process_step_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

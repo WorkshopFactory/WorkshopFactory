@@ -30,6 +30,7 @@ dependencies:
     - taxonomy
     - text
     - user
+    - webform
 _core:
   default_config_hash: 3r1i0UMUbeNHhvmiqHDYznoS4G9XR1jq6lQ49r80lDE
 id: node.webform.full
@@ -38,14 +39,14 @@ bundle: webform
 mode: full
 content:
   field_adressetest:
-    weight: 6
+    weight: 7
     label: above
     settings: {  }
     third_party_settings: {  }
     type: address_default
     region: content
   field_cartetest:
-    weight: 13
+    weight: 14
     label: above
     settings:
       set_marker: '1'
@@ -177,6 +178,14 @@ content:
     third_party_settings: {  }
     type: geolocation_map
     region: content
+  field_hotel_s_:
+    type: entity_reference_label
+    weight: 6
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
   field_image:
     type: image
     weight: 3
@@ -187,7 +196,7 @@ content:
       image_link: ''
     third_party_settings: {  }
   field_workshop_budget:
-    weight: 12
+    weight: 13
     label: above
     settings:
       thousand_separator: ''
@@ -203,7 +212,7 @@ content:
     type: text_default
     region: content
   field_workshop_end_date:
-    weight: 11
+    weight: 12
     label: above
     settings:
       format_type: medium
@@ -212,7 +221,7 @@ content:
     type: datetime_default
     region: content
   field_workshop_est_attendance:
-    weight: 7
+    weight: 8
     label: above
     settings:
       thousand_separator: ''
@@ -228,7 +237,7 @@ content:
     type: text_default
     region: content
   field_workshop_notification_date:
-    weight: 10
+    weight: 11
     label: above
     settings:
       format_type: medium
@@ -244,8 +253,16 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
+  field_workshop_register_webform:
+    type: webform_entity_reference_entity_view
+    weight: 15
+    region: content
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
   field_workshop_startdate:
-    weight: 8
+    weight: 9
     label: above
     settings:
       format_type: medium
@@ -254,7 +271,7 @@ content:
     type: datetime_default
     region: content
   field_workshop_submission_date:
-    weight: 9
+    weight: 10
     label: above
     settings:
       format_type: medium
@@ -274,6 +291,4 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  field_hotel_s_: true
-  field_workshop_register_webform: true
+hidden: {  }
