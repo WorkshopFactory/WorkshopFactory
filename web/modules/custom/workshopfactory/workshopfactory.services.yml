@@ -1,0 +1,5 @@
+services:
+  workshopfactory.view_data_provider:
+    class: Drupal\workshopfactory\EventSubscriber\MailingEventSubscriber
+    tags:
+    - { name: event_subscriber }

@@ -21,6 +21,7 @@ permissions:
   - 'edit own hotel content'
   - 'edit own webform'
   - 'edit own webform content'
+  - 'use text format basic_html'
   - 'edit own webform submission'
   - 'edit webform submissions own node'
   - 'view field_process_step_'

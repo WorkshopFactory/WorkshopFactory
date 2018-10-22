@@ -1,0 +1,22 @@
+uuid: a66926fe-d149-4272-b243-3d9aa7e1a050
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.mail_template
+  module:
+    - text
+id: node.mail_template.body
+field_name: body
+entity_type: node
+bundle: mail_template
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,30 @@
+uuid: 4c95442c-30b0-45ec-b881-90d8f94d91e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mail_template.body
+    - node.type.mail_template
+  module:
+    - text
+    - user
+id: node.mail_template.teaser
+targetEntityType: node
+bundle: mail_template
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

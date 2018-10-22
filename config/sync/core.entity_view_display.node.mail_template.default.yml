@@ -1,0 +1,28 @@
+uuid: 64119be5-2993-4ca0-bfae-17e50e8c3a8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mail_template.body
+    - node.type.mail_template
+  module:
+    - text
+    - user
+id: node.mail_template.default
+targetEntityType: node
+bundle: mail_template
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

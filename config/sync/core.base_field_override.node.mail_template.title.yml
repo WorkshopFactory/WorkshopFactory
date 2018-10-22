@@ -1,0 +1,18 @@
+uuid: 99ecaf36-516b-4ae3-9ddc-cc6d8ea3ca03
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mail_template
+id: node.mail_template.title
+field_name: title
+entity_type: node
+bundle: mail_template
+label: Subject
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

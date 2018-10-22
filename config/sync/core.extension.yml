@@ -42,6 +42,8 @@ module:
   history: 0
   image: 0
   link: 0
+  maillog: 0
+  mailsystem: 0
   masquerade: 0
   mass_contact: 0
   menu_ui: 0
@@ -50,6 +52,7 @@ module:
   page_cache: 0
   paragraphs_type_permissions: 0
   path: 0
+  phpmailer: 0
   quickedit: 0
   rdf: 0
   rest: 0
@@ -57,11 +60,13 @@ module:
   serialization: 0
   shortcut: 0
   simple_timeline: 0
+  smtp: 0
   system: 0
   taxonomy: 0
   telephone: 0
   text: 0
   token: 0
+  token_filter: 0
   toolbar: 0
   tour: 0
   update: 0
