@@ -16,6 +16,7 @@ use Drupal\views_bulk_operations\Action\ViewsBulkOperationsActionBase;
 use Drupal\Core\Plugin\PluginFormInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\node\Entity\Node;
+use Drupal\Core\Utility\Token;
 
 
 
@@ -111,10 +112,20 @@ class MailingAction extends ViewsBulkOperationsActionBase implements PluginFormI
  $key = 'send_mail';
  $to = $entity->getOwner()->getEmail();
  //$entity->get('body')->value;
-      $message['body'] = $params['message'];
+
       $params['subject'] = $this->configuration["template_choice_subject"];
       $params['message'] = $this->configuration["template_choice_body"];
-      
+
+      $token_service = \Drupal::token();
+
+      $params['subject'] = $token_service->replace($params['subject'], ['webform_submission' => $entity]);
+      $params['message'] = $token_service->replace($params['message'], ['webform_submission' => $entity]);
+
+
+
+
+
+
 
 //      $params['message'] = $this->configuration["example_config_setting"];
 
