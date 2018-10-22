@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/6\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 2
+            "value": 6
         }
     ],
     "uuid": [
         {
-            "value": "6fc223fa-7688-425e-9930-19e109498fad"
+            "value": "0bdfa3ad-31ba-4fad-8e48-655ec6cde292"
         }
     ],
     "langcode": [
@@ -30,7 +30,7 @@
     ],
     "enabled": [
         {
-            "value": false
+            "value": true
         }
     ],
     "title": [
@@ -46,7 +46,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/node\/add\/webform",
+            "uri": "internal:\/create_workshop",
             "title": "",
             "options": []
         }
@@ -73,7 +73,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-22T09:36:01+00:00",
+            "value": "2018-10-22T09:39:49+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

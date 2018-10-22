@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/5\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 2
+            "value": 5
         }
     ],
     "uuid": [
         {
-            "value": "6fc223fa-7688-425e-9930-19e109498fad"
+            "value": "6a65e660-de03-46ef-ad77-4328c229c91d"
         }
     ],
     "langcode": [
@@ -35,7 +35,7 @@
     ],
     "title": [
         {
-            "value": "Create a Workshop",
+            "value": "Create a webform",
             "lang": "en"
         }
     ],
@@ -46,7 +46,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/node\/add\/webform",
+            "uri": "internal:\/admin\/structure\/webform\/manage\/workshop_register_webform\/duplicate",
             "title": "",
             "options": []
         }

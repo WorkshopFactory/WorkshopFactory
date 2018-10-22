@@ -1,0 +1,31 @@
+uuid: 94a8435a-d065-4349-9526-f9cfcee061b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_step_01
+    - node.type.process_steps_page
+    - paragraphs.paragraphs_type.paragraph_
+  module:
+    - entity_reference_revisions
+id: node.process_steps_page.field_step_01
+field_name: field_step_01
+entity_type: node
+bundle: process_steps_page
+label: 'Text and link paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      paragraph_: paragraph_
+    target_bundles_drag_drop:
+      paragraph_:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

@@ -1,0 +1,50 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/config\/user-interface\/shortcut\/link\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/shortcut\/default"
+        }
+    },
+    "id": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8be9f156-e326-4db5-9020-275f4d9c854f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "shortcut_set": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "title": [
+        {
+            "value": "Webforms",
+            "lang": "en"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/admin\/structure\/webform",
+            "title": null,
+            "options": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

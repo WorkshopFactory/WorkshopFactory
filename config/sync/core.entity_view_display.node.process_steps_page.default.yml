@@ -1,0 +1,30 @@
+uuid: 24d88fba-fe1b-468d-a46c-b2303875a350
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.process_steps_page.field_step_01
+    - node.type.process_steps_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.process_steps_page.default
+targetEntityType: node
+bundle: process_steps_page
+mode: default
+content:
+  field_step_01:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

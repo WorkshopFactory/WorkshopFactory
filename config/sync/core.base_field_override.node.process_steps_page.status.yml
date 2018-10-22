@@ -1,0 +1,22 @@
+uuid: 2b7eaec7-a840-4772-8465-9f8fb175a131
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.process_steps_page
+id: node.process_steps_page.status
+field_name: status
+entity_type: node
+bundle: process_steps_page
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 3e342394-84d0-4117-b863-3099bdc3264a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_process_step_
+    - paragraphs.paragraphs_type.paragraph_
+  module:
+    - text
+id: paragraph.paragraph_.field_process_step_
+field_name: field_process_step_
+entity_type: paragraph
+bundle: paragraph_
+label: 'Process Step Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

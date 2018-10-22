@@ -5,7 +5,11 @@ dependencies:
   config:
     - webform.webform.workshop01_register_webform
   module:
+    - csv_serialization
     - node
+    - rest
+    - serialization
+    - views_data_export
     - webform
     - webform_views
 id: page_des_candidatures
@@ -537,6 +541,55 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
+      tags: {  }
+  data_export_1:
+    display_plugin: data_export
+    id: data_export_1
+    display_title: 'Data export'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      path: node/%nid/applications/file001.csv
+      filename: ''
+      displays:
+        page_1: page_1
+        default: '0'
+      pager:
+        type: none
+        options:
+          offset: 0
+      style:
+        type: data_export
+        options:
+          formats:
+            csv: csv
+          csv_settings:
+            delimiter: ;
+            enclosure: '"'
+            escape_char: \
+            strip_tags: true
+            trim: true
+            encoding: utf8
+          xls_settings:
+            xls_format: Excel2007
+            metadata:
+              creator: ''
+              last_modified_by: ''
+              title: ''
+              description: ''
+              subject: ''
+              keywords: ''
+              category: ''
+              manager: ''
+              company: ''
+    cache_metadata:
+      max-age: 0
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - request_format
+        - url
         - user
       tags: {  }
   page_1:

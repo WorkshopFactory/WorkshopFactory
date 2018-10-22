@@ -1,0 +1,22 @@
+uuid: 0ddf039e-e5bf-439f-95ee-82a4a1997d3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.process_steps_page.field_step_01
+    - node.type.process_steps_page
+  module:
+    - user
+id: node.process_steps_page.teaser
+targetEntityType: node
+bundle: process_steps_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_step_01: true

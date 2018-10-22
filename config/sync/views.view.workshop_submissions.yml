@@ -3,10 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - user.role.administrator
+    - user.role.gestionnaire_de_programme
     - webform.webform.workshop01_register_webform
   module:
+    - csv_serialization
     - node
+    - rest
+    - serialization
     - user
+    - views_data_export
     - webform
     - webform_views
 id: workshop_submissions
