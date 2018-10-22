@@ -9,9 +9,13 @@
 
 namespace Drupal\workshopfactory\Plugin\Action;
 
+
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\views_bulk_operations\Action\ViewsBulkOperationsActionBase;
+use Drupal\Core\Plugin\PluginFormInterface;
+use Drupal\Core\Form\FormStateInterface;
+
 
 /**
  * Mail a message to selected users
@@ -23,10 +27,25 @@ use Drupal\views_bulk_operations\Action\ViewsBulkOperationsActionBase;
  *   confirm = TRUE
  * )
  */
-class MailingAction extends ViewsBulkOperationsActionBase {
+class MailingAction extends ViewsBulkOperationsActionBase implements PluginFormInterface {
 
 
   use StringTranslationTrait;
+
+
+  /**
+   * {@inheritdoc}
+   */
+  public function buildConfigurationForm(array $form, FormStateInterface $form_state) {
+    $form['example_config_setting'] = [
+      '#title' => t('Example setting pre-execute'),
+      '#type' => 'textfield',
+      '#default_value' => $form_state->getValue('example_config_setting'),
+    ];
+    return $form;
+  }
+
+
 
   public function execute($entity = NULL) {
     // Do some processing..
@@ -50,25 +69,24 @@ class MailingAction extends ViewsBulkOperationsActionBase {
       // Process the entity..
 
 
-
-      $sitename = \Drupal::config('system.site')->get('name');
-      $langcode = \Drupal::config('system.site')->get('langcode');
-      $module = 'my_module';
-      $key = 'my_key';
-      $to = $entity->getOwner()->getEmail();
-      $reply = NULL;
-      $send = TRUE;
-
-      $params['message'] = t('Your wonderful message about @sitename', array('@sitename' => $sitename));
-      $params['subject'] = t('Message subject');
-      $params['options']['username'] = $entity->getOwner()->getUsername();
-      $params['options']['title'] = t('Your wonderful title');
-      $params['options']['footer'] = t('Your wonderful footer');
-
       $mailManager = \Drupal::service('plugin.manager.mail');
-      $mailManager->mail($module, $key, $to, $langcode, $params, $reply, $send);
+      $module = "workshopfactory";
+ $key = 'send_mail';
+ $to = $entity->getOwner()->getEmail();
+ //$entity->get('body')->value;
+      $message['body'] = $params['message'];
+      $params['message'] = $this->configuration["example_config_setting"];
 
-
+ //$params['node_title'] = $entity->label();
+ $langcode = $entity->getOwner()->getPreferredLangcode();
+ $send = true;
+ $result = $mailManager->mail($module, $key, $to, $langcode, $params, NULL, $send);
+ if ($result['result'] !== true) {
+   drupal_set_message(t('There was a problem sending your message and it was not sent.'), 'error');
+ }
+ else {
+   drupal_set_message(t('Your message has been sent.'));
+ }
 
 
 
