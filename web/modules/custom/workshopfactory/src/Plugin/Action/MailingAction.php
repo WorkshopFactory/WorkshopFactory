@@ -15,6 +15,8 @@ use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\views_bulk_operations\Action\ViewsBulkOperationsActionBase;
 use Drupal\Core\Plugin\PluginFormInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\node\Entity\Node;
+
 
 
 /**
@@ -37,14 +39,48 @@ class MailingAction extends ViewsBulkOperationsActionBase implements PluginFormI
    * {@inheritdoc}
    */
   public function buildConfigurationForm(array $form, FormStateInterface $form_state) {
-    $form['example_config_setting'] = [
-      '#title' => t('Example setting pre-execute'),
-      '#type' => 'textfield',
-      '#default_value' => $form_state->getValue('example_config_setting'),
-    ];
+
+    $options = [];
+    $mail_templates = \Drupal::entityQuery('node')->condition('type','mail_template')->execute();
+    foreach ($mail_templates as $mail_template) {
+      $node = Node::load($mail_template);
+      $options[$mail_template] = $node->getTitle();
+    }
+
+
+
+    $form['template_choice'] = array(
+      '#type' => 'radios',
+      '#title' => t('Choose your mail template'),
+      '#options' => $options,
+     // '#default_value' => $form_state->getValue('template_choice'),
+    );
+
+
     return $form;
   }
 
+
+  /**
+   * {@inheritdoc}
+   */
+  public function submitConfigurationForm(array &$form, FormStateInterface $form_state) {
+
+    kint($form_state->getValue('template_choice'));
+
+    $nid = $form_state->getValue('template_choice');
+
+    $node_storage = \Drupal::entityTypeManager()->getStorage('node');
+
+    $template_chosen = $node_storage->load($nid);
+
+
+    $this->configuration['template_choice_subject'] = $template_chosen->get('title')->value;
+
+
+    $this->configuration['template_choice_body'] = $template_chosen->get('body')->value;
+
+  }
 
 
   public function execute($entity = NULL) {
@@ -75,7 +111,10 @@ class MailingAction extends ViewsBulkOperationsActionBase implements PluginFormI
  $to = $entity->getOwner()->getEmail();
  //$entity->get('body')->value;
       $message['body'] = $params['message'];
-      $params['message'] = $this->configuration["example_config_setting"];
+      $params['subject'] = $this->configuration["template_choice_subject"];
+      $params['message'] = $this->configuration["template_choice_body"];
+
+//      $params['message'] = $this->configuration["example_config_setting"];
 
  //$params['node_title'] = $entity->label();
  $langcode = $entity->getOwner()->getPreferredLangcode();

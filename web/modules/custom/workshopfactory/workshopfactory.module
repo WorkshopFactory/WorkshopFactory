@@ -45,7 +45,7 @@ $options = array(
  switch ($key) {
    case 'send_mail':
      $message['from'] = \Drupal::config('system.site')->get('mail');
-     $message['subject'] = t('This is a test subject', $options);
+     $message['subject'] = $params['subject'];
      $message['body'][] = $params['message'];
    drupal_set_message('Key valide');
 

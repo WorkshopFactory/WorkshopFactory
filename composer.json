@@ -37,6 +37,7 @@
         "drupal/phpmailer": "^3.0",
         "drupal/simple_timeline": "^1.1",
         "drupal/smtp": "^1.0",
+        "drupal/token_filter": "^1.0",
         "drupal/views_bulk_operations": "^2.4",
         "drupal/webform": "^5.0@RC",
         "drupal/webform_views": "^5.0@alpha",
