@@ -7,7 +7,7 @@ dependencies:
     - field.storage.node.field_workshop_startdate
     - field.storage.node.field_workshop_theme
     - user.role.administrator
-    - webform.webform.workshop01_register_webform
+    - webform.webform.workshop_register_form_template
   module:
     - csv_serialization
     - datetime
@@ -503,9 +503,9 @@ display:
           entity_type: webform_submission
           entity_field: uid
           plugin_id: field
-        webform_submission_value_2:
-          id: webform_submission_value_2
-          table: webform_submission_field_workshop01_register_webform_participant_interest_likert
+        webform_submission_value_9:
+          id: webform_submission_value_9
+          table: webform_submission_field_workshop_register_form_template_participant_interest_likert
           field: webform_submission_value
           relationship: none
           group_type: group
@@ -551,18 +551,18 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          webform_element_format: list
+          webform_element_format: value
           webform_multiple_value: true
           webform_multiple_delta: 0
           plugin_id: webform_submission_field
-        webform_submission_value:
-          id: webform_submission_value
-          table: webform_submission_field_workshop01_register_webform_participant_arrival_date
+        webform_submission_value_7:
+          id: webform_submission_value_7
+          table: webform_submission_field_workshop_register_form_template_participant_arrival_date
           field: webform_submission_value
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Check in date'
+          label: 'Arrival Date'
           exclude: false
           alter:
             alter_text: false
@@ -607,14 +607,14 @@ display:
           webform_multiple_value: true
           webform_multiple_delta: 0
           plugin_id: webform_submission_field
-        webform_submission_value_1:
-          id: webform_submission_value_1
-          table: webform_submission_field_workshop01_register_webform_participant_departure_date
+        webform_submission_value_8:
+          id: webform_submission_value_8
+          table: webform_submission_field_workshop_register_form_template_participant_departure_date
           field: webform_submission_value
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Check out date'
+          label: 'Departure Date'
           exclude: false
           alter:
             alter_text: false
@@ -655,18 +655,18 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          webform_element_format: short
+          webform_element_format: fallback
           webform_multiple_value: true
           webform_multiple_delta: 0
           plugin_id: webform_submission_field
-        webform_submission_value_5:
-          id: webform_submission_value_5
-          table: webform_submission_field_workshop01_register_webform_available_accomodations
+        webform_submission_value_6:
+          id: webform_submission_value_6
+          table: webform_submission_field_workshop_register_form_template_available_accomodations
           field: webform_submission_value
           relationship: none
           group_type: group
           admin_label: ''
-          label: Hotel
+          label: Hôtel
           exclude: false
           alter:
             alter_text: false
@@ -778,14 +778,14 @@ display:
           entity_type: webform_submission
           entity_field: locked
           plugin_id: field
-        webform_submission_value_3:
-          id: webform_submission_value_3
-          table: webform_submission_field_workshop01_register_webform_participant_registration_status
+        webform_submission_value_10:
+          id: webform_submission_value_10
+          table: webform_submission_field_workshop_register_form_template_participant_registration_status
           field: webform_submission_value
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Application status'
+          label: Status
           exclude: false
           alter:
             alter_text: false
@@ -830,14 +830,14 @@ display:
           webform_multiple_value: true
           webform_multiple_delta: 0
           plugin_id: webform_submission_field
-        webform_submission_value_4:
-          id: webform_submission_value_4
-          table: webform_submission_field_workshop01_register_webform_participant_talk_paper
+        webform_submission_value_11:
+          id: webform_submission_value_11
+          table: webform_submission_field_workshop_register_form_template_participant_talk_paper
           field: webform_submission_value
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Abstract paper'
+          label: 'Talk paper'
           exclude: false
           alter:
             alter_text: false
@@ -887,8 +887,39 @@ display:
           id: webform_id
           table: webform_submission
           field: webform_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
-            workshop01_register_webform: workshop01_register_webform
+            workshop_register_form_template: workshop_register_form_template
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: webform_submission
           entity_field: webform_id
           plugin_id: bundle

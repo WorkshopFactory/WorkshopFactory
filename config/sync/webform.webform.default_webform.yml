@@ -1,6 +1,6 @@
-uuid: eefcbb5f-e730-4aa6-8eaa-4a781d6099b3
+uuid: 2542f915-d5e0-4bf2-b922-bcca955b8a5c
 langcode: en
-status: closed
+status: open
 dependencies:
   module:
     - antibot
@@ -11,10 +11,10 @@ open: null
 close: null
 weight: 0
 uid: 1
-template: true
+template: false
 archive: false
-id: workshop_register_form_template
-title: 'Workshop Register Form Template'
+id: default_webform
+title: 'Default Webform'
 description: ''
 category: workshop
 elements: "participant_interest_likert:\n  '#type': webform_likert\n  '#title': 'Participant Interest'\n  '#required': true\n  '#states_clear': false\n  '#format': raw\n  '#access_create_roles':\n    - administrator\n    - participant\n  '#access_update_roles':\n    - administrator\n    - participant\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\n  '#questions':\n    'How are you interested in this event ?': 'How are you interested in this event ? -- Please select a value representing your interest in this event (ascending order).'\n  '#answers': likert_ten_scale\nparticipant_arrival_date:\n  '#type': date\n  '#title': 'Arrival Date'\n  '#required': true\n  '#states_clear': false\n  '#access_create_roles':\n    - administrator\n    - participant\n  '#access_update_roles':\n    - administrator\n    - participant\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\n  '#datepicker': true\nparticipant_departure_date:\n  '#type': date\n  '#title': 'Departure Date'\n  '#required': true\n  '#states_clear': false\n  '#access_create_roles':\n    - administrator\n    - participant\n  '#access_update_roles':\n    - administrator\n    - participant\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\n  '#datepicker': true\navailable_accomodations:\n  '#type': webform_entity_select\n  '#title': Accomodation\n  '#states_clear': false\n  '#access_create_roles':\n    - administrator\n    - participant\n  '#access_update_roles':\n    - administrator\n    - participant\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\n  '#target_type': node\n  '#selection_handler': 'default:node'\n  '#selection_settings':\n    target_bundles:\n      hotel: hotel\nparticipant_talk_demand:\n  '#type': checkbox\n  '#title': 'Participant Talk Demand'\n  '#states_clear': false\n  '#access_create_roles':\n    - administrator\n    - participant\n  '#access_update_roles':\n    - administrator\n    - participant\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\nparticipant_talk_paper:\n  '#type': webform_document_file\n  '#title': 'Participant Abstract paper'\n  '#states':\n    disabled:\n      ':input[name=\"participant_talk_demand\"]':\n        unchecked: true\n  '#states_clear': false\n  '#access_create_roles':\n    - administrator\n    - participant\n  '#access_update_roles':\n    - administrator\n    - participant\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\n  '#max_filesize': '10'\n  '#sanitize': true\nparticipant_stay_hidden:\n  '#type': checkbox\n  '#title': 'Stay hidden ?'\n  '#access_create_roles':\n    - administrator\n    - participant\n  '#access_update_roles':\n    - administrator\n    - participant\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\nterms_of_service:\n  '#type': webform_terms_of_service\n  '#required': true\n  '#states_clear': false\n  '#access_create_roles':\n    - administrator\n    - participant\n  '#access_update_roles':\n    - administrator\n    - participant\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\n  '#terms_type': slideout\n  '#terms_title': 'Terms !'\n  '#terms_content': 'The terms of services should be checked, yay !'\nparticipant_registration_status:\n  '#type': radios\n  '#title': 'Registration Status'\n  '#options':\n    Pending: Pending\n    Validated: Validated\n    Refused: Refused\n  '#required': true\n  '#states':\n    invisible:\n      '':\n        '': ''\n  '#default_value': Pending\n  '#access_create_roles':\n    - administrator\n  '#access_update_roles':\n    - administrator\n    - gestionnaire_de_programme\n  '#access_view_roles':\n    - administrator\n    - participant\n    - gestionnaire_de_programme\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#states':\n    disabled:\n      ':input[name=\"terms_of_service\"]':\n        unchecked: true"
@@ -26,7 +26,7 @@ settings:
   page: true
   page_submit_path: ''
   page_confirm_path: ''
-  form_submit_once: false
+  form_submit_once: true
   form_exception_message: ''
   form_open_message: ''
   form_close_message: ''
@@ -38,7 +38,7 @@ settings:
   form_prepopulate_source_entity: false
   form_prepopulate_source_entity_required: false
   form_prepopulate_source_entity_type: ''
-  form_reset: true
+  form_reset: false
   form_disable_autocomplete: false
   form_novalidate: false
   form_disable_inline_errors: false
