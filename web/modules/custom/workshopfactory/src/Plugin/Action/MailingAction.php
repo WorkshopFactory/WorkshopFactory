@@ -80,6 +80,7 @@ class MailingAction extends ViewsBulkOperationsActionBase implements PluginFormI
 
     $this->configuration['template_choice_body'] = $template_chosen->get('body')->value;
 
+    $this->configuration['template_choice_id'] = $nid;
   }
 
 
@@ -113,6 +114,7 @@ class MailingAction extends ViewsBulkOperationsActionBase implements PluginFormI
       $message['body'] = $params['message'];
       $params['subject'] = $this->configuration["template_choice_subject"];
       $params['message'] = $this->configuration["template_choice_body"];
+      
 
 //      $params['message'] = $this->configuration["example_config_setting"];
 
