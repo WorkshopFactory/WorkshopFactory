@@ -4,7 +4,6 @@ status: true
 dependencies:
   module:
     - user
-    - views_bulk_operations
 id: mailing_users
 label: 'Mailing users'
 module: views

@@ -3,7 +3,17 @@ langcode: en
 status: true
 dependencies:
   config:
-    - webform.webform.workshop_register_form_template
+    - webform.webform.contact
+    - webform.webform.template_contact
+    - webform.webform.template_employee_evaluation
+    - webform.webform.template_feedback
+    - webform.webform.template_issue
+    - webform.webform.template_job_application
+    - webform.webform.template_job_seeker_profile
+    - webform.webform.template_registration
+    - webform.webform.template_session_evaluation
+    - webform.webform.template_subscribe
+    - webform.webform.template_user_profile
   module:
     - node
     - user
@@ -475,9 +485,19 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          operator: in
+          operator: 'not in'
           value:
-            workshop_register_form_template: workshop_register_form_template
+            contact: contact
+            template_contact: template_contact
+            template_employee_evaluation: template_employee_evaluation
+            template_feedback: template_feedback
+            template_issue: template_issue
+            template_job_application: template_job_application
+            template_job_seeker_profile: template_job_seeker_profile
+            template_registration: template_registration
+            template_session_evaluation: template_session_evaluation
+            template_subscribe: template_subscribe
+            template_user_profile: template_user_profile
           group: 1
           exposed: false
           expose:

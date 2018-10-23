@@ -3,11 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - webform.webform.workshop01_register_webform
+    - webform.webform.default_webform
   module:
     - node
     - user
-    - views_bulk_operations
     - webform
     - webform_views
 id: mailing_page

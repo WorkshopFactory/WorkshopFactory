@@ -2,8 +2,6 @@ uuid: b5c9f060-a7f8-43e8-b2b5-603598fed8bc
 langcode: en
 status: true
 dependencies:
-  config:
-    - webform.webform.workshop_register_form_template
   module:
     - csv_serialization
     - node
@@ -470,47 +468,7 @@ display:
           link: 1
           entity_type: webform_submission
           plugin_id: webform_submission_submitted_to_label
-      filters:
-        webform_id:
-          id: webform_id
-          table: webform_submission
-          field: webform_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: in
-          value:
-            workshop_register_form_template: workshop_register_form_template
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          entity_type: webform_submission
-          entity_field: webform_id
-          plugin_id: bundle
+      filters: {  }
       sorts: {  }
       title: 'Page des candidatures'
       header: {  }
