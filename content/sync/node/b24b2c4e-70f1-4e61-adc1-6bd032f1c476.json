@@ -1,0 +1,227 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/544?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/field_image": [
+            {
+                "href": "http:\/\/default\/file\/519?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 544
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b24b2c4e-70f1-4e61-adc1-6bd032f1c476"
+        }
+    ],
+    "vid": [
+        {
+            "value": 557
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hotel"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-24T09:50:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/519?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "80c1ec36-f145-4a65-bd5a-cf41df4a5d5a"
+                    }
+                ],
+                "lang": "en",
+                "alt": "DoubleTree",
+                "title": "DoubleTree by Hilton",
+                "width": "1024",
+                "height": "731"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "DoubleTree by Hilton",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T09:50:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T09:53:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Located in the capital's CBD area, DoubleTree by Hilton Beijing opened in 2008 as the 1st DoubleTree Flagship in Asia offering a spa centre, a modern fitness centre and an indoor pool. Free WiFi is available in the public area. For all staying guests, well cooked biscuits will be provided as a gift.<\/p>\r\n\r\n<p>Close to the prestigious Financial Street, Doubletree also offers easy access to several tourist attractions including Tiananmen Square, the Forbidden City and the Temple of Heaven. Free transfers to Fuxingmen Subway Station (Line 1) is provided. Daguanying metro station on Line 7 is a short 2-minute walk away. Beijing South Railway Station lays 25 minutes' drive away, while Beijing West Railway Station can be reached in 15 minutes' taxi ride. The hotel is 1.5 hours' car journey away from Beijing Capital International Airport.<\/p>\r\n\r\n<p>Rooms at Doubletree by Hilton Beijing are contemporary in design. They are also fitted with an LCD television, MP3 connector, ample workspace and a cosy sitting area. 24-hour room service is also available.<\/p>\r\n\r\n<p>Guests can relax in the sauna, soothe tired muscles with a massage treatment, or enjoy a peaceful evening in the rooftop garden. An elegant business center plus meeting facilities is provided for those who wish to catch up with their last-minute work.<\/p>\r\n\r\n<p>Dine at Doubletree's 2 on-site restaurants offering delicious Chinese cuisine, as well as European and South East Asian specialties.&nbsp;<\/p>\r\n\r\n<p>Xicheng is a great choice for travellers interested in&nbsp;convenient public transport,&nbsp;architecture&nbsp;and&nbsp;old town exploring.<\/p>\r\n\r\n<p>We speak your language!<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Located in the capital's CBD area, DoubleTree by Hilton Beijing opened in 2008 as the 1st DoubleTree Flagship in Asia offering a spa centre, a modern fitness centre and an indoor pool. Free WiFi is available in the public area. For all staying guests, well cooked biscuits will be provided as a gift.<\/p>\n\n<p>Close to the prestigious Financial Street, Doubletree also offers easy access to several tourist attractions including Tiananmen Square, the Forbidden City and the Temple of Heaven. Free transfers to Fuxingmen Subway Station (Line 1) is provided. Daguanying metro station on Line 7 is a short 2-minute walk away. Beijing South Railway Station lays 25 minutes' drive away, while Beijing West Railway Station can be reached in 15 minutes' taxi ride. The hotel is 1.5 hours' car journey away from Beijing Capital International Airport.<\/p>\n\n<p>Rooms at Doubletree by Hilton Beijing are contemporary in design. They are also fitted with an LCD television, MP3 connector, ample workspace and a cosy sitting area. 24-hour room service is also available.<\/p>\n\n<p>Guests can relax in the sauna, soothe tired muscles with a massage treatment, or enjoy a peaceful evening in the rooftop garden. An elegant business center plus meeting facilities is provided for those who wish to catch up with their last-minute work.<\/p>\n\n<p>Dine at Doubletree's 2 on-site restaurants offering delicious Chinese cuisine, as well as European and South East Asian specialties.\u00a0<\/p>\n\n<p>Xicheng is a great choice for travellers interested in\u00a0convenient public transport,\u00a0architecture\u00a0and\u00a0old town exploring.<\/p>\n\n<p>We speak your language!<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_adressetest": [
+        {
+            "langcode": "",
+            "country_code": "CN",
+            "administrative_area": null,
+            "locality": "Beijing",
+            "dependent_locality": null,
+            "postal_code": "100032",
+            "sorting_code": null,
+            "address_line1": "168 Guang'anmen Outer St",
+            "address_line2": "Xicheng Qu",
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "en"
+        }
+    ],
+    "field_cartetest": [
+        {
+            "lat": 39.8774983,
+            "lng": 116.3441719,
+            "lat_sin": 0.641148294296754,
+            "lat_cos": 0.7674170083600981,
+            "lng_rad": 2.030588865161267,
+            "data": [],
+            "value": "39.8774983, 116.3441719",
+            "lang": "en"
+        }
+    ],
+    "field_prix": [
+        {
+            "value": 80
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "https:\/\/www.booking.com\/hotel\/cn\/doubletree-by-hilton-beijing.en-gb.html?aid=356931;label=metagha-link-localuniversalFR-hotel-46604_dev-desktop_los-1_bw-25_dow-Sunday_defdate-1_room-0_lang-en_curr-EUR_gstadt-2_rateid-0_aud-0_cid-69;sid=80431e929b1ace1ed6b9961df2b0739c;all_sr_blocks=4660414_107233612_2_2_0;checkin=2018-11-18;checkout=2018-11-19;dest_id=-1898541;dest_type=city;dist=0;group_adults=2;hapos=1;highlighted_blocks=4660414_107233612_2_2_0;hpos=1;room1=A%2CA;sb_price_type=total;srepoch=1540374641;srfid=f65338609e701b6c2d7335f96673b8c23aff521eX1;srpvid=955545381d830130;type=total;ucfs=1&#hotelTmpl",
+            "title": "Link",
+            "options": []
+        }
+    ]
+}

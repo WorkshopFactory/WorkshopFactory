@@ -1,0 +1,122 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/64?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "http:\/\/default\/file\/516?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 64
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4b03c969-59b5-47b0-b854-de4b06657ba1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "harrypopper"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T09:32:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T09:55:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "AU",
+            "administrative_area": "WA",
+            "locality": "Crawley",
+            "dependent_locality": null,
+            "postal_code": "6000",
+            "sorting_code": null,
+            "address_line1": "230 Hampden Rd",
+            "address_line2": "",
+            "organization": "NSTA",
+            "given_name": "Harry",
+            "additional_name": null,
+            "family_name": "Popper"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": 51.47879,
+            "lng": -0.010677,
+            "lat_sin": 0.7823776580683737,
+            "lat_cos": 0.6228043032570078,
+            "lng_rad": -0.00018634880423543457,
+            "data": [],
+            "value": "51.47879, -0.010677"
+        }
+    ],
+    "field_indications_particulieres": [
+        {
+            "value": "<p>Manager of the events in the NTSA Center (Asia SGAC related Company).<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Manager of the events in the NTSA Center (Asia SGAC related Company).<\/p>"
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "http:\/\/nsta-center.com",
+            "title": "Link",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/516?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44609a13-b759-4311-a410-3adf547013f6"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "1440",
+                "height": "1440"
+            }
+        ]
+    }
+}

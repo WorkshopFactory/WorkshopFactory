@@ -9,7 +9,7 @@ id: node.webform.field_workshop_est_attendance
 field_name: field_workshop_est_attendance
 entity_type: node
 bundle: webform
-label: 'Max people :'
+label: 'Max people'
 description: ''
 required: true
 translatable: false

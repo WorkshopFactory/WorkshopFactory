@@ -30,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": 5
+            "value": 567
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-09T12:19:11+00:00",
+            "value": "2018-10-24T14:11:09+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -95,7 +95,7 @@
     ],
     "title": [
         {
-            "value": "ggfdgfdgh",
+            "value": "General information",
             "lang": "en"
         }
     ],
@@ -108,7 +108,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-09T12:19:11+00:00",
+            "value": "2018-10-24T14:11:09+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -130,12 +130,6 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "path": [
         {
             "alias": null,
@@ -146,9 +140,9 @@
     ],
     "body": [
         {
-            "value": "<p>dghfghfgj<\/p>\r\n",
+            "value": "<p>Workshops are meetings that cover different and evolving aspects of life-science-related&nbsp;<a href=\"http:\/\/embo.org\/about-embo\/subject-areas\">subject areas<\/a>&nbsp;and bring scientists together to present and discuss their latest findings. Workshops may alternate with corresponding meetings held outside of Europe to facilitate interactions between scientists based in Europe and beyond.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Workshops should last between two and a half and five days, and attract between 80 and 450 participants.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Applications for Workshops are accepted twice a year and must be submitted through the&nbsp;<a href=\"https:\/\/applications.embo.org\/register.php?reg=L06Q\">online system<\/a>. Organizers are advised to apply as early as possible in the calendar year before the proposed date of the practical course.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<strong>Application process<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>The deadlines for applications are 1 March 2018 and 1 August 2018, 09:00 CET.<\/li>\r\n\t<li>Applicants will be asked to complete an&nbsp;<a href=\"https:\/\/applications.embo.org\/register.php?reg=L06Q\">online&nbsp;application form<\/a>.<\/li>\r\n\t<li>All incoming applications are screened by the EMBO office to ensure eligibility requirements are met.<\/li>\r\n\t<li>The decision on which proposals receive funding is made by the EMBO Course Committee in May and October, respectively.<\/li>\r\n\t<li>All applicants are informed of the outcome of their application by email shortly after the committee meeting.<\/li>\r\n<\/ul>\r\n\r\n<p>Please note: For repeating workshops, a new application is required for each individual meeting within a series, which will be evaluated competitively.<\/p>\r\n\r\n<p><strong>&nbsp;<\/strong><\/p>\r\n\r\n<p><strong>Required documentation<\/strong><\/p>\r\n\r\n<p>Applicants will be asked to provide:<\/p>\r\n\r\n<ul>\r\n\t<li>A list of the organizers<\/li>\r\n\t<li>Proposed title and topic of the meeting<\/li>\r\n\t<li>Reasons for holding a meeting on the proposed topic<\/li>\r\n\t<li>Information on any competing or similar meetings held in the current, proposed or following year<\/li>\r\n\t<li>Proposed date and location<\/li>\r\n\t<li>List of proposed speakers\/instructors<\/li>\r\n\t<li>Draft programme<\/li>\r\n\t<li>Selection criteria and number of participants<\/li>\r\n\t<li>Draft budget<\/li>\r\n<\/ul>\r\n\r\n<p>For detailed information on the application process, key dates and required documentation, please consult the&nbsp;<a href=\"http:\/\/embo.org\/documents\/courses_and_workshops\/EMBO_CW_application_guidelines.pdf\">application guidelines<\/a>.<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>dghfghfgj<\/p>",
+            "processed": "<p>Workshops are meetings that cover different and evolving aspects of life-science-related\u00a0<a href=\"http:\/\/embo.org\/about-embo\/subject-areas\">subject areas<\/a>\u00a0and bring scientists together to present and discuss their latest findings. Workshops may alternate with corresponding meetings held outside of Europe to facilitate interactions between scientists based in Europe and beyond.<\/p>\n\n<p>\u00a0<\/p>\n\n<p>Workshops should last between two and a half and five days, and attract between 80 and 450 participants.<\/p>\n\n<p>\u00a0<\/p>\n\n<p>Applications for Workshops are accepted twice a year and must be submitted through the\u00a0<a href=\"https:\/\/applications.embo.org\/register.php?reg=L06Q\">online system<\/a>. Organizers are advised to apply as early as possible in the calendar year before the proposed date of the practical course.<\/p>\n\n<p>\u00a0<\/p>\n\n<p>\u00a0<strong>Application process<\/strong><\/p>\n\n<ul>\n\t<li>The deadlines for applications are 1 March 2018 and 1 August 2018, 09:00 CET.<\/li>\n\t<li>Applicants will be asked to complete an\u00a0<a href=\"https:\/\/applications.embo.org\/register.php?reg=L06Q\">online\u00a0application form<\/a>.<\/li>\n\t<li>All incoming applications are screened by the EMBO office to ensure eligibility requirements are met.<\/li>\n\t<li>The decision on which proposals receive funding is made by the EMBO Course Committee in May and October, respectively.<\/li>\n\t<li>All applicants are informed of the outcome of their application by email shortly after the committee meeting.<\/li>\n<\/ul>\n\n<p>Please note: For repeating workshops, a new application is required for each individual meeting within a series, which will be evaluated competitively.<\/p>\n\n<p><strong>\u00a0<\/strong><\/p>\n\n<p><strong>Required documentation<\/strong><\/p>\n\n<p>Applicants will be asked to provide:<\/p>\n\n<ul>\n\t<li>A list of the organizers<\/li>\n\t<li>Proposed title and topic of the meeting<\/li>\n\t<li>Reasons for holding a meeting on the proposed topic<\/li>\n\t<li>Information on any competing or similar meetings held in the current, proposed or following year<\/li>\n\t<li>Proposed date and location<\/li>\n\t<li>List of proposed speakers\/instructors<\/li>\n\t<li>Draft programme<\/li>\n\t<li>Selection criteria and number of participants<\/li>\n\t<li>Draft budget<\/li>\n<\/ul>\n\n<p>For detailed information on the application process, key dates and required documentation, please consult the\u00a0<a href=\"http:\/\/embo.org\/documents\/courses_and_workshops\/EMBO_CW_application_guidelines.pdf\">application guidelines<\/a>.<\/p>",
             "summary": "",
             "lang": "en"
         }

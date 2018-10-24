@@ -1,0 +1,17 @@
+workshopfactory.listclosedworkshops:
+  title: 'Closed Workshops'
+  route_name: workshopfactory.listclosedworkshops
+  description: 'List all the closed Workshops'
+  menu_name: main
+
+workshopfactory.create_workshop_page:
+  title: 'Create a Workshop'
+  route_name: workshopfactory.create_workshop
+  description: 'Create a Workshop Page'
+  menu_name: main
+  
+workshopfactory.mailling_page:
+  title: 'Mailing'
+  route_name: workshopfactory.mailing_global
+  description: 'Mailing Page'
+  menu_name: main

@@ -1,12 +1,11 @@
 uuid: c940449c-715f-4505-a775-3c237b910a69
 langcode: en
-status: true
+status: false
 dependencies:
-  config:
-    - webform.webform.default_webform
   module:
     - node
     - user
+    - views_bulk_operations
     - webform
     - webform_views
 id: mailing_page

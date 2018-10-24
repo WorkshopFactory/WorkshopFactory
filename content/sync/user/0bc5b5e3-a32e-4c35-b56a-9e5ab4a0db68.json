@@ -1,0 +1,122 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/65?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "http:\/\/default\/file\/520?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 65
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0bc5b5e3-a32e-4c35-b56a-9e5ab4a0db68"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "mclepoutre"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T09:58:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T10:01:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "FR",
+            "administrative_area": null,
+            "locality": "Paris",
+            "dependent_locality": null,
+            "postal_code": "75015",
+            "sorting_code": "",
+            "address_line1": "51-45 Avenue F\u00e9lix Faure",
+            "address_line2": "",
+            "organization": "EuroCardio",
+            "given_name": "Marie Chantale",
+            "additional_name": null,
+            "family_name": "Le Poutre"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": 48.8407954,
+            "lng": 2.2874031,
+            "lat_sin": 0.7528837142824393,
+            "lat_cos": 0.658153563211716,
+            "lng_rad": 0.039922715415325105,
+            "data": [],
+            "value": "48.8407954, 2.2874031"
+        }
+    ],
+    "field_indications_particulieres": [
+        {
+            "value": "<p>President of EuroCardio in the Paris Headquarters.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>President of EuroCardio in the Paris Headquarters.<\/p>"
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "http:\/\/eurocardio.fr",
+            "title": "Link",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/520?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69e44221-97eb-448e-93df-0ed5ffb3ecc1"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "225",
+                "height": "225"
+            }
+        ]
+    }
+}

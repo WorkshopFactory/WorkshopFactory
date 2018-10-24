@@ -202,7 +202,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-22T15:56:18+00:00",
+            "value": "2018-10-24T10:19:44+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -284,7 +284,7 @@
     ],
     "field_workshop_end_date": [
         {
-            "value": "2018-10-29"
+            "value": "2019-10-29"
         }
     ],
     "field_workshop_est_attendance": [
@@ -301,17 +301,17 @@
     ],
     "field_workshop_notification_date": [
         {
-            "value": "2018-10-14"
+            "value": "2019-10-14"
         }
     ],
     "field_workshop_startdate": [
         {
-            "value": "2018-10-22"
+            "value": "2019-10-22"
         }
     ],
     "field_workshop_submission_date": [
         {
-            "value": "2018-10-12"
+            "value": "2019-10-12"
         }
     ]
 }

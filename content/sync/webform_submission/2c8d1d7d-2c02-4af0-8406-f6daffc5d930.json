@@ -1,0 +1,117 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/structure\/webform\/manage\/default_webform\/submission\/109?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/webform_submission\/default_webform"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/default_webform\/uid": [
+            {
+                "href": "http:\/\/default\/user\/60?_format=hal_json"
+            }
+        ]
+    },
+    "serial": [
+        {
+            "value": 4
+        }
+    ],
+    "sid": [
+        {
+            "value": 109
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2c8d1d7d-2c02-4af0-8406-f6daffc5d930"
+        }
+    ],
+    "token": [
+        {
+            "value": "wqeQ7Fo8ET7WEVkj2u2wwghu90f7jWvumy7jLGZBWgs"
+        }
+    ],
+    "uri": [
+        {
+            "value": "\/node\/530"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T09:24:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "completed": [
+        {
+            "value": "2018-10-24T09:24:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T09:24:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "in_draft": [
+        {
+            "value": false
+        }
+    ],
+    "remote_addr": [
+        {
+            "value": "192.168.10.136"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/default_webform\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/60?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6172f367-79d6-41f4-897b-f648d85483b9"
+                    }
+                ]
+            }
+        ]
+    },
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "webform_id": [
+        {
+            "target_id": "default_webform"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "entity_id": [
+        {
+            "value": "530"
+        }
+    ],
+    "locked": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ]
+}

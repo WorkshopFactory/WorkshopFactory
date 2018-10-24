@@ -9,11 +9,24 @@ dependencies:
     - field.storage.node.field_workshop_theme
     - node.type.webform
     - system.menu.main
+    - taxonomy.vocabulary.workshop_themes
+    - user.role.administrator
+    - user.role.gestionnaire_de_programme
+  content:
+    - 'taxonomy_term:workshop_themes:0c36d6f7-dc57-4327-bc80-2ee6fb77d0d3'
+    - 'taxonomy_term:workshop_themes:2c6baa01-6a4e-4aa1-8a53-709ad737f2f9'
+    - 'taxonomy_term:workshop_themes:5219302d-3428-4b4b-aa8e-5524cf5251ab'
+    - 'taxonomy_term:workshop_themes:8d4f7cf9-f79a-42e2-a21d-a802ac53601d'
+    - 'taxonomy_term:workshop_themes:919eb86f-6b96-46fa-a4c5-2afa1f16ade7'
+    - 'taxonomy_term:workshop_themes:9513bd4e-32f9-4da6-a4cb-348b285c3b6e'
+    - 'taxonomy_term:workshop_themes:befddd52-3622-4ac6-ad6a-56b184aaeaf2'
+    - 'taxonomy_term:workshop_themes:c480277b-9dfe-422b-804b-4fc07416c05d'
   module:
     - address
     - datetime
     - node
     - options
+    - taxonomy
     - text
     - user
 id: liste_filtrable_des_workshops
@@ -544,6 +557,43 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        field_workshop_register_webform_status:
+          id: field_workshop_register_webform_status
+          table: node__field_workshop_register_webform
+          field: field_workshop_register_webform_status
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value: Open
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
       sorts: {  }
       title: 'All Workshops'
       header: {  }
@@ -582,12 +632,398 @@ display:
         weight: 0
         expanded: false
         enabled: true
+      sorts: {  }
+      defaults:
+        sorts: false
+        filters: false
+        filter_groups: false
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            webform: webform
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        field_workshop_register_webform_status:
+          id: field_workshop_register_webform_status
+          table: node__field_workshop_register_webform
+          field: field_workshop_register_webform_status
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value: Open
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
+        field_workshop_theme_target_id:
+          id: field_workshop_theme_target_id
+          table: node__field_workshop_theme
+          field: field_workshop_theme_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            2: 2
+            3: 3
+            10: 10
+            16: 16
+            18: 18
+            23: 23
+            27: 27
+            42: 42
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_workshop_theme_target_id_op
+            label: 'Scientific field'
+            description: ''
+            use_operator: false
+            operator: field_workshop_theme_target_id_op
+            identifier: scientific_field
+            required: false
+            remember: false
+            multiple: true
+            remember_roles:
+              anonymous: anonymous
+              authenticated: authenticated
+              administrator: administrator
+              participant: participant
+              gestionnaire_de_programme: gestionnaire_de_programme
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: workshop_themes
+          hierarchy: false
+          error_message: false
+          plugin_id: taxonomy_index_tid
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_workshop_description'
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_theme'
+  page_2:
+    display_plugin: page
+    id: page_2
+    display_title: 'Page (list closed workshops)'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            webform: webform
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        field_workshop_register_webform_status:
+          id: field_workshop_register_webform_status
+          table: node__field_workshop_register_webform
+          field: field_workshop_register_webform_status
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value: Closed
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
+      defaults:
+        filters: false
+        filter_groups: false
+        access: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      access:
+        type: role
+        options:
+          role:
+            administrator: administrator
+            gestionnaire_de_programme: gestionnaire_de_programme
+      path: allclosedworkshops
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
+        - 'user.node_grants:view'
+        - user.roles
+      tags:
+        - 'config:field.storage.node.field_workshop_description'
+        - 'config:field.storage.node.field_workshop_end_date'
+        - 'config:field.storage.node.field_workshop_startdate'
+        - 'config:field.storage.node.field_workshop_theme'
+  page_3:
+    display_plugin: page
+    id: page_3
+    display_title: 'Display workshops by year'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: allworkshops
+      menu:
+        type: normal
+        title: 'All Workshops'
+        menu_name: main
+        description: ''
+        parent: ''
+        weight: 0
+        expanded: false
+        enabled: false
+      display_description: ''
+      title: 'Worshops by year'
+      defaults:
+        title: false
+        filters: false
+        filter_groups: false
+        group_by: false
+        sorts: false
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            webform: webform
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        field_workshop_register_webform_status:
+          id: field_workshop_register_webform_status
+          table: node__field_workshop_register_webform
+          field: field_workshop_register_webform_status
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value: Open
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            placeholder: ''
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: string
+        field_workshop_startdate_value:
+          id: field_workshop_startdate_value
+          table: node__field_workshop_startdate
+          field: field_workshop_startdate_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value:
+            min: ''
+            max: ''
+            value: ''
+            type: date
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_workshop_startdate_value_op
+            label: 'Start date : (field_workshop_startdate)'
+            description: ''
+            use_operator: false
+            operator: field_workshop_startdate_value_op
+            identifier: field_workshop_startdate_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              participant: '0'
+              gestionnaire_de_programme: '0'
+            placeholder: ''
+            min_placeholder: ''
+            max_placeholder: ''
+          is_grouped: false
+          group_info:
+            label: 'Start date : (field_workshop_startdate)'
+            description: null
+            identifier: field_workshop_startdate_value
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items:
+              1: {  }
+              2: {  }
+              3: {  }
+          plugin_id: datetime
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      group_by: false
+      sorts:
+        field_workshop_startdate_value:
+          id: field_workshop_startdate_value
+          table: node__field_workshop_startdate
+          field: field_workshop_startdate_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: true
+          expose:
+            label: 'Start date : (field_workshop_startdate)'
+          granularity: year
+          plugin_id: datetime
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
         - 'user.node_grants:view'
         - user.permissions
       tags:

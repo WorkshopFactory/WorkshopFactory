@@ -186,7 +186,7 @@ content:
     region: content
   field_image:
     weight: 2
-    label: above
+    label: hidden
     settings:
       image_style: more_larger
       image_link: ''

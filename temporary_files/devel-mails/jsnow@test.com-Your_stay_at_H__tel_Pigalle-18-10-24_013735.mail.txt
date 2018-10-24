@@ -1,0 +1,25 @@
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: 8Bit
+X-Mailer: Drupal
+Return-Path: contact@workshopfactory.com
+Sender: contact@workshopfactory.com
+From: Workshop Factory <contact@workshopfactory.com>
+To: jsnow@test.com
+Subject: Your stay at Hôtel Pigalle
+
+Hello [webform_submission:original:user:name],
+
+We're happy to inform you that your reservation at Hôtel Pigalle [1] is
+booked from 2019-10-22 to 2019-10-29.
+
+ 
+
+Regards,
+
+ 
+
+gestionnaireman - The Workshop Factory team
+
+
+[1] http://192.168.10.118:8000/workshopfactory/web/node/531

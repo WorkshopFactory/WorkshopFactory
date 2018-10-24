@@ -1,0 +1,232 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/546?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/field_image": [
+            {
+                "href": "http:\/\/default\/file\/522?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 546
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4f5d9c51-6792-49ee-a216-8893098ed3e6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 559
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hotel"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-24T10:06:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/522?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "efa42e11-9759-4aba-9a89-a374159667fc"
+                    }
+                ],
+                "lang": "en",
+                "alt": "ibis vilette",
+                "title": "Ibis75019",
+                "width": "1024",
+                "height": "768"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Hotel ibis Paris La Villette Cit\u00e9 des Sciences 19\u00e8me",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T10:04:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T10:07:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Located on the edge of&nbsp;Canal de&nbsp;l\u2019Ourcq and 400 m from Cit\u00e9 des Sciences, ibis Paris La Villette Cit\u00e9 des Sciences is a 24-hour reception hotel with an international restaurant and a bar.<\/p>\r\n\r\n<p>The rooms at ibis Paris La Villette Cit\u00e9 des Sciences have a satellite TV and a telephone. The private bathroom includes a hairdryer.<\/p>\r\n\r\n<p>A buffet breakfast composed of sweet and savoury dishes such as eggs, fruit salad, yogurts and juices is served every day. Pastries baked on site and fresh French Madeleine cakes are also on offer, as well as a hot beverage and a piece of fruit to take away. Outside of regular breakfast hours guests can also enjoy a lighter option, available from 04:00.<\/p>\r\n\r\n<p>The hotel is situated 1 km from Le Z\u00e9nith Arena and 400 m from Corentin Cariou Metro Station which provides direct access to Chauss\u00e9e d\u2019Antin \u2013 La Fayette and Op\u00e9ra Garnier. Les Docks de Paris Event Venue are 2.9 km away.&nbsp;<\/p>\r\n\r\n<p>19th arr. is a great choice for travellers interested in&nbsp;tourist attractions,&nbsp;monuments&nbsp;and&nbsp;sightseeing.<\/p>\r\n\r\n<p>We speak your language!<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Located on the edge of\u00a0Canal de\u00a0l\u2019Ourcq and 400 m from Cit\u00e9 des Sciences, ibis Paris La Villette Cit\u00e9 des Sciences is a 24-hour reception hotel with an international restaurant and a bar.<\/p>\n\n<p>The rooms at ibis Paris La Villette Cit\u00e9 des Sciences have a satellite TV and a telephone. The private bathroom includes a hairdryer.<\/p>\n\n<p>A buffet breakfast composed of sweet and savoury dishes such as eggs, fruit salad, yogurts and juices is served every day. Pastries baked on site and fresh French Madeleine cakes are also on offer, as well as a hot beverage and a piece of fruit to take away. Outside of regular breakfast hours guests can also enjoy a lighter option, available from 04:00.<\/p>\n\n<p>The hotel is situated 1 km from Le Z\u00e9nith Arena and 400 m from Corentin Cariou Metro Station which provides direct access to Chauss\u00e9e d\u2019Antin \u2013 La Fayette and Op\u00e9ra Garnier. Les Docks de Paris Event Venue are 2.9 km away.\u00a0<\/p>\n\n<p>19th arr. is a great choice for travellers interested in\u00a0tourist attractions,\u00a0monuments\u00a0and\u00a0sightseeing.<\/p>\n\n<p>We speak your language!<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_adressetest": [
+        {
+            "langcode": "",
+            "country_code": "FR",
+            "administrative_area": null,
+            "locality": "Paris",
+            "dependent_locality": null,
+            "postal_code": "75019",
+            "sorting_code": null,
+            "address_line1": "31-35 Quai de l'Oise",
+            "address_line2": "",
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "en"
+        }
+    ],
+    "field_cartetest": [
+        {
+            "lat": 48.8898639,
+            "lng": 2.3818661,
+            "lat_sin": 0.7534470853610432,
+            "lat_cos": 0.6575085471390838,
+            "lng_rad": 0.041571405786636505,
+            "data": [],
+            "value": "48.8898639, 2.3818661",
+            "lang": "en"
+        }
+    ],
+    "field_email": [
+        {
+            "value": "villette@ibis.com"
+        }
+    ],
+    "field_prix": [
+        {
+            "value": 44
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "https:\/\/www.booking.com\/hotel\/fr\/ibis-paris-la-villette-cita-c-des-sciences.en-gb.html?aid=356931;label=metagha-link-localuniversalFR-hotel-545413_dev-desktop_los-1_bw-4_dow-Sunday_defdate-1_room-0_lang-en_curr-EUR_gstadt-2_rateid-0_aud-0_cid-69;sid=80431e929b1ace1ed6b9961df2b0739c;all_sr_blocks=54541303_94489651_0_2_0;checkin=2018-10-28;checkout=2018-10-29;dest_id=-1456928;dest_type=city;dist=0;group_adults=2;hapos=1;highlighted_blocks=54541303_94489651_0_2_0;hpos=1;room1=A%2CA;sb_price_type=total;srepoch=1540375506;srfid=270e1403abc69c0e017a8c18d54bff3907712ba4X1;srpvid=788946e8722d01af;type=total;ucfs=1&#hotelTmpl",
+            "title": "Link",
+            "options": []
+        }
+    ]
+}

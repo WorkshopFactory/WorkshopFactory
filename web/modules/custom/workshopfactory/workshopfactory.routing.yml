@@ -3,12 +3,32 @@ workshopfactory.list_applications:
   defaults:
     _title: 'Applications'
   requirements:
-    _access: 'TRUE'
+    _role: 'gestionnaire_de_programme+administrator'
 
 workshopfactory.mailing:
   path: '/node/{node}/mailing'
   defaults:
-#    _controller: '\Drupal\workshopfactory\Controller\MailingController::content'
     _title: 'Mailing'
   requirements:
-    _access: 'TRUE'
+    _role: 'gestionnaire_de_programme+administrator'
+
+workshopfactory.mailing_global:
+  path: '/mailing'
+  defaults:
+    _title: 'Mailing'
+  requirements:
+    _role: 'gestionnaire_de_programme+administrator'
+
+workshopfactory.create_workshop:
+  path: '/create_workshop'
+  defaults:
+    _title: 'Create a Workshop'
+  requirements:
+    _role: 'gestionnaire_de_programme+administrator'
+
+workshopfactory.listclosedworkshops:
+  path: '/allclosedworkshops'
+  defaults:
+    _title: 'Closed Workshops'
+  requirements:
+    _role: 'gestionnaire_de_programme+administrator'

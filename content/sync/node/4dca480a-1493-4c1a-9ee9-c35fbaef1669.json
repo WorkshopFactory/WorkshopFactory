@@ -1,0 +1,232 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/547?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/field_image": [
+            {
+                "href": "http:\/\/default\/file\/523?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 547
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4dca480a-1493-4c1a-9ee9-c35fbaef1669"
+        }
+    ],
+    "vid": [
+        {
+            "value": 560
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hotel"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-24T10:08:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/523?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1d269274-03fb-4b31-8047-dde32cb3620d"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Aparthotel Adagio",
+                "title": "Aparthotel Adagio",
+                "width": "1024",
+                "height": "683"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Aparthotel Adagio Access Paris La Villette",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T10:08:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T10:09:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>This residence is located opposite Parc de la Villette and Cit\u00e9 des Sciences et de l'Industrie. It offers furnished apartments with a fully equipped kitchens just 150 m from Porte de la Villette Metro Station.<\/p>\r\n\r\n<p>All of the contemporary apartments and studios at Aparthotel Adagio Access Paris La Villette offer a microwave and refrigerator. Each has a private bathroom with a bathtub, and hairdryers are available upon request.<\/p>\r\n\r\n<p>Guests can enjoy the buffet breakfast every morning and browse the free WiFi at the residence. Afterwards, the 24-hour reception can advise on a day of sightseeing.<\/p>\r\n\r\n<p>Charles de Gaulle Airport is a 20-minute drive away from the residence. Tourist attractions such as Galeries Lafayette and the Louvre Museum can be reached directly using the local Metro transport. Les Docks de Paris Event Venue are 2.5 km away.&nbsp;<\/p>\r\n\r\n<p>19th arr. is a great choice for travellers interested in&nbsp;tourist attractions,&nbsp;monuments&nbsp;and&nbsp;sightseeing.<\/p>\r\n\r\n<p>We speak your language!<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>This residence is located opposite Parc de la Villette and Cit\u00e9 des Sciences et de l'Industrie. It offers furnished apartments with a fully equipped kitchens just 150 m from Porte de la Villette Metro Station.<\/p>\n\n<p>All of the contemporary apartments and studios at Aparthotel Adagio Access Paris La Villette offer a microwave and refrigerator. Each has a private bathroom with a bathtub, and hairdryers are available upon request.<\/p>\n\n<p>Guests can enjoy the buffet breakfast every morning and browse the free WiFi at the residence. Afterwards, the 24-hour reception can advise on a day of sightseeing.<\/p>\n\n<p>Charles de Gaulle Airport is a 20-minute drive away from the residence. Tourist attractions such as Galeries Lafayette and the Louvre Museum can be reached directly using the local Metro transport. Les Docks de Paris Event Venue are 2.5 km away.\u00a0<\/p>\n\n<p>19th arr. is a great choice for travellers interested in\u00a0tourist attractions,\u00a0monuments\u00a0and\u00a0sightseeing.<\/p>\n\n<p>We speak your language!<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_adressetest": [
+        {
+            "langcode": "",
+            "country_code": "FR",
+            "administrative_area": null,
+            "locality": "Paris",
+            "dependent_locality": null,
+            "postal_code": "75019",
+            "sorting_code": null,
+            "address_line1": "28bis avenue Corentin Cariou",
+            "address_line2": "",
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "en"
+        }
+    ],
+    "field_cartetest": [
+        {
+            "lat": 48.8947282,
+            "lng": 2.3823046,
+            "lat_sin": 0.7535029038397133,
+            "lat_cos": 0.6574445785806737,
+            "lng_rad": 0.04157905905540651,
+            "data": [],
+            "value": "48.8947282, 2.3823046",
+            "lang": "en"
+        }
+    ],
+    "field_email": [
+        {
+            "value": "aparthotel@booking.com"
+        }
+    ],
+    "field_prix": [
+        {
+            "value": 40
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "https:\/\/www.booking.com\/hotel\/fr\/citea-la-villette.en-gb.html?aid=356931;label=metagha-link-localuniversalFR-hotel-53588_dev-desktop_los-1_bw-4_dow-Sunday_defdate-1_room-0_lang-en_curr-EUR_gstadt-2_rateid-0_aud-0_cid-69;sid=80431e929b1ace1ed6b9961df2b0739c;all_sr_blocks=5358805_94272635_0_2_0;checkin=2018-10-28;checkout=2018-10-29;dest_id=-1456928;dest_type=city;dist=0;group_adults=2;hapos=1;highlighted_blocks=5358805_94272635_0_2_0;hpos=1;room1=A%2CA;sb_price_type=total;srepoch=1540375693;srfid=0acbaa8c9d6ae8c42aec03963347845521bb75d9X1;srpvid=b26247465238001b;type=total;ucfs=1&#hotelTmpl",
+            "title": "Link",
+            "options": []
+        }
+    ]
+}

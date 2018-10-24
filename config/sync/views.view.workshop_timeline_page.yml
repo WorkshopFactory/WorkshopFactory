@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.timeline
     - node.type.webform
     - system.menu.main
   module:
@@ -58,11 +58,19 @@ display:
           offset: 0
       style:
         type: simple_timeline
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          position_items: left
+          position_marker: marker-top
+          wrapper_class: wrapper-list
+          class: item-list
       row:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: teaser
+          view_mode: timeline
       fields:
         title:
           id: title

@@ -17,9 +17,9 @@ slide3_head: 'Contact us'
 slide1_desc: 'Discuss and learn about various subjects with many people interested in your work and your passion.'
 slide2_desc: 'Contact and follow the next events of our registered users.'
 slide3_desc: 'Hotels, reservations, location, conferences, ... We can answer to your questions.'
-slide1_url: node/1
-slide2_url: node/2
-slide3_url: node/3
+slide1_url: allworkshops
+slide2_url: mailing
+slide3_url: contact
 _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
 slide1_image: {  }

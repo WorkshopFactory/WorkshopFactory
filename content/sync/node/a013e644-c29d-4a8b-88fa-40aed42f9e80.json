@@ -1,0 +1,317 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/541?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/webform"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_hotel_s_": [
+            {
+                "href": "http:\/\/default\/node\/542?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_image": [
+            {
+                "href": "http:\/\/default\/file\/515?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "href": "http:\/\/default\/user\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 541
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a013e644-c29d-4a8b-88fa-40aed42f9e80"
+        }
+    ],
+    "vid": [
+        {
+            "value": 554
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "webform"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-24T09:21:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_hotel_s_": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/542?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3751e566-98bb-40a4-b7d9-d41b935e8902"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/515?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cf18b0fe-80bd-429a-b363-7b6c8942e3aa"
+                    }
+                ],
+                "lang": "en",
+                "alt": "chemistry rock",
+                "title": "",
+                "width": "1754",
+                "height": "466"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a9deb9eb-fe1b-4c26-9d35-1fdee4fbaf66"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/workshop_themes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9513bd4e-32f9-4da6-a4cb-348b285c3b6e"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\"Chemistry Rocks!\" - Resources for National Chemistry Week, the Classroom, and Beyond",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T09:21:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T14:59:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_adressetest": [
+        {
+            "langcode": "",
+            "country_code": "AU",
+            "administrative_area": null,
+            "locality": "Perth",
+            "dependent_locality": null,
+            "postal_code": "6000",
+            "sorting_code": null,
+            "address_line1": "University of Western Australia - Underwood Avenue, Perth, Western Australia, 6009, Australia",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "en"
+        }
+    ],
+    "field_cartetest": [
+        {
+            "lat": -31.95040445,
+            "lng": 115.79790037425,
+            "lat_sin": -0.5291849905811732,
+            "lat_cos": 0.8485064794941779,
+            "lng_rad": 2.0210546284270365,
+            "data": [],
+            "value": "-31.95040445, 115.79790037425",
+            "lang": "en"
+        }
+    ],
+    "field_workshop_budget": [
+        {
+            "value": 980
+        }
+    ],
+    "field_workshop_description": [
+        {
+            "value": "<p>This web seminar took place on September 21, 2017, from 6:30 p.m. to 8:00 p.m. Eastern time. The presenters were&nbsp;<a href=\"http:\/\/learningcenter.nsta.org\/products\/symposia_seminars\/ACS\/bio24.aspx\">Erica K. Jacobsen<\/a>, a consultant for the ACS ChemClub program and former Precollege Editor of the Journal of Chemical Education, and&nbsp;<a href=\"http:\/\/learningcenter.nsta.org\/products\/symposia_seminars\/ACS\/bio24.aspx\">Michael Tinnesand<\/a>, retired chemistry teacher and former Associate Director of the ACS Education division. Thanks to the participants and the presenters for the learning opportunity, the interactions, and a job well done!<\/p>\r\n\r\n<h6>Program Abstract<\/h6>\r\n\r\n<p>Our two co-presenters shared resources useful for National Chemistry Week, for integrating into classroom curriculum, and for informal science sharing. This annual web seminar, sponsored by the ACS Education Division, Office of High School Chemistry, was designed to provide teachers with ideas for presenting chemistry concepts in the context of everyday experience to which students can relate. For more information about ACS resources for high school teachers, visit&nbsp;<a href=\"http:\/\/www.acs.org\/highschool\">www.acs.org\/highschool<\/a>.<\/p>\r\n\r\n<p>View the web seminar&nbsp;<a href=\"https:\/\/sas.elluminate.com\/mr.jnlp?suid=M.72A928809E3AC046A84E2DCE457C20&amp;sid=2256\">archive<\/a><\/p>\r\n\r\n<p>To view the presentation slides from the web seminar and related resources, visit the resource&nbsp;<a href=\"https:\/\/learningcenter.nsta.org\/mylibrary\/collection.aspx?id=RL\/PdxMOkFk_E\">collection<\/a>. Continue discussing this topic in the&nbsp;<a href=\"https:\/\/learningcenter.nsta.org\/discuss\">community forums.<\/a><\/p>\r\n\r\n<p>A certificate of attendance was deposited into participants'&nbsp;<a href=\"https:\/\/learningcenter.nsta.org\/discuss\/profile.aspx?a=certificates\">My Profile<\/a>&nbsp;area in the NSTA Learning Center for completing the evaluation form at the end of the program.<\/p>\r\n\r\n<p><strong>Here are some comments provided by the participants at the end of the Web Seminar:<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>\"This time was well spent. I'm excited to read through the resources presented even after this long day. I can't wait to share what I have learned. I want my students to enter into the poetry contest this year.\"<\/li>\r\n\t<li>\"The moderators were very responsive and posted links to resources throughout, nicely done!\"<\/li>\r\n\t<li>\"Great set of resources, as always!\"<\/li>\r\n\t<li>\"Thank you for the interesting and relevant information to make my chemistry classes ROCK!\"<\/li>\r\n<\/ul>\r\n\r\n<p>Thanks to the participants and the presenter for the learning opportunity, the interactions, and a job well done!<\/p>\r\n\r\n<p>For more information contact&nbsp;<a href=\"mailto:webseminars@nsta.org\">webseminars@nsta.org<\/a><\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>This web seminar took place on September 21, 2017, from 6:30 p.m. to 8:00 p.m. Eastern time. The presenters were\u00a0<a href=\"http:\/\/learningcenter.nsta.org\/products\/symposia_seminars\/ACS\/bio24.aspx\">Erica K. Jacobsen<\/a>, a consultant for the ACS ChemClub program and former Precollege Editor of the Journal of Chemical Education, and\u00a0<a href=\"http:\/\/learningcenter.nsta.org\/products\/symposia_seminars\/ACS\/bio24.aspx\">Michael Tinnesand<\/a>, retired chemistry teacher and former Associate Director of the ACS Education division. Thanks to the participants and the presenters for the learning opportunity, the interactions, and a job well done!<\/p>\n\n<h6>Program Abstract<\/h6>\n\n<p>Our two co-presenters shared resources useful for National Chemistry Week, for integrating into classroom curriculum, and for informal science sharing. This annual web seminar, sponsored by the ACS Education Division, Office of High School Chemistry, was designed to provide teachers with ideas for presenting chemistry concepts in the context of everyday experience to which students can relate. For more information about ACS resources for high school teachers, visit\u00a0<a href=\"http:\/\/www.acs.org\/highschool\">www.acs.org\/highschool<\/a>.<\/p>\n\n<p>View the web seminar\u00a0<a href=\"https:\/\/sas.elluminate.com\/mr.jnlp?suid=M.72A928809E3AC046A84E2DCE457C20&amp;sid=2256\">archive<\/a><\/p>\n\n<p>To view the presentation slides from the web seminar and related resources, visit the resource\u00a0<a href=\"https:\/\/learningcenter.nsta.org\/mylibrary\/collection.aspx?id=RL\/PdxMOkFk_E\">collection<\/a>. Continue discussing this topic in the\u00a0<a href=\"https:\/\/learningcenter.nsta.org\/discuss\">community forums.<\/a><\/p>\n\n<p>A certificate of attendance was deposited into participants'\u00a0<a href=\"https:\/\/learningcenter.nsta.org\/discuss\/profile.aspx?a=certificates\">My Profile<\/a>\u00a0area in the NSTA Learning Center for completing the evaluation form at the end of the program.<\/p>\n\n<p><strong>Here are some comments provided by the participants at the end of the Web Seminar:<\/strong><\/p>\n\n<ul>\n\t<li>\"This time was well spent. I'm excited to read through the resources presented even after this long day. I can't wait to share what I have learned. I want my students to enter into the poetry contest this year.\"<\/li>\n\t<li>\"The moderators were very responsive and posted links to resources throughout, nicely done!\"<\/li>\n\t<li>\"Great set of resources, as always!\"<\/li>\n\t<li>\"Thank you for the interesting and relevant information to make my chemistry classes ROCK!\"<\/li>\n<\/ul>\n\n<p>Thanks to the participants and the presenter for the learning opportunity, the interactions, and a job well done!<\/p>\n\n<p>For more information contact\u00a0<a href=\"mailto:webseminars@nsta.org\">webseminars@nsta.org<\/a><\/p>",
+            "summary": ""
+        }
+    ],
+    "field_workshop_end_date": [
+        {
+            "value": "2018-10-28"
+        }
+    ],
+    "field_workshop_est_attendance": [
+        {
+            "value": 500
+        }
+    ],
+    "field_workshop_institution": [
+        {
+            "value": "NSTA Learning Center",
+            "format": "basic_html",
+            "processed": "NSTA Learning Center"
+        }
+    ],
+    "field_workshop_notification_date": [
+        {
+            "value": "2018-11-21"
+        }
+    ],
+    "field_workshop_startdate": [
+        {
+            "value": "2018-10-22"
+        }
+    ],
+    "field_workshop_submission_date": [
+        {
+            "value": "2018-10-20"
+        }
+    ]
+}

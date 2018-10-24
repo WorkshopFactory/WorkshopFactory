@@ -9,7 +9,7 @@ id: node.webform.field_workshop_budget
 field_name: field_workshop_budget
 entity_type: node
 bundle: webform
-label: 'Budget :'
+label: Budget
 description: ''
 required: false
 translatable: false

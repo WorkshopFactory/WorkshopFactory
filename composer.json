@@ -21,7 +21,6 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/address": "^1.4",
         "drupal/antibot": "^1.2",
-        "drupal/calendar": "1.x-dev",
         "drupal/config_split": "^1.0",
         "drupal/console": "^1.0.2",
         "drupal/content_export_csv": "^3.0@beta",

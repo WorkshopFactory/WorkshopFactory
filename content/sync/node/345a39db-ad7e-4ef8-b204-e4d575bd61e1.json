@@ -1,0 +1,335 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/545?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/webform"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_hotel_s_": [
+            {
+                "href": "http:\/\/default\/node\/547?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/node\/546?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_image": [
+            {
+                "href": "http:\/\/default\/file\/521?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "href": "http:\/\/default\/user\/65?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/16?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 545
+        }
+    ],
+    "uuid": [
+        {
+            "value": "345a39db-ad7e-4ef8-b204-e4d575bd61e1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 558
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "webform"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-24T10:02:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "29393b1b-8e8f-41ae-93f8-7e310675b027"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_hotel_s_": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/547?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4dca480a-1493-4c1a-9ee9-c35fbaef1669"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/546?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4f5d9c51-6792-49ee-a216-8893098ed3e6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/521?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "325e5772-ffeb-4fb9-91c4-6b1f1e3e070a"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Heart Failure",
+                "title": "",
+                "width": "1440",
+                "height": "810"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_referent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/65?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0bc5b5e3-a32e-4c35-b56a-9e5ab4a0db68"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/webform\/field_workshop_theme": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/16?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/workshop_themes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0c36d6f7-dc57-4327-bc80-2ee6fb77d0d3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Euro Heart Failure 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T10:02:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T10:10:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_adressetest": [
+        {
+            "langcode": "",
+            "country_code": "FR",
+            "administrative_area": null,
+            "locality": "Paris",
+            "dependent_locality": null,
+            "postal_code": "75019",
+            "sorting_code": null,
+            "address_line1": "30 Avenue Corentin Cariou",
+            "address_line2": null,
+            "organization": null,
+            "given_name": null,
+            "additional_name": null,
+            "family_name": null,
+            "lang": "en"
+        }
+    ],
+    "field_cartetest": [
+        {
+            "lat": 48.8957518,
+            "lng": 2.3879761,
+            "lat_sin": 0.7535146490919244,
+            "lat_cos": 0.6574311170030469,
+            "lng_rad": 0.04167804540393336,
+            "data": [],
+            "value": "48.8957518, 2.3879761",
+            "lang": "en"
+        }
+    ],
+    "field_workshop_budget": [
+        {
+            "value": 750
+        }
+    ],
+    "field_workshop_description": [
+        {
+            "value": "<p>On behalf of the Organizing Committee of Euro Heart Failure 2017, we are delighted to be building the&nbsp;program&nbsp;again for the&nbsp;<strong>23rd&nbsp;<\/strong><a href=\"https:\/\/heartdiseases.conferenceseries.com\/\"><strong>European Heart Disease and Heart Failure<\/strong><\/a><strong>&nbsp;Congress<\/strong>,<strong>&nbsp;February 19-20, 2018<\/strong>&nbsp;in&nbsp;<strong>Paris, France<\/strong>. Our conference includes a well-balanced line up of speakers, covering both broad and specific topics of interest. Our aims to provide cardiac physicians, specialists, nurses, technologists and anyone professionally involved in&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiovascular Disease 2018<\/a>&nbsp;with an opportunity to learn about the complexity of the disease, discuss interventional procedures, look at new and advanced cardiac practices and their efficiency and efficacy in the treatment of various cases, and understand local realities and practical constraints in improving&nbsp;patient-care at&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology conferences 2018<\/a>.&nbsp;The&nbsp;<strong>Euro Heart Failure<\/strong>&nbsp;<strong>2018<\/strong>&nbsp;will be organized around the theme \"<strong><em>Mission to fight against Heart Diseases and Heart Failure<\/em><\/strong>\". Euro Heart Failure 2018 is comprised of 16 tracks designed to offer comprehensive sessions that address current issues in Cardiovascular related affairs. Cardiology Conference Series Ltd organizes 300+ conferences, 500+workshops and 200+symposiums on Clinical, Medicine, Pharma and Science &amp; Technology.&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology events<\/a>&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">2018<\/a>&nbsp;are every year across UK, Europe, Asia, Middle East, Australia and USA that support&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">cardiology conferences<\/a>&nbsp;from 1000 more scientific&nbsp;<a href=\"http:\/\/www.omicsonline.org\/international-societies-world-fedarations-scientific-associations.php\">societies<\/a>&nbsp;and&nbsp;Publishes&nbsp;500&nbsp;<a href=\"http:\/\/www.omicsonline.org\/open-access-journals-list.php\">open access journals<\/a>&nbsp;which&nbsp;contain&nbsp;over 30000 eminent personalities, reputed scientists as editorial board members.&nbsp;Euro Heart Failure 201<strong>8&nbsp;<\/strong>comes under&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology medical conferences2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Conferences 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Meetings 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Conference 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Conferences 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology congress 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart diseases 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Events 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Events 2018<\/a><\/p>\r\n\r\n<p>Millions of people across the world are affected by&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">cardiac disorders<\/a>&nbsp;\u2013 some minor others critical. As per World Health Organization (W.H.O.) research, more than 17.5 million people have CVDs, an estimated 31% of all deaths worldwide and 80% of all CVD deaths are due to&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">heart attacks<\/a>&nbsp;and&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">strokes<\/a>. According to the market&nbsp;study, the global market for&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiovascular Disease 2018<\/a>&nbsp;is expected to grow from $13.7 billion to $18.2 billion by 2019. A major part of research is going on the top Universities on&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology conferences 2018<\/a>&nbsp;across the globe. Many companies are associated with various diagnostic instruments and other therapeutics. Besides&nbsp;these various societies&nbsp;and research labs are also associated in this research field of&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Conferences 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Conference 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Meetings 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Medical conferences 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Events 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Events 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Diseases 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology congress 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology conferences 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Events 2018<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Events 2018<\/a><\/p>\r\n\r\n<p>Statistical studies and&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiac cases 2018<\/a>&nbsp;have calculated that&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart diseases 2018<\/a>, is the number one cause of death in the world and the leading cause of death in the France. About 600,000 people die of heart disease every year. More than half of the deaths due to heart disease in 2009 were in men. Over the past 10 years for which statistics are available, the death rate from heart disease has fallen about 39% but the burden and risk factors remain alarmingly high.&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiovascular diseases 2018<\/a>&nbsp;would be the largest cause of death and disability in by 2020 as per a World Health Organization (WHO) report.<\/p>\r\n\r\n<p>This is a unique international meeting where cardiologists, pediatric and&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">congenital heart rhythm<\/a>&nbsp;professionals can meet their colleagues from around the world, and exchange ideas and new information in the field of&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart meetings 2018<\/a>.<\/p>\r\n\r\n<p>The Program is designed for people who are actively involved in the management of heart rhythm disorders in patients with&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">heart disease 2018<\/a>&nbsp;and&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">heart failure 2018<\/a>. We have assembled a distinguished international faculty, and attendees will have the opportunity to learn and receive updates about the latest knowledge in diagnosis and management at&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology 2018<\/a>.<\/p>\r\n\r\n<p><a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Euro Heart Failure 2018<\/a>&nbsp;invites all interested participants to join us for this esteemed event at the exquisite destination Paris, France.&nbsp;For more information:&nbsp;<a href=\"http:\/\/www.conferenceseries.com\/\">conferenceseries.com<\/a><\/p>\r\n\r\n<p><strong>Why to&nbsp;attend?<\/strong><\/p>\r\n\r\n<p>23rd European Heart Disease and Heart Failure Congress is among the World's leading Scientific Conference. The&nbsp;three-day&nbsp;event on Cardiology practices will host 60+ Scientific and technical sessions and sub-sessions on cutting edge research and latest research innovations in the field of cardiology and&nbsp;cardiac surgeries across the globe. Euro Heart Failure 2018 will comprises of 16 major sessions designed to offer comprehensive sessions that address current issues in the various&nbsp;field of&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology<\/a>, &nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiac researches<\/a>,&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart diseases<\/a><\/p>\r\n\r\n<p>The attendees can find exclusive sessions and panel discussions on latest innovations in&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/events-list\/cardiac-surgery\">Cardiac Surgeries&nbsp;<\/a>and&nbsp;<a href=\"https:\/\/heartdiseases.conferenceseries.com\/registration.php\">Heart Failure<\/a>&nbsp;by:<\/p>\r\n\r\n<ul>\r\n\t<li>Lectures from renowned speakers<\/li>\r\n\t<li>Keynote forums by Prominent Professors, Doctors<\/li>\r\n\t<li>Open Innovation Challenges<\/li>\r\n\t<li>Poster presentations by Young Researchers<\/li>\r\n\t<li>Global Networking sessions with 50+ Countries<\/li>\r\n\t<li>Novel techniques to benefit your research<\/li>\r\n\t<li>Best platform for Global business and Networking opportunities<\/li>\r\n\t<li>Meet the editors of referred journals, Society and Association members across the Globe<\/li>\r\n\t<li>Excellent platform to showcase the latest products and formulations in Cardiac field<\/li>\r\n<\/ul>\r\n\r\n<p><strong>Target Audience:<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>Cardiologists<\/li>\r\n\t<li>Cardiac Surgeons<\/li>\r\n\t<li>University Professors<\/li>\r\n\t<li>Various Societies and their members<\/li>\r\n\t<li>Institutes-Medical Schools Students<\/li>\r\n\t<li>Research Scholars<\/li>\r\n\t<li>Business Entrepreneurs<\/li>\r\n\t<li>Training Institutes<\/li>\r\n\t<li>Software making associations<\/li>\r\n\t<li>Manufacturing Medical Devices Companies<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p>On behalf of the Organizing Committee of Euro Heart Failure 2017, we are delighted to be building the\u00a0program\u00a0again for the\u00a0<strong>23rd\u00a0<\/strong><a href=\"https:\/\/heartdiseases.conferenceseries.com\/\"><strong>European Heart Disease and Heart Failure<\/strong><\/a><strong>\u00a0Congress<\/strong>,<strong>\u00a0February 19-20, 2018<\/strong>\u00a0in\u00a0<strong>Paris, France<\/strong>. Our conference includes a well-balanced line up of speakers, covering both broad and specific topics of interest. Our aims to provide cardiac physicians, specialists, nurses, technologists and anyone professionally involved in\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiovascular Disease 2018<\/a>\u00a0with an opportunity to learn about the complexity of the disease, discuss interventional procedures, look at new and advanced cardiac practices and their efficiency and efficacy in the treatment of various cases, and understand local realities and practical constraints in improving\u00a0patient-care at\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology conferences 2018<\/a>.\u00a0The\u00a0<strong>Euro Heart Failure<\/strong>\u00a0<strong>2018<\/strong>\u00a0will be organized around the theme \"<strong><em>Mission to fight against Heart Diseases and Heart Failure<\/em><\/strong>\". Euro Heart Failure 2018 is comprised of 16 tracks designed to offer comprehensive sessions that address current issues in Cardiovascular related affairs. Cardiology Conference Series Ltd organizes 300+ conferences, 500+workshops and 200+symposiums on Clinical, Medicine, Pharma and Science &amp; Technology.\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology events<\/a>\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">2018<\/a>\u00a0are every year across UK, Europe, Asia, Middle East, Australia and USA that support\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">cardiology conferences<\/a>\u00a0from 1000 more scientific\u00a0<a href=\"http:\/\/www.omicsonline.org\/international-societies-world-fedarations-scientific-associations.php\">societies<\/a>\u00a0and\u00a0Publishes\u00a0500\u00a0<a href=\"http:\/\/www.omicsonline.org\/open-access-journals-list.php\">open access journals<\/a>\u00a0which\u00a0contain\u00a0over 30000 eminent personalities, reputed scientists as editorial board members.\u00a0Euro Heart Failure 201<strong>8\u00a0<\/strong>comes under\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology medical conferences2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Conferences 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Meetings 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Conference 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Conferences 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology congress 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart diseases 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Events 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Events 2018<\/a><\/p>\n\n<p>Millions of people across the world are affected by\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">cardiac disorders<\/a>\u00a0\u2013 some minor others critical. As per World Health Organization (W.H.O.) research, more than 17.5 million people have CVDs, an estimated 31% of all deaths worldwide and 80% of all CVD deaths are due to\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">heart attacks<\/a>\u00a0and\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">strokes<\/a>. According to the market\u00a0study, the global market for\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiovascular Disease 2018<\/a>\u00a0is expected to grow from $13.7 billion to $18.2 billion by 2019. A major part of research is going on the top Universities on\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology conferences 2018<\/a>\u00a0across the globe. Many companies are associated with various diagnostic instruments and other therapeutics. Besides\u00a0these various societies\u00a0and research labs are also associated in this research field of\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Conferences 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Conference 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Meetings 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Medical conferences 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Events 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Events 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Diseases 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology congress 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology conferences 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology Events 2018<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart Events 2018<\/a><\/p>\n\n<p>Statistical studies and\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiac cases 2018<\/a>\u00a0have calculated that\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart diseases 2018<\/a>, is the number one cause of death in the world and the leading cause of death in the France. About 600,000 people die of heart disease every year. More than half of the deaths due to heart disease in 2009 were in men. Over the past 10 years for which statistics are available, the death rate from heart disease has fallen about 39% but the burden and risk factors remain alarmingly high.\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiovascular diseases 2018<\/a>\u00a0would be the largest cause of death and disability in by 2020 as per a World Health Organization (WHO) report.<\/p>\n\n<p>This is a unique international meeting where cardiologists, pediatric and\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">congenital heart rhythm<\/a>\u00a0professionals can meet their colleagues from around the world, and exchange ideas and new information in the field of\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart meetings 2018<\/a>.<\/p>\n\n<p>The Program is designed for people who are actively involved in the management of heart rhythm disorders in patients with\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">heart disease 2018<\/a>\u00a0and\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">heart failure 2018<\/a>. We have assembled a distinguished international faculty, and attendees will have the opportunity to learn and receive updates about the latest knowledge in diagnosis and management at\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology 2018<\/a>.<\/p>\n\n<p><a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Euro Heart Failure 2018<\/a>\u00a0invites all interested participants to join us for this esteemed event at the exquisite destination Paris, France.\u00a0For more information:\u00a0<a href=\"http:\/\/www.conferenceseries.com\/\">conferenceseries.com<\/a><\/p>\n\n<p><strong>Why to\u00a0attend?<\/strong><\/p>\n\n<p>23rd European Heart Disease and Heart Failure Congress is among the World's leading Scientific Conference. The\u00a0three-day\u00a0event on Cardiology practices will host 60+ Scientific and technical sessions and sub-sessions on cutting edge research and latest research innovations in the field of cardiology and\u00a0cardiac surgeries across the globe. Euro Heart Failure 2018 will comprises of 16 major sessions designed to offer comprehensive sessions that address current issues in the various\u00a0field of\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiology<\/a>, \u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Cardiac researches<\/a>,\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/\">Heart diseases<\/a><\/p>\n\n<p>The attendees can find exclusive sessions and panel discussions on latest innovations in\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/events-list\/cardiac-surgery\">Cardiac Surgeries\u00a0<\/a>and\u00a0<a href=\"https:\/\/heartdiseases.conferenceseries.com\/registration.php\">Heart Failure<\/a>\u00a0by:<\/p>\n\n<ul>\n\t<li>Lectures from renowned speakers<\/li>\n\t<li>Keynote forums by Prominent Professors, Doctors<\/li>\n\t<li>Open Innovation Challenges<\/li>\n\t<li>Poster presentations by Young Researchers<\/li>\n\t<li>Global Networking sessions with 50+ Countries<\/li>\n\t<li>Novel techniques to benefit your research<\/li>\n\t<li>Best platform for Global business and Networking opportunities<\/li>\n\t<li>Meet the editors of referred journals, Society and Association members across the Globe<\/li>\n\t<li>Excellent platform to showcase the latest products and formulations in Cardiac field<\/li>\n<\/ul>\n\n<p><strong>Target Audience:<\/strong><\/p>\n\n<ul>\n\t<li>Cardiologists<\/li>\n\t<li>Cardiac Surgeons<\/li>\n\t<li>University Professors<\/li>\n\t<li>Various Societies and their members<\/li>\n\t<li>Institutes-Medical Schools Students<\/li>\n\t<li>Research Scholars<\/li>\n\t<li>Business Entrepreneurs<\/li>\n\t<li>Training Institutes<\/li>\n\t<li>Software making associations<\/li>\n\t<li>Manufacturing Medical Devices Companies<\/li>\n<\/ul>",
+            "summary": ""
+        }
+    ],
+    "field_workshop_end_date": [
+        {
+            "value": "2018-12-17"
+        }
+    ],
+    "field_workshop_est_attendance": [
+        {
+            "value": 250
+        }
+    ],
+    "field_workshop_institution": [
+        {
+            "value": "EuroCardio",
+            "format": "basic_html",
+            "processed": "EuroCardio"
+        }
+    ],
+    "field_workshop_notification_date": [
+        {
+            "value": "2018-12-06"
+        }
+    ],
+    "field_workshop_startdate": [
+        {
+            "value": "2018-12-15"
+        }
+    ],
+    "field_workshop_submission_date": [
+        {
+            "value": "2018-12-05"
+        }
+    ]
+}

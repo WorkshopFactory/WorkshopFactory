@@ -9,7 +9,7 @@ id: node.webform.field_workshop_referent
 field_name: field_workshop_referent
 entity_type: node
 bundle: webform
-label: 'Referent :'
+label: Referent
 description: ''
 required: true
 translatable: false

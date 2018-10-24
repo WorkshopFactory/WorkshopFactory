@@ -1,0 +1,122 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/70?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "http:\/\/default\/file\/529?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 70
+        }
+    ],
+    "uuid": [
+        {
+            "value": "aeeffe57-24d1-489d-a04b-ff268d161132"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "trollbin"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T13:34:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T13:37:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "FR",
+            "administrative_area": null,
+            "locality": "Saint Brice sous for\u00eat",
+            "dependent_locality": null,
+            "postal_code": "95350",
+            "sorting_code": "",
+            "address_line1": "1 rue beaus\u00e9jour",
+            "address_line2": "",
+            "organization": "TrollTech",
+            "given_name": "TrollBin",
+            "additional_name": null,
+            "family_name": "Kukaka"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": 48.995152,
+            "lng": 2.364745,
+            "lat_sin": 0.7546540660297688,
+            "lat_cos": 0.6561228853078799,
+            "lng_rad": 0.04127258622007331,
+            "data": [],
+            "value": "48.995152, 2.364745"
+        }
+    ],
+    "field_indications_particulieres": [
+        {
+            "value": "<p>Amazing Bad Boy running at the speed of light.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Amazing Bad Boy running at the speed of light.<\/p>"
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "http:\/\/malveillance.com",
+            "title": "",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/529?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de19085b-7ed2-4e81-8f9f-6295c9bc0178"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "278",
+                "height": "240"
+            }
+        ]
+    }
+}

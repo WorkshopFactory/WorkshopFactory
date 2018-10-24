@@ -1,0 +1,41 @@
+uuid: 3dcf31fc-fdfd-405b-86ae-f7a1e3860216
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:last_workshops:21ba9bda-6ecb-4ce6-b718-44386c1bb5a5'
+  module:
+    - block_content
+    - ctools
+    - user
+  theme:
+    - nexus
+id: inscriptionlinkforanonymoususers
+theme: nexus
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:21ba9bda-6ecb-4ce6-b718-44386c1bb5a5'
+settings:
+  id: 'block_content:21ba9bda-6ecb-4ce6-b718-44386c1bb5a5'
+  label: 'Inscription link for anonymous users'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      webform: webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

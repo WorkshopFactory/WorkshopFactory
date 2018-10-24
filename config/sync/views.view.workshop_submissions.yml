@@ -3,6 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - user.role.administrator
+    - user.role.gestionnaire_de_programme
+    - user.role.participant
     - webform.webform.contact
     - webform.webform.template_contact
     - webform.webform.template_employee_evaluation
@@ -35,8 +38,12 @@ display:
     position: 0
     display_options:
       access:
-        type: none
-        options: {  }
+        type: role
+        options:
+          role:
+            administrator: administrator
+            participant: participant
+            gestionnaire_de_programme: gestionnaire_de_programme
       cache:
         type: tag
         options: {  }
@@ -448,6 +455,7 @@ display:
         - url
         - url.query_args
         - user
+        - user.roles
       tags: {  }
   block_1:
     display_plugin: block
@@ -464,4 +472,5 @@ display:
         - url
         - url.query_args
         - user
+        - user.roles
       tags: {  }

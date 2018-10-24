@@ -1,10 +1,11 @@
 uuid: f9d63712-107b-4962-a4da-8849a3bca5cf
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - node
     - user
+    - views_bulk_operations
 id: test_vbo
 label: 'test vbo'
 module: views

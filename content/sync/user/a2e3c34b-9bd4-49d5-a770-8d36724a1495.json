@@ -1,0 +1,122 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/66?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "href": "http:\/\/default\/file\/525?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uid": [
+        {
+            "value": 66
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a2e3c34b-9bd4-49d5-a770-8d36724a1495"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "lukefilewalker"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T10:17:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-24T10:21:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "langcode": "",
+            "country_code": "US",
+            "administrative_area": "TX",
+            "locality": "Dallas",
+            "dependent_locality": null,
+            "postal_code": "75211",
+            "sorting_code": null,
+            "address_line1": "3298-3100 Aster St",
+            "address_line2": "",
+            "organization": "DallasBio",
+            "given_name": "Luke",
+            "additional_name": null,
+            "family_name": "Filewalker"
+        }
+    ],
+    "field_geolocalisation": [
+        {
+            "lat": 32.7349039,
+            "lng": -96.8747845,
+            "lat_sin": 0.5407528584523579,
+            "lat_cos": 0.841181517911327,
+            "lng_rad": -1.6907839516849688,
+            "data": [],
+            "value": "32.7349039, -96.8747845"
+        }
+    ],
+    "field_indications_particulieres": [
+        {
+            "value": "<p>A simple guy but with a true motivation and a solid experience about the microbes.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>A simple guy but with a true motivation and a solid experience about the microbes.<\/p>"
+        }
+    ],
+    "field_site_web": [
+        {
+            "uri": "http:\/\/biotexas.com",
+            "title": "Link",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/user\/user\/user_picture": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/525?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bb8b76e0-f655-4508-a49f-c4d674bd1932"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "636",
+                "height": "680"
+            }
+        ]
+    }
+}
