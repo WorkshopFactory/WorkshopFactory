@@ -1,25 +1,25 @@
-uuid: fbed067f-2f4a-45c9-849e-7e98fa8aa38f
+uuid: 12fd96d9-e3a2-499d-827b-54319ea25030
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - views.view.carte_des_workshops
+    - views.view.workshops_details
   module:
     - ctools
     - views
   theme:
     - nexus
-id: views_block__carte_des_workshops_block_1_2
+id: views_block__workshops_details_block_1
 theme: nexus
 region: content
-weight: -5
+weight: -10
 provider: null
-plugin: 'views_block:carte_des_workshops-block_1'
+plugin: 'views_block:workshops_details-block_1'
 settings:
-  id: 'views_block:carte_des_workshops-block_1'
+  id: 'views_block:workshops_details-block_1'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
   items_per_page: none
 visibility:
